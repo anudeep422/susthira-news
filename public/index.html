@@ -108,6 +108,13 @@ footer b{color:var(--ink)}
 .col .verse small{display:block;font:400 13px "Noto Sans Telugu",sans-serif;color:var(--soft);margin-top:4px}
 .col p{margin:0 0 12px;font-size:16.5px;line-height:1.7}
 @media(max-width:820px){.dayband{grid-template-columns:minmax(0,1fr)}}
+.aiband{margin-block:clamp(14px,2vw,24px)}
+.aicol{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.8fr);gap:8px 28px}
+.aicol .hd{grid-column:1/-1}
+.aicol .tip{align-self:start;padding:14px 16px;border-radius:12px;background:color-mix(in srgb,var(--c) 10%,var(--card));border:1px dashed color-mix(in srgb,var(--c) 45%,var(--rule))}
+.aicol .tip b{display:block;font:800 17px "Anek Telugu",sans-serif;color:var(--c);margin-bottom:4px}
+.aicol .tip p{margin:0;font-size:16px}
+@media(max-width:820px){.aicol{grid-template-columns:minmax(0,1fr)}}
 @media(max-width:900px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:760px){.lead{grid-template-columns:minmax(0,1fr)}}
 @media(max-width:600px){.grid{grid-template-columns:minmax(0,1fr)}.meta .date{flex-basis:100%}.hero{border-radius:14px}}
@@ -150,10 +157,10 @@ const ICON={
 };
 const svg=(k,c="")=>`<svg class="${c}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICON[k]||""}</svg>`;
 const UI={
- en:{all:"Top stories",more:"More",read:"Read full report:",lead:"Top story",mkts:"Markets",share:"Share on WhatsApp",today:"This day",hist:"On this day in history",col:"Spirituality column",empty:"No stories in this section yet.",fail:"News could not be loaded. Please refresh the page.",
+ en:{all:"Top stories",more:"More",read:"Read full report:",lead:"Top story",mkts:"Markets",share:"Share on WhatsApp",today:"This day",hist:"On this day in history",col:"Spirituality column",ai:"AI explained",tip:"Try this today",empty:"No stories in this section yet.",fail:"News could not be loaded. Please refresh the page.",
   contact:"Contact and grievances: Anudeep Kumar, 88853 25418",
   foot:"Summaries are written by Susthira News from the linked reports. Market figures are for information only and are not investment advice. To report an error or raise a grievance, contact us at the number above."},
- te:{all:"ముఖ్య వార్తలు",more:"మరిన్ని",read:"పూర్తి కథనం:",lead:"ప్రధాన వార్త",mkts:"మార్కెట్లు",share:"వాట్సాప్‌లో షేర్ చేయండి",today:"ఈ రోజు ప్రత్యేకత",hist:"చరిత్రలో ఈ రోజు",col:"ఆధ్యాత్మిక కాలమ్",empty:"ఈ విభాగంలో ఇంకా వార్తలు లేవు.",fail:"వార్తలు లోడ్ కాలేదు. దయచేసి పేజీని రీఫ్రెష్ చేయండి.",
+ te:{all:"ముఖ్య వార్తలు",more:"మరిన్ని",read:"పూర్తి కథనం:",lead:"ప్రధాన వార్త",mkts:"మార్కెట్లు",share:"వాట్సాప్‌లో షేర్ చేయండి",today:"ఈ రోజు ప్రత్యేకత",hist:"చరిత్రలో ఈ రోజు",col:"ఆధ్యాత్మిక కాలమ్",ai:"AI సులభంగా",tip:"ఈరోజు ప్రయత్నించండి",empty:"ఈ విభాగంలో ఇంకా వార్తలు లేవు.",fail:"వార్తలు లోడ్ కాలేదు. దయచేసి పేజీని రీఫ్రెష్ చేయండి.",
   contact:"సంప్రదింపులు, ఫిర్యాదులు: అనుదీప్ కుమార్, 88853 25418",
   foot:"సారాంశాలను సుస్థిర న్యూస్ కింద ఇచ్చిన కథనాల ఆధారంగా రాసింది. మార్కెట్ గణాంకాలు సమాచారం కోసం మాత్రమే, పెట్టుబడి సలహా కాదు. తప్పులు లేదా ఫిర్యాదుల కోసం పై నంబర్‌ను సంప్రదించండి."}
 };
@@ -180,6 +187,12 @@ function dayHTML(){
   const cc=c&&c[lang]?`<article class="panel col" style="--c:var(--devotional)"><span class="badge">${svg("devotional")}${u.col}</span><h2>${esc(c[lang].h)}</h2><p class="by">${esc(T(c.by))}</p>${c.verse?`<div class="verse">${esc(T(c.verse))}${c.verse.ref?`<small>${esc(T(c.verse.ref))}</small>`:""}</div>`:""}${(c[lang].body||[]).map(p=>`<p>${esc(p)}</p>`).join("")}</article>`:"";
   return (tp||cc)?`<div class="dayband" style="${tp&&cc?"":"grid-template-columns:minmax(0,1fr)"}">${tp}${cc}</div>`:"";
 }
+function aiHTML(){
+  const u=UI[lang],a=D.ai;
+  if(!a||!a[lang])return "";
+  const x=a[lang];
+  return `<section class="aiband"><article class="panel col aicol" style="--c:var(--technology)"><div class="hd"><span class="badge">${svg("technology")}${u.ai}</span><h2>${esc(x.h)}</h2><p class="by">${esc(T(a.by))}</p></div><div>${(x.body||[]).map(p=>`<p>${esc(p)}</p>`).join("")}${srcs(a)}</div>${x.tip?`<div class="tip"><b>${u.tip}</b><p>${esc(x.tip)}</p></div>`:""}</article></section>`;
+}
 function render(){
   const u=UI[lang],cur=sec();
   document.documentElement.lang=lang;
@@ -197,11 +210,11 @@ function render(){
   const leadHTML=lead?`<section class="hero" style="${cv(lead.s)}"><div class="lead" style="${chart?"":"grid-template-columns:minmax(0,1fr)"}"><div><span class="badge">${svg(lead.s)}${u.lead}</span> <span class="kicker">${secName(lead.s)} · ${esc(T(lead.when))}</span><h1>${esc(lead[lang].h)}</h1><p>${esc(lead[lang].p)}</p><div class="acts">${srcs(lead)}${share(lead)}</div></div>${chart}</div></section>`:"";
   let body="";
   if(cur==="all"){
-    body=leadHTML+dayHTML()+SECTIONS.map(s=>{const list=stories.filter(x=>x.s===s.id&&x!==lead).slice(0,3);return list.length?`<section class="sec" style="${cv(s.id)}"><h2><span class="ic">${svg(s.id)}</span>${s[lang]}<a href="#${s.id}">${u.more} →</a></h2><div class="grid">${list.map(card).join("")}</div></section>`:""}).join("");
+    body=leadHTML+dayHTML()+SECTIONS.map(s=>{const list=stories.filter(x=>x.s===s.id&&x!==lead).slice(0,3);return (list.length?`<section class="sec" style="${cv(s.id)}"><h2><span class="ic">${svg(s.id)}</span>${s[lang]}<a href="#${s.id}">${u.more} →</a></h2><div class="grid">${list.map(card).join("")}</div></section>`:"")+(s.id==="technology"?aiHTML():"")}).join("");
   }else{
     const s=SECTIONS.find(x=>x.id===cur),showLead=lead&&lead.s===cur;
     const list=stories.filter(x=>x.s===cur&&!(showLead&&x===lead));
-    body=(showLead?leadHTML:"")+(cur==="devotional"?dayHTML():"")+`<section class="sec" style="${cv(cur)}"><h2><span class="ic">${svg(cur)}</span>${s[lang]}</h2><div class="grid">${list.map(card).join("")||`<p class="empty">${u.empty}</p>`}</div></section>`;
+    body=(showLead?leadHTML:"")+(cur==="devotional"?dayHTML():"")+(cur==="technology"?aiHTML():"")+`<section class="sec" style="${cv(cur)}"><h2><span class="ic">${svg(cur)}</span>${s[lang]}</h2><div class="grid">${list.map(card).join("")||`<p class="empty">${u.empty}</p>`}</div></section>`;
   }
   document.getElementById("main").innerHTML=body;
 }

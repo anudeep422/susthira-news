@@ -22,6 +22,9 @@ jobs:
           if d.get("column"):
               for l in ("en", "te"):
                   assert d["column"][l]["h"] and d["column"][l]["body"], "column missing text"
+          if d.get("ai"):
+              for l in ("en", "te"):
+                  assert d["ai"][l]["h"] and d["ai"][l]["body"], "ai article missing text"
           if d.get("today"):
               assert d["today"]["title"]["en"] and d["today"]["title"]["te"], "today missing title"
           print("OK:", len(s), "stories")

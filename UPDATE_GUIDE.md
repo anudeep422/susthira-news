@@ -52,3 +52,16 @@ Pushing to `main` deploys to Firebase automatically (see `.github/workflows/depl
 - Draw on classical sources (Upanishads, Bhagavad Gita, Brahma Sutras, Yoga Sutras, saints like Annamayya, Vemana, Tyagaraja, Potana) and link to the season or day when possible. Quote only the short Sanskrit/Telugu verse (classical texts only), with its exact reference; never invent a verse or reference.
 - Explain ideas as the tradition teaches them ("the Upanishads teach…"), end with one small practice for the reader. No predictions, astrology, miracle claims, health claims, or criticism of any faith.
 - Byline stays "Susthira News desk". Change the column only in the morning edition; the evening edition keeps the morning column.
+
+## AI explainer (`ai`) — new each morning, kept in the evening
+```json
+"ai": {"by": {"en": "Susthira News desk", "te": "సుస్థిర న్యూస్ డెస్క్"},
+  "en": {"h": "Title", "body": ["para", "para", "para", "para"], "tip": "One thing to try today"},
+  "te": {"h": "శీర్షిక", "body": ["...", "...", "...", "..."], "tip": "..."},
+  "src": [["Source", "https://..."]]}
+```
+- For ordinary readers in Telangana/AP with no tech background. 200–300 words per language, 3–5 short paragraphs, everyday examples (phone, bank, farming, small business, studies, family). Telugu natural and simple; keep common English tech words (AI, app, chatbot) with a short Telugu explanation the first time.
+- Rotate themes: how AI works (in plain words), useful free AI tools and how to use them, AI in daily life and jobs, staying safe (deepfakes, voice-clone scams, fake loan/KYC calls, never sharing OTP/Aadhaar/bank details), AI news of the week explained simply, myths vs facts.
+- `tip`: one concrete, safe thing the reader can try today.
+- Facts about specific products, prices, laws or news must come from sources fetched in the run (add them in `src`); general explanations need no source. Neutral about companies: no product promotion, no hype or fear-mongering.
+- Change it only in the morning edition; the evening edition keeps the morning article.

@@ -721,5 +721,31 @@
     "కాబట్టి ఈ రాత్రి కార్తీక దీపం వెలిగించే ముందు రెండు నిమిషాలు మౌనంగా కూర్చోండి. జ్యోతి వెలిగినప్పుడు, అది మనలోని వెలుగును గుర్తు చేయనివ్వండి. మన చీకటి రోజుల్లో కూడా ఎప్పుడూ ఆరిపోని వెలుగు అది."
    ]
   }
+ },
+ "ai": {
+  "by": {
+   "en": "Susthira News desk",
+   "te": "సుస్థిర న్యూస్ డెస్క్"
+  },
+  "en": {
+   "h": "What an AI chatbot really is, in plain words",
+   "body": [
+    "Chatbots like ChatGPT, Gemini and Claude can write a letter, explain a bill or answer a question in seconds, in Telugu too. They feel like a very smart person typing back. But what is happening inside?",
+    "These systems are called large language models. They were trained on a huge amount of text from books and the internet, and they learned patterns in how words follow each other. When you ask a question, the model builds its answer piece by piece, each time picking the most likely next words that fit your question.",
+    "That is why they are so good with language, and also why they can be confidently wrong. A chatbot does not 'look up' the truth the way a person checks a book. Sometimes it produces a fact, a date or a name that sounds right but is not. Experts call this hallucination.",
+    "So use AI like a helpful assistant, not a final authority. It is excellent for drafting, explaining and brainstorming. For anything important, like money, health, law or news, check the facts with a trusted source. And never type your Aadhaar number, bank details, passwords or OTPs into any chatbot."
+   ],
+   "tip": "Ask any AI chatbot: \"Explain how a fixed deposit works, in simple Telugu, in 5 lines.\" Then ask: \"Which parts of your answer should I double-check, and where?\" Notice how it handles the second question."
+  },
+  "te": {
+   "h": "AI చాట్‌బాట్ అంటే నిజంగా ఏమిటి? సులభమైన మాటల్లో",
+   "body": [
+    "ChatGPT, Gemini, Claude లాంటి చాట్‌బాట్‌లు క్షణాల్లో ఉత్తరం రాస్తాయి, బిల్లును వివరిస్తాయి, ప్రశ్నలకు సమాధానాలు ఇస్తాయి — తెలుగులో కూడా. ఎవరో చాలా తెలివైన వ్యక్తి మనకు తిరిగి టైప్ చేస్తున్నట్లు అనిపిస్తుంది. కానీ లోపల ఏం జరుగుతోంది?",
+    "వీటిని లార్జ్ లాంగ్వేజ్ మోడల్స్ (పెద్ద భాషా నమూనాలు) అంటారు. పుస్తకాలు, ఇంటర్నెట్‌లోని భారీ మొత్తంలో రాతలతో వీటికి శిక్షణ ఇచ్చారు. పదాలు ఒకదాని తర్వాత ఒకటి ఎలా వస్తాయో అనే నమూనాలను అవి నేర్చుకున్నాయి. మీరు ప్రశ్న అడిగినప్పుడు, మీ ప్రశ్నకు సరిపోయే తర్వాతి పదాలను ఎంచుకుంటూ సమాధానాన్ని ముక్క ముక్కగా తయారు చేస్తాయి.",
+    "అందుకే భాషలో ఇవి అంత బాగుంటాయి — అలాగే అంత నమ్మకంగా తప్పు కూడా చెప్పగలవు. మనిషి పుస్తకం చూసి సరిచూసుకున్నట్లు చాట్‌బాట్ నిజాన్ని 'వెతకదు'. కొన్నిసార్లు నిజంలా అనిపించే తప్పు వాస్తవాన్ని, తేదీని, పేరును చెబుతుంది. నిపుణులు దీన్ని 'హాలూసినేషన్' అంటారు.",
+    "కాబట్టి AIని ఉపయోగపడే సహాయకుడిగా వాడండి, చివరి మాటగా కాదు. రాయడానికి, వివరించడానికి, ఆలోచనలు పొందడానికి ఇది అద్భుతం. డబ్బు, ఆరోగ్యం, చట్టం, వార్తల లాంటి ముఖ్యమైన విషయాల్లో నమ్మకమైన మూలంతో సరిచూసుకోండి. ఆధార్ నంబర్, బ్యాంక్ వివరాలు, పాస్‌వర్డ్‌లు, OTPలను ఏ చాట్‌బాట్‌లోనూ ఎప్పుడూ టైప్ చేయకండి."
+   ],
+   "tip": "ఏదైనా AI చాట్‌బాట్‌ను ఇలా అడగండి: \"ఫిక్స్‌డ్ డిపాజిట్ ఎలా పనిచేస్తుందో సులభమైన తెలుగులో 5 లైన్లలో చెప్పు.\" తర్వాత అడగండి: \"నీ సమాధానంలో నేను ఏ విషయాలు మళ్లీ సరిచూసుకోవాలి, ఎక్కడ?\" రెండో ప్రశ్నకు అది ఎలా స్పందిస్తుందో గమనించండి."
+  }
  }
 }
