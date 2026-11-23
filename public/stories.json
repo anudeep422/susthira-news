@@ -581,5 +581,86 @@
     ]
    ]
   }
- ]
+ ],
+ "today": {
+  "title": {
+   "en": "Monday, 23 November: second Karthika Somavaram, eve of Pournami",
+   "te": "సోమవారం, నవంబర్ 23: రెండో కార్తీక సోమవారం, పౌర్ణమి ముందురోజు"
+  },
+  "significance": {
+   "en": "Today is the second of the four Karthika Mondays, a day many devotees keep with fasting, Shiva abhishekam and lamps lit at dusk. Tomorrow is Karthika Pournami, the brightest day of the month. Today is also the 100th birth anniversary of Sri Sathya Sai Baba, born in Puttaparthi on 23 November 1926, and devotees have gathered there to mark it.",
+   "te": "నాలుగు కార్తీక సోమవారాల్లో ఈరోజు రెండోది. చాలామంది భక్తులు ఉపవాసం, శివాభిషేకం, సాయంత్రం దీపారాధనతో ఈ రోజును పాటిస్తారు. రేపు కార్తీక పౌర్ణమి, ఈ మాసంలో అత్యంత విశిష్టమైన రోజు. ఈరోజు శ్రీ సత్యసాయి బాబా 100వ జయంతి కూడా. ఆయన 1926 నవంబర్ 23న పుట్టపర్తిలో జన్మించారు; ఈ సందర్భంగా భక్తులు పుట్టపర్తికి తరలివచ్చారు."
+  },
+  "history": [
+   {
+    "y": "1926",
+    "en": "Sri Sathya Sai Baba is born in Puttaparthi, Andhra Pradesh.",
+    "te": "శ్రీ సత్యసాయి బాబా ఆంధ్రప్రదేశ్‌లోని పుట్టపర్తిలో జన్మించారు."
+   },
+   {
+    "y": "1937",
+    "en": "Scientist Jagadish Chandra Bose, a pioneer of radio science and plant research, dies in Giridih.",
+    "te": "రేడియో విజ్ఞానం, మొక్కలపై పరిశోధనలో మార్గదర్శి అయిన శాస్త్రవేత్త జగదీశ్ చంద్రబోస్ గిరిడీహ్‌లో కన్నుమూశారు."
+   },
+   {
+    "y": "1983",
+    "en": "India hosts a Commonwealth summit in New Delhi for the first time.",
+    "te": "తొలిసారిగా భారత్ న్యూఢిల్లీలో కామన్వెల్త్ శిఖరాగ్ర సదస్సుకు ఆతిథ్యం ఇచ్చింది."
+   }
+  ],
+  "src": [
+   [
+    "Karishye (Karthika dates)",
+    "https://karishye.co/pages/karthika-masam-2026"
+   ],
+   [
+    "Deccan Herald",
+    "https://www.deccanherald.com/india/government-to-release-rs-100-commemorative-coin-to-mark-birth-centenary-of-sri-sathya-sai-baba-3510042"
+   ],
+   [
+    "Andhravilas",
+    "https://andhravilas.net/ramayana-star-sai-pallavi-sings-bhajans-in-puttaparthi-amidst-centenary-celebrat/"
+   ],
+   [
+    "Britannica (J.C. Bose)",
+    "https://www.britannica.com/facts/Jagadish-Chandra-Bose"
+   ],
+   [
+    "The Divine India",
+    "https://thedivineindia.com/amp/india-history/november/november-23.html"
+   ]
+  ]
+ },
+ "column": {
+  "by": {
+   "en": "Susthira News desk",
+   "te": "సుస్థిర న్యూస్ డెస్క్"
+  },
+  "verse": {
+   "en": "asato mā sad gamaya, tamaso mā jyotir gamaya, mṛtyor mā amṛtaṁ gamaya",
+   "te": "అసతో మా సద్గమయ, తమసో మా జ్యోతిర్గమయ, మృత్యోర్మా అమృతం గమయ",
+   "ref": {
+    "en": "Brihadaranyaka Upanishad 1.3.28",
+    "te": "బృహదారణ్యక ఉపనిషత్తు 1.3.28"
+   }
+  },
+  "en": {
+   "h": "The lamp we light each Karthika evening",
+   "body": [
+    "All through Karthika, homes and temples glow with small clay lamps at dusk. It is easy to see this as a beautiful custom and nothing more. But the Upanishads give the lamp a deeper meaning, in one of the oldest prayers we have: lead me from darkness to light.",
+    "The darkness in this prayer is not the night outside. It is the darkness of not knowing: forgetting who we really are, and mistaking our worries, roles and possessions for ourselves. The light is clear understanding, the awareness that quietly watches every thought and feeling without being disturbed by them.",
+    "A lamp does not argue with the dark. It simply shines, and the darkness is gone. In the same way, the tradition teaches that peace does not come from fighting the mind, but from seeing it clearly. When we sit still for a few minutes and watch our thoughts come and go, a little of that light appears.",
+    "So tonight, as you light the Karthika deepam, try this: before lighting it, sit for two minutes in silence. As the flame catches, let it be a reminder of the light within, the one that was never put out, even on our darkest days."
+   ]
+  },
+  "te": {
+   "h": "కార్తీక సాయంత్రం మనం వెలిగించే దీపం",
+   "body": [
+    "కార్తీక మాసమంతా సాయంత్రం వేళ ఇళ్లు, ఆలయాలు చిన్న మట్టి దీపాలతో వెలిగిపోతాయి. దీన్ని ఒక అందమైన ఆచారంగా మాత్రమే చూడటం సులభం. కానీ ఉపనిషత్తులు దీపానికి లోతైన అర్థం ఇస్తాయి. మనకున్న అతి పురాతన ప్రార్థనల్లో ఒకటి చెబుతోంది: చీకటి నుంచి వెలుగు వైపు నన్ను నడిపించు.",
+    "ఈ ప్రార్థనలోని చీకటి బయటి రాత్రి కాదు. అది అజ్ఞానం అనే చీకటి: మనం నిజంగా ఎవరమో మర్చిపోయి, మన ఆందోళనలు, పాత్రలు, ఆస్తులే మనమని పొరపడటం. వెలుగు అంటే స్పష్టమైన అవగాహన. ప్రతి ఆలోచనను, ప్రతి భావనను కలవరపడకుండా నిశ్శబ్దంగా గమనించే చైతన్యం.",
+    "దీపం చీకటితో వాదించదు. అది కేవలం వెలుగుతుంది, చీకటి తొలగిపోతుంది. అలాగే మనసుతో పోరాడటం వల్ల కాదు, దాన్ని స్పష్టంగా చూడటం వల్లే శాంతి వస్తుందని మన సంప్రదాయం చెబుతుంది. కొన్ని నిమిషాలు నిశ్చలంగా కూర్చుని ఆలోచనలు వచ్చి వెళ్లడాన్ని గమనిస్తే, ఆ వెలుగు కొంచెం కనిపిస్తుంది.",
+    "కాబట్టి ఈ రాత్రి కార్తీక దీపం వెలిగించే ముందు రెండు నిమిషాలు మౌనంగా కూర్చోండి. జ్యోతి వెలిగినప్పుడు, అది మనలోని వెలుగును గుర్తు చేయనివ్వండి. మన చీకటి రోజుల్లో కూడా ఎప్పుడూ ఆరిపోని వెలుగు అది."
+   ]
+  }
+ }
 }

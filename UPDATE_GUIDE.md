@@ -30,3 +30,25 @@ Pushing to `main` deploys to Firebase automatically (see `.github/workflows/depl
 - Telugu must be natural, simple Telugu (not word-for-word translation). Keep names, numbers and tickers identical in both languages.
 - Neutral tone. Politics only as plain fact, both sides fairly. No insurance or product ads.
 - Prefer news from the last 24–36 hours; drop stories older than ~4 days.
+
+## "This day" box (`today`) — every edition
+```json
+"today": {"title": {"en": "...", "te": "..."},
+  "significance": {"en": "3–4 sentences", "te": "..."},
+  "history": [{"y": "1926", "en": "...", "te": "..."}],
+  "src": [["Source", "https://..."]]}
+```
+- `significance`: why today matters for Telugu readers — the tithi/festival/observance (with its tradition and meaning), and any notable anniversary (jayanti, punyatithi, national/international day). Dates must come from fetched sources.
+- `history`: 3–5 verified events that happened on this calendar date (India and Telugu states first), oldest first. Each must be verifiable from a fetched source listed in `src`.
+
+## Spirituality column (`column`) — new each morning, kept in the evening
+```json
+"column": {"by": {"en": "Susthira News desk", "te": "సుస్థిర న్యూస్ డెస్క్"},
+  "verse": {"en": "transliteration", "te": "తెలుగు లిపిలో శ్లోకం", "ref": {"en": "Bhagavad Gita 2.47", "te": "భగవద్గీత 2.47"}},
+  "en": {"h": "Title", "body": ["para", "para", "para", "para"]},
+  "te": {"h": "శీర్షిక", "body": ["...", "...", "...", "..."]}}
+```
+- 220–320 words per language, 3–5 short paragraphs, warm and simple. Telugu written naturally, not translated word for word.
+- Draw on classical sources (Upanishads, Bhagavad Gita, Brahma Sutras, Yoga Sutras, saints like Annamayya, Vemana, Tyagaraja, Potana) and link to the season or day when possible. Quote only the short Sanskrit/Telugu verse (classical texts only), with its exact reference; never invent a verse or reference.
+- Explain ideas as the tradition teaches them ("the Upanishads teach…"), end with one small practice for the reader. No predictions, astrology, miracle claims, health claims, or criticism of any faith.
+- Byline stays "Susthira News desk". Change the column only in the morning edition; the evening edition keeps the morning column.

@@ -19,6 +19,11 @@ jobs:
               assert x["s"] in ("business", "technology", "sports", "entertainment", "devotional"), x["s"]
               for l in ("en", "te"):
                   assert x[l]["h"] and x[l]["p"], "missing text"
+          if d.get("column"):
+              for l in ("en", "te"):
+                  assert d["column"][l]["h"] and d["column"][l]["body"], "column missing text"
+          if d.get("today"):
+              assert d["today"]["title"]["en"] and d["today"]["title"]["te"], "today missing title"
           print("OK:", len(s), "stories")
           PY
       - uses: FirebaseExtended/action-hosting-deploy@v0
