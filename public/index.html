@@ -9,12 +9,12 @@
 <link href="https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@500;700;800&family=Noto+Sans+Telugu:wght@400;600&display=swap" rel="stylesheet">
 <style>
 /* VOICE everyday news, read by families and clients in Telangana and Andhra Pradesh
-   IDEA a Telugu daily broadsheet front page: red masthead, ruled columns, ink on white
-   PICTURE the lead story's chart: how far each market fell, drawn as ink bars
-   COLOUR white newsprint, black ink, masthead red #c8102e, one sea-green for gains
-   TYPE Anek Telugu (headlines, Latin + Telugu) + Noto Sans Telugu (text)
-   LAYOUT masthead band, ticker, lead story with chart beside it, then a ruled grid of stories by section; phone stacks */
-:root{color-scheme:light dark;--bg:light-dark(#ffffff,#121212);--ink:light-dark(#111111,#ececec);--soft:light-dark(#5a5a5a,#a8a8a8);--rule:light-dark(#d9d9d9,#333333);--red:#c8102e;--redink:light-dark(#b00d27,#ff6b7d);--panel:light-dark(#f6f4f2,#1b1b1b);--up:light-dark(#0b7a4b,#4fd18f)}
+   IDEA a colourful Telugu daily: red masthead, each section has its own colour and icon
+   COLOUR masthead red #c8102e; section colours: business teal, technology indigo, sports orange, entertainment magenta, devotional saffron
+   TYPE Anek Telugu (headlines) + Noto Sans Telugu (text)
+   LAYOUT masthead, sticky nav, scrolling market ticker, hero lead panel with chart, section blocks of banner cards; phone stacks */
+:root{color-scheme:light dark;--bg:light-dark(#f4f1ec,#101010);--card:light-dark(#ffffff,#1a1a1a);--ink:light-dark(#141414,#ececec);--soft:light-dark(#5a5a5a,#a8a8a8);--rule:light-dark(#e3ddd4,#2e2e2e);--red:#c8102e;--redink:light-dark(#b00d27,#ff6b7d);--panel:light-dark(#ffffff,#1d1d1d);--up:light-dark(#0b7a4b,#4fd18f);--shadow:light-dark(0 1px 2px rgba(0,0,0,.06),0 0 0 transparent);
+ --business:light-dark(#0f766e,#2dd4bf);--technology:light-dark(#4338ca,#a5b4fc);--sports:light-dark(#c2410c,#fb923c);--entertainment:light-dark(#a21caf,#f0abfc);--devotional:light-dark(#b45309,#fbbf24);--wa:#1a8f4c}
 :root[data-theme=light]{color-scheme:light}
 :root[data-theme=dark]{color-scheme:dark}
 *{box-sizing:border-box;min-width:0}
@@ -22,7 +22,7 @@ html{scroll-padding-top:120px}
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 "Noto Sans Telugu","Segoe UI",system-ui,sans-serif;overflow-x:clip}
 a{color:inherit}
 .wrap{max-width:1240px;margin:0 auto;padding:0 max(4vw,16px)}
-.mast{background:var(--red);color:#fff}
+.mast{background:linear-gradient(120deg,#a50d26,var(--red) 55%,#e0263f);color:#fff}
 .mast .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 24px;padding-block:18px 14px}
 .brand{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;text-decoration:none}
 .brand b{font:800 clamp(34px,5.4vw,56px)/1 "Anek Telugu",sans-serif;letter-spacing:-.02em}
@@ -31,50 +31,72 @@ a{color:inherit}
 .lang{display:inline-flex;border:1.5px solid #fff;border-radius:999px;overflow:hidden}
 .lang button{all:unset;cursor:pointer;padding:0 16px;min-height:40px;display:inline-flex;align-items:center;font:600 15px "Anek Telugu",sans-serif;color:#fff}
 .lang button[aria-pressed=true]{background:#fff;color:var(--red)}
-.lang button:focus-visible,.nav a:focus-visible{outline:3px solid #ffd400;outline-offset:2px}
-.navbar{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:3px double var(--ink)}
+.lang button:focus-visible,.nav a:focus-visible,.wa:focus-visible{outline:3px solid #ffd400;outline-offset:2px}
+.navbar{position:sticky;top:0;z-index:5;background:var(--card);border-bottom:1px solid var(--rule);box-shadow:0 2px 6px rgba(0,0,0,.06)}
 .nav{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
-.nav a{flex:none;text-decoration:none;padding:0 14px;min-height:46px;display:inline-flex;align-items:center;font:700 16px "Anek Telugu",sans-serif;border-bottom:3px solid transparent}
-.nav a[aria-current=true]{border-color:var(--red);color:var(--redink)}
-.tick{border-bottom:1px solid var(--rule);font-size:14px}
-.tick .wrap{display:flex;gap:22px;overflow-x:auto;padding-block:8px;scrollbar-width:none}
-.tick span{flex:none;white-space:nowrap}
-.tick em{font-style:normal;font-weight:600;color:var(--redink)}
-.tick em.up{color:var(--up)}
-.lead{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:clamp(20px,3vw,44px);padding-block:clamp(22px,3vw,40px);border-bottom:1px solid var(--rule)}
-.kicker{font:700 14px "Anek Telugu",sans-serif;color:var(--redink)}
-h1{font:800 clamp(30px,4.2vw,48px)/1.08 "Anek Telugu",sans-serif;letter-spacing:-.02em;margin:6px 0 14px;text-wrap:balance}
-.lead p{font-size:17px;margin:0 0 14px;max-width:62ch}
+.nav a{flex:none;text-decoration:none;padding:0 14px;min-height:48px;display:inline-flex;align-items:center;gap:8px;font:700 16px "Anek Telugu",sans-serif;border-bottom:3px solid transparent}
+.nav a svg{width:18px;height:18px;color:var(--c,var(--redink))}
+.nav a[aria-current=true]{border-color:var(--c,var(--red));color:var(--c,var(--redink))}
+.tick{display:flex;background:var(--ink);color:var(--bg);font-size:14px;overflow:hidden}
+.tick b{flex:none;background:var(--red);color:#fff;font:700 14px "Anek Telugu",sans-serif;padding:9px 14px;display:flex;align-items:center;gap:6px;z-index:1}
+.tick b i{width:8px;height:8px;border-radius:50%;background:#fff;animation:blink 1.4s infinite}
+.tick .track{display:flex;width:max-content;animation:scroll 40s linear infinite;padding-block:9px}
+.tick:hover .track{animation-play-state:paused}
+.tick span{flex:none;white-space:nowrap;padding:0 18px;border-right:1px solid rgba(127,127,127,.4)}
+.tick em{font-style:normal;font-weight:700;color:light-dark(#ff8a9a,#c8102e)}
+.tick em.up{color:light-dark(#6ee7a8,#0b7a4b)}
+@keyframes scroll{to{transform:translateX(-50%)}}
+@keyframes blink{50%{opacity:.25}}
+.hero{margin-block:clamp(18px,2.6vw,30px);border-radius:18px;overflow:hidden;background:linear-gradient(135deg,color-mix(in srgb,var(--c) 18%,var(--card)),var(--card) 70%);border:1px solid color-mix(in srgb,var(--c) 30%,var(--rule));box-shadow:0 6px 24px rgba(0,0,0,.07)}
+.lead{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:clamp(20px,3vw,40px);padding:clamp(20px,3vw,36px)}
+.badge{display:inline-flex;align-items:center;gap:6px;background:var(--c,var(--red));color:light-dark(#fff,#111);font:700 13px "Anek Telugu",sans-serif;padding:4px 12px;border-radius:999px}
+.badge svg{width:15px;height:15px}
+.kicker{font:700 14px "Anek Telugu",sans-serif;color:var(--c,var(--redink))}
+h1{font:800 clamp(30px,4.2vw,50px)/1.08 "Anek Telugu",sans-serif;letter-spacing:-.02em;margin:12px 0 14px;text-wrap:balance}
+.lead p{font-size:17.5px;margin:0 0 14px;max-width:62ch}
 .src{font-size:13px;color:var(--soft)}
 .src a{color:var(--soft);text-underline-offset:2px}
-.chart{background:var(--panel);border-top:4px solid var(--ink);padding:16px 18px 14px;align-self:start}
+.acts{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-top:12px}
+.wa{display:inline-flex;align-items:center;gap:7px;background:var(--wa);color:#fff;text-decoration:none;font:700 14px "Anek Telugu",sans-serif;padding:0 14px;min-height:38px;border-radius:999px}
+.wa:hover{filter:brightness(1.1)}
+.wa svg{width:17px;height:17px}
+.chart{background:var(--panel);border-radius:14px;border-top:5px solid var(--c,var(--ink));padding:16px 18px 14px;align-self:start;box-shadow:var(--shadow)}
 .chart h2{font:700 20px/1.2 "Anek Telugu",sans-serif;margin:0 0 4px}
 .chart .sub{font-size:13px;color:var(--soft);margin:0 0 12px}
 .bars{display:grid;grid-template-columns:max-content minmax(0,1fr) max-content;gap:9px 12px;align-items:center}
 .bars .n{font-size:15px;white-space:nowrap}
 .bars .n small{display:block;font-size:13px;color:var(--soft);line-height:1.2}
-.bars .t{height:22px;position:relative}
-.bars .t i{position:absolute;inset:0 auto 0 0;background:var(--ink);transform-origin:left;animation:grow .9s ease-out both}
+.bars .t{height:22px;position:relative;background:color-mix(in srgb,var(--rule) 50%,transparent);border-radius:4px}
+.bars .t i{position:absolute;inset:0 auto 0 0;background:var(--ink);border-radius:4px;transform-origin:left;animation:grow .9s ease-out both}
 .bars .t i.hi{background:var(--red)}
 .bars .t i.up{background:var(--up)}
 .bars .v{font:700 15px "Anek Telugu",sans-serif;white-space:nowrap;text-align:right;font-variant-numeric:tabular-nums}
 .chart .note{font-size:13px;color:var(--soft);margin:12px 0 0}
 @keyframes grow{from{transform:scaleX(0)}}
-@media(prefers-reduced-motion:reduce){.bars .t i{animation:none}}
-.sec{padding-block:clamp(18px,2.6vw,32px);border-bottom:1px solid var(--rule)}
-.sec>h2{font:800 26px/1.1 "Anek Telugu",sans-serif;margin:0 0 14px;display:flex;align-items:baseline;gap:12px}
-.sec>h2 a{font:600 14px "Noto Sans Telugu",sans-serif;color:var(--redink);text-decoration:none}
-.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 28px}
-.card{padding:14px 0 16px;border-top:1px solid var(--rule)}
-.card h3{font:700 21px/1.22 "Anek Telugu",sans-serif;margin:4px 0 8px;text-wrap:balance}
+.sec{padding-block:clamp(16px,2.4vw,28px)}
+.sec>h2{font:800 26px/1.1 "Anek Telugu",sans-serif;margin:0 0 16px;display:flex;align-items:center;gap:12px;color:var(--c)}
+.sec>h2 .ic{display:inline-grid;place-items:center;width:40px;height:40px;border-radius:12px;background:var(--c);color:light-dark(#fff,#111)}
+.sec>h2 .ic svg{width:22px;height:22px}
+.sec>h2::after{content:"";flex:1;height:3px;border-radius:3px;background:linear-gradient(90deg,var(--c),transparent)}
+.sec>h2 a{order:3;font:600 14px "Noto Sans Telugu",sans-serif;color:var(--c);text-decoration:none;white-space:nowrap}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.card{display:flex;flex-direction:column;background:var(--card);border-radius:14px;overflow:hidden;border:1px solid var(--rule);box-shadow:var(--shadow);transition:transform .2s,box-shadow .2s}
+.card:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(0,0,0,.1)}
+.ban{position:relative;height:92px;background:linear-gradient(130deg,var(--c),color-mix(in srgb,var(--c) 55%,#000));color:light-dark(#fff,#111);overflow:hidden;display:flex;align-items:flex-end;padding:12px 16px}
+.ban>svg{position:absolute;right:-10px;top:-14px;width:120px;height:120px;opacity:.22}
+.ban .badge{background:rgba(255,255,255,.92);color:var(--c)}
+.cb{padding:14px 16px 16px;display:flex;flex-direction:column;flex:1}
+.card h3{font:700 21px/1.24 "Anek Telugu",sans-serif;margin:0 0 8px;text-wrap:balance}
 .card p{margin:0 0 10px;font-size:16px}
-.card .when{font-size:13px;color:var(--soft)}
-footer{padding-block:24px 40px;font-size:14px;color:var(--soft)}
+.card .when{font-size:13px;color:var(--c);font-weight:600;margin-bottom:4px}
+.card .acts{margin-top:auto;padding-top:10px;border-top:1px solid var(--rule)}
+footer{margin-top:20px;padding-block:24px 40px;font-size:14px;color:var(--soft);border-top:3px solid var(--red)}
 footer b{color:var(--ink)}
 .empty{padding:20px 0;color:var(--soft)}
+@media(prefers-reduced-motion:reduce){.bars .t i,.tick b i{animation:none}.tick .track{animation:none}.tick{overflow-x:auto}.card,.card:hover{transition:none;transform:none}}
 @media(max-width:900px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:760px){.lead{grid-template-columns:minmax(0,1fr)}}
-@media(max-width:600px){.grid{grid-template-columns:minmax(0,1fr)}.meta .date{flex-basis:100%}}
+@media(max-width:600px){.grid{grid-template-columns:minmax(0,1fr)}.meta .date{flex-basis:100%}.hero{border-radius:14px}}
 </style>
 </head>
 <body>
@@ -91,7 +113,7 @@ footer b{color:var(--ink)}
   </div>
 </header>
 <nav class="navbar" aria-label="Sections"><div class="wrap nav" id="nav"></div></nav>
-<div class="tick" aria-label="Markets"><div class="wrap" id="tick"></div></div>
+<div class="tick" id="tick" aria-label="Markets"></div>
 <main class="wrap" id="main"><p class="empty">Loading news…</p></main>
 <footer class="wrap" id="foot"></footer>
 
@@ -104,11 +126,20 @@ const SECTIONS=[
  {id:"entertainment",en:"Entertainment",te:"వినోదం"},
  {id:"devotional",en:"Devotional",te:"ఆధ్యాత్మికం"}
 ];
+const ICON={
+ business:'<path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/>',
+ technology:'<rect x="7" y="7" width="10" height="10" rx="1.5"/><path d="M10 3v4M14 3v4M10 17v4M14 17v4M3 10h4M3 14h4M17 10h4M17 14h4"/>',
+ sports:'<circle cx="12" cy="12" r="9"/><path d="M8 4.5c2.5 4 2.5 11 0 15M16 4.5c-2.5 4-2.5 11 0 15"/>',
+ entertainment:'<rect x="3" y="9" width="18" height="12" rx="1.5"/><path d="M3 9l1.5-5h15L21 9M8.5 4L7 9M13.5 4L12 9M18.5 4L17 9"/>',
+ devotional:'<path d="M3 14h18c0 4-4 6.5-9 6.5S3 18 3 14z"/><path d="M12 3c2.2 3 2.2 5.5 0 8-2.2-2.5-2.2-5 0-8z"/>',
+ wa:'<path d="M20 11.5a8.5 8.5 0 0 1-12.6 7.4L3 20l1.2-4.2A8.5 8.5 0 1 1 20 11.5z"/><path d="M9 8.5c0 3.5 3 6.5 6.5 6.5l1-1.6-2-1-1 1c-1.2-.5-2.4-1.7-2.9-2.9l1-1-1-2z"/>'
+};
+const svg=(k,c="")=>`<svg class="${c}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICON[k]||""}</svg>`;
 const UI={
- en:{all:"Top stories",more:"More",read:"Read full report:",empty:"No stories in this section yet.",fail:"News could not be loaded. Please refresh the page.",
+ en:{all:"Top stories",more:"More",read:"Read full report:",lead:"Top story",mkts:"Markets",share:"Share on WhatsApp",empty:"No stories in this section yet.",fail:"News could not be loaded. Please refresh the page.",
   contact:"Contact and grievances: Anudeep Kumar, 88853 25418",
   foot:"Summaries are written by Susthira News from the linked reports. Market figures are for information only and are not investment advice. To report an error or raise a grievance, contact us at the number above."},
- te:{all:"ముఖ్య వార్తలు",more:"మరిన్ని",read:"పూర్తి కథనం:",empty:"ఈ విభాగంలో ఇంకా వార్తలు లేవు.",fail:"వార్తలు లోడ్ కాలేదు. దయచేసి పేజీని రీఫ్రెష్ చేయండి.",
+ te:{all:"ముఖ్య వార్తలు",more:"మరిన్ని",read:"పూర్తి కథనం:",lead:"ప్రధాన వార్త",mkts:"మార్కెట్లు",share:"వాట్సాప్‌లో షేర్ చేయండి",empty:"ఈ విభాగంలో ఇంకా వార్తలు లేవు.",fail:"వార్తలు లోడ్ కాలేదు. దయచేసి పేజీని రీఫ్రెష్ చేయండి.",
   contact:"సంప్రదింపులు, ఫిర్యాదులు: అనుదీప్ కుమార్, 88853 25418",
   foot:"సారాంశాలను సుస్థిర న్యూస్ కింద ఇచ్చిన కథనాల ఆధారంగా రాసింది. మార్కెట్ గణాంకాలు సమాచారం కోసం మాత్రమే, పెట్టుబడి సలహా కాదు. తప్పులు లేదా ఫిర్యాదుల కోసం పై నంబర్‌ను సంప్రదించండి."}
 };
@@ -119,7 +150,10 @@ const T=o=>o==null?"":(typeof o==="string"?o:(o[lang]??o.en??""));
 const sec=()=>{const h=location.hash.slice(1);return SECTIONS.some(s=>s.id===h)?h:"all"};
 const secName=id=>(SECTIONS.find(x=>x.id===id)||{en:id,te:id})[lang];
 const srcs=st=>(st.src&&st.src.length)?`<div class="src">${UI[lang].read} ${st.src.map(([n,u])=>`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(n)}</a>`).join(", ")}</div>`:"";
-const card=st=>`<article class="card"><span class="kicker">${secName(st.s)}</span><h3>${esc(st[lang].h)}</h3><p>${esc(st[lang].p)}</p><div class="when">${esc(T(st.when))}</div>${srcs(st)}</article>`;
+const cv=id=>`--c:var(--${SECTIONS.some(x=>x.id===id)?id:"redink"})`;
+const waLink=st=>"https://wa.me/?text="+encodeURIComponent(`${st[lang].h}\n\n${st[lang].p}\n\n${lang==="te"?"సుస్థిర న్యూస్":"Susthira News"}: ${location.origin}${location.pathname}#${st.s}`);
+const share=st=>`<a class="wa" href="${esc(waLink(st))}" target="_blank" rel="noopener" aria-label="${UI[lang].share}">${svg("wa")}WhatsApp</a>`;
+const card=st=>`<article class="card" style="${cv(st.s)}"><div class="ban">${svg(st.s)}<span class="badge">${svg(st.s)}${secName(st.s)}</span></div><div class="cb"><div class="when">${esc(T(st.when))}</div><h3>${esc(st[lang].h)}</h3><p>${esc(st[lang].p)}</p><div class="acts">${srcs(st)}${share(st)}</div></div></article>`;
 const fmt=(v,u)=>(v<0?"−":"+")+Math.abs(v)+(u||"");
 function chartHTML(c){
   if(!c||!c.bars||!c.bars.length)return "";
@@ -131,22 +165,23 @@ function render(){
   document.documentElement.lang=lang;
   document.getElementById("lang-en").setAttribute("aria-pressed",lang==="en");
   document.getElementById("lang-te").setAttribute("aria-pressed",lang==="te");
-  document.getElementById("nav").innerHTML=[{id:"all",en:UI.en.all,te:UI.te.all},...SECTIONS].map(s=>`<a href="#${s.id}" aria-current="${s.id===cur}">${s[lang]}</a>`).join("");
+  document.getElementById("nav").innerHTML=[{id:"all",en:UI.en.all,te:UI.te.all},...SECTIONS].map(s=>`<a href="#${s.id}" aria-current="${s.id===cur}" style="${s.id==="all"?"":cv(s.id)}">${s.id==="all"?"":svg(s.id)}${s[lang]}</a>`).join("");
   document.getElementById("foot").innerHTML=`<p><b>Susthira News · సుస్థిర న్యూస్</b> · Hyderabad${D?" · "+esc(T(D.updated)):""}</p><p><b>${u.contact}</b></p><p>${u.foot}</p>`;
   if(!D)return;
   document.getElementById("date").textContent=T(D.date);
-  document.getElementById("tick").innerHTML=(D.ticker||[]).map(t=>`<span>${esc(T(t))} <em class="${t.up?"up":""}">${esc(t.v)}</em></span>`).join("");
+  const items=(D.ticker||[]).map(t=>`<span>${esc(T(t))} <em class="${t.up?"up":""}">${esc(t.v)}</em></span>`).join("");
+  document.getElementById("tick").innerHTML=items?`<b><i></i>${u.mkts}</b><div class="track">${items}<span aria-hidden="true" style="display:contents">${items}</span></div>`:"";
   const stories=D.stories||[];
   const lead=stories.find(s=>s.lead)||stories[0];
   const chart=chartHTML(D.chart);
-  const leadHTML=lead?`<section class="lead" style="${chart?"":"grid-template-columns:minmax(0,1fr)"}"><div><span class="kicker">${secName(lead.s)} · ${esc(T(lead.when))}</span><h1>${esc(lead[lang].h)}</h1><p>${esc(lead[lang].p)}</p>${srcs(lead)}</div>${chart}</section>`:"";
+  const leadHTML=lead?`<section class="hero" style="${cv(lead.s)}"><div class="lead" style="${chart?"":"grid-template-columns:minmax(0,1fr)"}"><div><span class="badge">${svg(lead.s)}${u.lead}</span> <span class="kicker">${secName(lead.s)} · ${esc(T(lead.when))}</span><h1>${esc(lead[lang].h)}</h1><p>${esc(lead[lang].p)}</p><div class="acts">${srcs(lead)}${share(lead)}</div></div>${chart}</div></section>`:"";
   let body="";
   if(cur==="all"){
-    body=leadHTML+SECTIONS.map(s=>{const list=stories.filter(x=>x.s===s.id&&x!==lead).slice(0,3);return list.length?`<section class="sec"><h2>${s[lang]} <a href="#${s.id}">${u.more} →</a></h2><div class="grid">${list.map(card).join("")}</div></section>`:""}).join("");
+    body=leadHTML+SECTIONS.map(s=>{const list=stories.filter(x=>x.s===s.id&&x!==lead).slice(0,3);return list.length?`<section class="sec" style="${cv(s.id)}"><h2><span class="ic">${svg(s.id)}</span>${s[lang]}<a href="#${s.id}">${u.more} →</a></h2><div class="grid">${list.map(card).join("")}</div></section>`:""}).join("");
   }else{
     const s=SECTIONS.find(x=>x.id===cur),showLead=lead&&lead.s===cur;
     const list=stories.filter(x=>x.s===cur&&!(showLead&&x===lead));
-    body=(showLead?leadHTML:"")+`<section class="sec"><h2>${s[lang]}</h2><div class="grid">${list.map(card).join("")||`<p class="empty">${u.empty}</p>`}</div></section>`;
+    body=(showLead?leadHTML:"")+`<section class="sec" style="${cv(cur)}"><h2><span class="ic">${svg(cur)}</span>${s[lang]}</h2><div class="grid">${list.map(card).join("")||`<p class="empty">${u.empty}</p>`}</div></section>`;
   }
   document.getElementById("main").innerHTML=body;
 }
