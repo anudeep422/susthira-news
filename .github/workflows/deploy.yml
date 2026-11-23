@@ -16,7 +16,7 @@ jobs:
           s = d["stories"]
           assert len(s) >= 6, "too few stories"
           for x in s:
-              assert x["s"] in ("business", "technology", "sports", "entertainment"), x["s"]
+              assert x["s"] in ("business", "technology", "sports", "entertainment", "devotional"), x["s"]
               for l in ("en", "te"):
                   assert x[l]["h"] and x[l]["p"], "missing text"
           print("OK:", len(s), "stories")

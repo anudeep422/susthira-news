@@ -18,12 +18,13 @@ Pushing to `main` deploys to Firebase automatically (see `.github/workflows/depl
  ]
 }
 ```
-- `s` is one of: business, technology, sports, entertainment. Exactly one story has `"lead": 1`.
+- `s` is one of: business, technology, sports, entertainment, devotional. Exactly one story has `"lead": 1`.
 - `ticker` `up: 1` colours a value green (rise); omit for falls. Use "−" (minus sign) for falls.
 - `chart` is optional (null to hide). Shape: `{"title":{en,te},"sub":{en,te},"note":{en,te},"unit":"%","bars":[{"en":"Nifty","te":"నిఫ్టీ","w":{"en":"India, Mon","te":"భారత్, సోమ"},"v":-0.43,"hi":true}]}` — `v` negative = fall, positive = rise.
 
 ## Editorial rules
-- 12–16 stories: at least 3 per section. Business leans India markets/economy; Entertainment leans Telugu cinema; Sports leans cricket/Indian sport; Technology covers AI, phones, apps, Indian tech.
+- 14–18 stories: at least 3 per section. Business leans India markets/economy; Entertainment leans Telugu cinema; Sports leans cricket/Indian sport; Technology covers AI, phones, apps, Indian tech.
+- Devotional (ఆధ్యాత్మికం): 2–4 stories on Telugu festivals and temples — during Karthika Masam (10 Nov–8 Dec 2026) focus on it: today's/upcoming observances (Somavarams, Pournami, Ekadashi, Kalabhairava Jayanti), major temple events and crowds (Srisailam, Vemulawada, Srikalahasti, Pancharamas, Keesaragutta, Yadadri, Tirumala), Koti Deepotsavam. After Karthika, cover the next festival season (Dhanurmasam, Vaikunta Ekadashi, Sankranti) and TTD/temple news. Report observances and dates as reported by sources; describe beliefs respectfully as traditions ("devotees believe…"), never as claims of fact; no astrology predictions.
 - Every fact comes from a source fetched during the update, linked in `src` (1–3 links). No invented numbers, quotes or events.
 - Write in your own words. No copied sentences; no direct quotes longer than a few words.
 - Telugu must be natural, simple Telugu (not word-for-word translation). Keep names, numbers and tickers identical in both languages.
