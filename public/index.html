@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Susthira News</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@500;700;800&family=Noto+Sans+Telugu:wght@400;600&display=swap" rel="stylesheet">
+<style>
+/* VOICE everyday news, read by families and clients in Telangana and Andhra Pradesh
+   IDEA a Telugu daily broadsheet front page: red masthead, ruled columns, ink on white
+   PICTURE the lead story's chart: how far each market fell, drawn as ink bars
+   COLOUR white newsprint, black ink, masthead red #c8102e, one sea-green for gains
+   TYPE Anek Telugu (headlines, Latin + Telugu) + Noto Sans Telugu (text)
+   LAYOUT masthead band, ticker, lead story with chart beside it, then a ruled grid of stories by section; phone stacks */
+:root{color-scheme:light dark;--bg:light-dark(#ffffff,#121212);--ink:light-dark(#111111,#ececec);--soft:light-dark(#5a5a5a,#a8a8a8);--rule:light-dark(#d9d9d9,#333333);--red:#c8102e;--redink:light-dark(#b00d27,#ff6b7d);--panel:light-dark(#f6f4f2,#1b1b1b);--up:light-dark(#0b7a4b,#4fd18f)}
+:root[data-theme=light]{color-scheme:light}
+:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+html{scroll-padding-top:120px}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 "Noto Sans Telugu","Segoe UI",system-ui,sans-serif;overflow-x:clip}
+a{color:inherit}
+.wrap{max-width:1240px;margin:0 auto;padding:0 max(4vw,16px)}
+.mast{background:var(--red);color:#fff}
+.mast .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 24px;padding-block:18px 14px}
+.brand{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;text-decoration:none}
+.brand b{font:800 clamp(34px,5.4vw,56px)/1 "Anek Telugu",sans-serif;letter-spacing:-.02em}
+.brand span{font:600 clamp(20px,2.6vw,28px)/1 "Anek Telugu",sans-serif;opacity:.92}
+.meta{display:flex;align-items:center;gap:14px;flex-wrap:wrap;font-size:14px}
+.lang{display:inline-flex;border:1.5px solid #fff;border-radius:999px;overflow:hidden}
+.lang button{all:unset;cursor:pointer;padding:0 16px;min-height:40px;display:inline-flex;align-items:center;font:600 15px "Anek Telugu",sans-serif;color:#fff}
+.lang button[aria-pressed=true]{background:#fff;color:var(--red)}
+.lang button:focus-visible,.nav a:focus-visible{outline:3px solid #ffd400;outline-offset:2px}
+.navbar{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:3px double var(--ink)}
+.nav{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
+.nav a{flex:none;text-decoration:none;padding:0 14px;min-height:46px;display:inline-flex;align-items:center;font:700 16px "Anek Telugu",sans-serif;border-bottom:3px solid transparent}
+.nav a[aria-current=true]{border-color:var(--red);color:var(--redink)}
+.tick{border-bottom:1px solid var(--rule);font-size:14px}
+.tick .wrap{display:flex;gap:22px;overflow-x:auto;padding-block:8px;scrollbar-width:none}
+.tick span{flex:none;white-space:nowrap}
+.tick em{font-style:normal;font-weight:600;color:var(--redink)}
+.tick em.up{color:var(--up)}
+.lead{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:clamp(20px,3vw,44px);padding-block:clamp(22px,3vw,40px);border-bottom:1px solid var(--rule)}
+.kicker{font:700 14px "Anek Telugu",sans-serif;color:var(--redink)}
+h1{font:800 clamp(30px,4.2vw,48px)/1.08 "Anek Telugu",sans-serif;letter-spacing:-.02em;margin:6px 0 14px;text-wrap:balance}
+.lead p{font-size:17px;margin:0 0 14px;max-width:62ch}
+.src{font-size:13px;color:var(--soft)}
+.src a{color:var(--soft);text-underline-offset:2px}
+.chart{background:var(--panel);border-top:4px solid var(--ink);padding:16px 18px 14px;align-self:start}
+.chart h2{font:700 20px/1.2 "Anek Telugu",sans-serif;margin:0 0 4px}
+.chart .sub{font-size:13px;color:var(--soft);margin:0 0 12px}
+.bars{display:grid;grid-template-columns:max-content minmax(0,1fr) max-content;gap:9px 12px;align-items:center}
+.bars .n{font-size:15px;white-space:nowrap}
+.bars .n small{display:block;font-size:13px;color:var(--soft);line-height:1.2}
+.bars .t{height:22px;position:relative}
+.bars .t i{position:absolute;inset:0 auto 0 0;background:var(--ink);transform-origin:left;animation:grow .9s ease-out both}
+.bars .t i.hi{background:var(--red)}
+.bars .t i.up{background:var(--up)}
+.bars .v{font:700 15px "Anek Telugu",sans-serif;white-space:nowrap;text-align:right;font-variant-numeric:tabular-nums}
+.chart .note{font-size:13px;color:var(--soft);margin:12px 0 0}
+@keyframes grow{from{transform:scaleX(0)}}
+@media(prefers-reduced-motion:reduce){.bars .t i{animation:none}}
+.sec{padding-block:clamp(18px,2.6vw,32px);border-bottom:1px solid var(--rule)}
+.sec>h2{font:800 26px/1.1 "Anek Telugu",sans-serif;margin:0 0 14px;display:flex;align-items:baseline;gap:12px}
+.sec>h2 a{font:600 14px "Noto Sans Telugu",sans-serif;color:var(--redink);text-decoration:none}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 28px}
+.card{padding:14px 0 16px;border-top:1px solid var(--rule)}
+.card h3{font:700 21px/1.22 "Anek Telugu",sans-serif;margin:4px 0 8px;text-wrap:balance}
+.card p{margin:0 0 10px;font-size:16px}
+.card .when{font-size:13px;color:var(--soft)}
+footer{padding-block:24px 40px;font-size:14px;color:var(--soft)}
+footer b{color:var(--ink)}
+.empty{padding:20px 0;color:var(--soft)}
+@media(max-width:900px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:760px){.lead{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:600px){.grid{grid-template-columns:minmax(0,1fr)}.meta .date{flex-basis:100%}}
+</style>
+</head>
+<body>
+<header class="mast">
+  <div class="wrap">
+    <a class="brand" href="#all"><b>Susthira News</b><span>సుస్థిర న్యూస్</span></a>
+    <div class="meta">
+      <span class="date" id="date"></span>
+      <div class="lang" role="group" aria-label="Language">
+        <button id="lang-te" type="button" aria-pressed="false">తెలుగు</button>
+        <button id="lang-en" type="button" aria-pressed="true">English</button>
+      </div>
+    </div>
+  </div>
+</header>
+<nav class="navbar" aria-label="Sections"><div class="wrap nav" id="nav"></div></nav>
+<div class="tick" aria-label="Markets"><div class="wrap" id="tick"></div></div>
+<main class="wrap" id="main"><p class="empty">Loading news…</p></main>
+<footer class="wrap" id="foot"></footer>
+
+<script>
+{
+const SECTIONS=[
+ {id:"business",en:"Business",te:"బిజినెస్"},
+ {id:"technology",en:"Technology",te:"టెక్నాలజీ"},
+ {id:"sports",en:"Sports",te:"క్రీడలు"},
+ {id:"entertainment",en:"Entertainment",te:"వినోదం"}
+];
+const UI={
+ en:{all:"Top stories",more:"More",read:"Read full report:",empty:"No stories in this section yet.",fail:"News could not be loaded. Please refresh the page.",
+  contact:"Contact and grievances: Anudeep Kumar, 88853 25418",
+  foot:"Summaries are written by Susthira News from the linked reports. Market figures are for information only and are not investment advice. To report an error or raise a grievance, contact us at the number above."},
+ te:{all:"ముఖ్య వార్తలు",more:"మరిన్ని",read:"పూర్తి కథనం:",empty:"ఈ విభాగంలో ఇంకా వార్తలు లేవు.",fail:"వార్తలు లోడ్ కాలేదు. దయచేసి పేజీని రీఫ్రెష్ చేయండి.",
+  contact:"సంప్రదింపులు, ఫిర్యాదులు: అనుదీప్ కుమార్, 88853 25418",
+  foot:"సారాంశాలను సుస్థిర న్యూస్ కింద ఇచ్చిన కథనాల ఆధారంగా రాసింది. మార్కెట్ గణాంకాలు సమాచారం కోసం మాత్రమే, పెట్టుబడి సలహా కాదు. తప్పులు లేదా ఫిర్యాదుల కోసం పై నంబర్‌ను సంప్రదించండి."}
+};
+let D=null,lang="en";
+try{lang=localStorage.getItem("sn-lang")||"en"}catch(e){}
+const esc=t=>String(t??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const T=o=>o==null?"":(typeof o==="string"?o:(o[lang]??o.en??""));
+const sec=()=>{const h=location.hash.slice(1);return SECTIONS.some(s=>s.id===h)?h:"all"};
+const secName=id=>(SECTIONS.find(x=>x.id===id)||{en:id,te:id})[lang];
+const srcs=st=>(st.src&&st.src.length)?`<div class="src">${UI[lang].read} ${st.src.map(([n,u])=>`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(n)}</a>`).join(", ")}</div>`:"";
+const card=st=>`<article class="card"><span class="kicker">${secName(st.s)}</span><h3>${esc(st[lang].h)}</h3><p>${esc(st[lang].p)}</p><div class="when">${esc(T(st.when))}</div>${srcs(st)}</article>`;
+const fmt=(v,u)=>(v<0?"−":"+")+Math.abs(v)+(u||"");
+function chartHTML(c){
+  if(!c||!c.bars||!c.bars.length)return "";
+  const max=Math.max(...c.bars.map(b=>Math.abs(b.v)))||1;
+  return `<figure class="chart" style="margin:0"><h2>${esc(T(c.title))}</h2><p class="sub">${esc(T(c.sub))}</p><div class="bars">${c.bars.map(b=>`<div class="n">${esc(T(b))}<small>${esc(T(b.w))}</small></div><div class="t"><i class="${b.v>0?"up":(b.hi?"hi":"")}" style="width:${(Math.abs(b.v)/max*100).toFixed(1)}%"></i></div><div class="v">${fmt(b.v,c.unit)}</div>`).join("")}</div>${c.note?`<p class="note">${esc(T(c.note))}</p>`:""}</figure>`;
+}
+function render(){
+  const u=UI[lang],cur=sec();
+  document.documentElement.lang=lang;
+  document.getElementById("lang-en").setAttribute("aria-pressed",lang==="en");
+  document.getElementById("lang-te").setAttribute("aria-pressed",lang==="te");
+  document.getElementById("nav").innerHTML=[{id:"all",en:UI.en.all,te:UI.te.all},...SECTIONS].map(s=>`<a href="#${s.id}" aria-current="${s.id===cur}">${s[lang]}</a>`).join("");
+  document.getElementById("foot").innerHTML=`<p><b>Susthira News · సుస్థిర న్యూస్</b> · Hyderabad${D?" · "+esc(T(D.updated)):""}</p><p><b>${u.contact}</b></p><p>${u.foot}</p>`;
+  if(!D)return;
+  document.getElementById("date").textContent=T(D.date);
+  document.getElementById("tick").innerHTML=(D.ticker||[]).map(t=>`<span>${esc(T(t))} <em class="${t.up?"up":""}">${esc(t.v)}</em></span>`).join("");
+  const stories=D.stories||[];
+  const lead=stories.find(s=>s.lead)||stories[0];
+  const chart=chartHTML(D.chart);
+  const leadHTML=lead?`<section class="lead" style="${chart?"":"grid-template-columns:minmax(0,1fr)"}"><div><span class="kicker">${secName(lead.s)} · ${esc(T(lead.when))}</span><h1>${esc(lead[lang].h)}</h1><p>${esc(lead[lang].p)}</p>${srcs(lead)}</div>${chart}</section>`:"";
+  let body="";
+  if(cur==="all"){
+    body=leadHTML+SECTIONS.map(s=>{const list=stories.filter(x=>x.s===s.id&&x!==lead).slice(0,3);return list.length?`<section class="sec"><h2>${s[lang]} <a href="#${s.id}">${u.more} →</a></h2><div class="grid">${list.map(card).join("")}</div></section>`:""}).join("");
+  }else{
+    const s=SECTIONS.find(x=>x.id===cur),showLead=lead&&lead.s===cur;
+    const list=stories.filter(x=>x.s===cur&&!(showLead&&x===lead));
+    body=(showLead?leadHTML:"")+`<section class="sec"><h2>${s[lang]}</h2><div class="grid">${list.map(card).join("")||`<p class="empty">${u.empty}</p>`}</div></section>`;
+  }
+  document.getElementById("main").innerHTML=body;
+}
+function setLang(l){lang=l;try{localStorage.setItem("sn-lang",l)}catch(e){}render()}
+document.getElementById("lang-en").addEventListener("click",()=>setLang("en"));
+document.getElementById("lang-te").addEventListener("click",()=>setLang("te"));
+window.addEventListener("hashchange",()=>{render();window.scrollTo(0,0)});
+render();
+fetch("stories.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(d=>{D=d;render()}).catch(()=>{document.getElementById("main").innerHTML=`<p class="empty">${UI[lang].fail}</p>`});
+}
+</script>
+</body>
+</html>

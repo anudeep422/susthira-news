@@ -1,0 +1,475 @@
+{
+ "updated": {
+  "en": "Updated 23 Nov 2026, 12:50 IST",
+  "te": "నవీకరణ: 23 నవం 2026, మ. 12:50"
+ },
+ "date": {
+  "en": "Monday, 23 November 2026",
+  "te": "సోమవారం, 23 నవంబర్ 2026"
+ },
+ "ticker": [
+  {
+   "en": "Nasdaq",
+   "te": "నాస్‌డాక్",
+   "v": "−5.28%"
+  },
+  {
+   "en": "S&P 500",
+   "te": "S&P 500",
+   "v": "−3.70%"
+  },
+  {
+   "en": "Dow",
+   "te": "డౌ",
+   "v": "−1.93%"
+  },
+  {
+   "en": "Kospi",
+   "te": "కోస్పీ",
+   "v": "−5.8%"
+  },
+  {
+   "en": "Hang Seng",
+   "te": "హాంగ్ సెంగ్",
+   "v": "−1.8%"
+  },
+  {
+   "en": "Shanghai",
+   "te": "షాంఘై",
+   "v": "−1.4%"
+  },
+  {
+   "en": "Sensex",
+   "te": "సెన్సెక్స్",
+   "v": "83,676 −244"
+  },
+  {
+   "en": "Nifty",
+   "te": "నిఫ్టీ",
+   "v": "25,672 −110"
+  },
+  {
+   "en": "Brent",
+   "te": "బ్రెంట్",
+   "v": "$92.34",
+   "up": 1
+  },
+  {
+   "en": "USD/INR",
+   "te": "డాలర్/రూపాయి",
+   "v": "₹92.85",
+   "up": 1
+  }
+ ],
+ "chart": {
+  "title": {
+   "en": "How far the markets fell",
+   "te": "మార్కెట్లు ఎంత పడ్డాయి"
+  },
+  "sub": {
+   "en": "Friday close (US) and Monday morning (Asia, India)",
+   "te": "శుక్రవారం ముగింపు (అమెరికా), సోమవారం ఉదయం (ఆసియా, భారత్)"
+  },
+  "note": {
+   "en": "India fell least: foreign investors kept buying Indian shares as money moved out of AI-heavy markets.",
+   "te": "భారత్ అతి తక్కువగా పడింది: AI షేర్లు ఎక్కువగా ఉన్న మార్కెట్ల నుంచి డబ్బు బయటకు రావడంతో విదేశీ పెట్టుబడిదారులు భారత షేర్లు కొంటూనే ఉన్నారు."
+  },
+  "unit": "%",
+  "bars": [
+   {
+    "en": "Kospi",
+    "te": "కోస్పీ",
+    "w": {
+     "en": "Korea, Mon",
+     "te": "కొరియా, సోమ"
+    },
+    "v": -5.8,
+    "hi": true
+   },
+   {
+    "en": "Nasdaq",
+    "te": "నాస్‌డాక్",
+    "w": {
+     "en": "US, Fri",
+     "te": "అమెరికా, శుక్ర"
+    },
+    "v": -5.28,
+    "hi": true
+   },
+   {
+    "en": "S&P 500",
+    "te": "S&P 500",
+    "w": {
+     "en": "US, Fri",
+     "te": "అమెరికా, శుక్ర"
+    },
+    "v": -3.7,
+    "hi": false
+   },
+   {
+    "en": "Dow",
+    "te": "డౌ",
+    "w": {
+     "en": "US, Fri",
+     "te": "అమెరికా, శుక్ర"
+    },
+    "v": -1.93,
+    "hi": false
+   },
+   {
+    "en": "Hang Seng",
+    "te": "హాంగ్ సెంగ్",
+    "w": {
+     "en": "Hong Kong, Mon",
+     "te": "హాంకాంగ్, సోమ"
+    },
+    "v": -1.8,
+    "hi": false
+   },
+   {
+    "en": "Shanghai",
+    "te": "షాంఘై",
+    "w": {
+     "en": "China, Mon",
+     "te": "చైనా, సోమ"
+    },
+    "v": -1.4,
+    "hi": false
+   },
+   {
+    "en": "Nifty 50",
+    "te": "నిఫ్టీ 50",
+    "w": {
+     "en": "India, Mon early",
+     "te": "భారత్, సోమ ఉదయం"
+    },
+    "v": -0.43,
+    "hi": false
+   }
+  ]
+ },
+ "stories": [
+  {
+   "s": "business",
+   "lead": 1,
+   "when": {
+    "en": "Fri, 20 Nov",
+    "te": "శుక్ర, 20 నవం"
+   },
+   "en": {
+    "h": "AI stock rout drags world markets; S&P 500 slides into correction",
+    "p": "A heavy sell-off in AI and chip stocks pulled the S&P 500 down 3.7% on Friday, capping its worst week in more than 18 months, while the Nasdaq fell 5.3% and wiped out its gains for 2026. Nvidia sank about 14%. Investors fear that AI companies' huge valuations and data-centre spending can't be justified, and rising interest rates and tighter chip-export rules added to the pressure. Both the S&P 500 and the Dow are now more than 10% below their peaks."
+   },
+   "te": {
+    "h": "AI షేర్ల పతనం: ప్రపంచ మార్కెట్లు కుదేలు, S&P 500 కరెక్షన్‌లోకి",
+    "p": "AI, చిప్ కంపెనీల షేర్లలో భారీ అమ్మకాలతో శుక్రవారం S&P 500 3.7% పడిపోయింది. 18 నెలల్లో ఇదే అత్యంత చెత్త వారం. నాస్‌డాక్ 5.3% పతనమై 2026 లాభాలన్నీ కోల్పోయింది. ఎన్విడియా సుమారు 14% పడింది. AI కంపెనీల భారీ విలువలు, డేటా సెంటర్ల ఖర్చులు సమర్థనీయమేనా అన్న ఆందోళనకు పెరుగుతున్న వడ్డీ రేట్లు, చిప్ ఎగుమతి ఆంక్షలు తోడయ్యాయి. S&P 500, డౌ రెండూ గరిష్ఠ స్థాయి నుంచి 10%కు పైగా తగ్గాయి."
+   },
+   "src": [
+    [
+     "AP",
+     "https://abcnews.com/Business/wireStory/asia-shares-drop-ai-worries-echoing-wall-streets-138309523"
+    ],
+    [
+     "Fox Business",
+     "https://www.foxbusiness.com/markets/wall-street-suffers-historic-losses-dow-sp-500-plunge-correction-territory"
+    ],
+    [
+     "CBS News",
+     "https://www.cbsnews.com/news/stocks-enter-correction-territory-ai-fears/"
+    ]
+   ]
+  },
+  {
+   "s": "business",
+   "when": {
+    "en": "Mon, 23 Nov",
+    "te": "సోమ, 23 నవం"
+   },
+   "en": {
+    "h": "Sensex, Nifty open lower, but foreign investors keep buying",
+    "p": "The Sensex fell about 244 points and the Nifty about 110 points in early trade on Monday, tracking the global sell-off and profit booking after a two-day rally. The fall was milder than elsewhere in Asia: foreign investors bought ₹10,308 crore of Indian shares on Friday as money rotated out of AI-heavy markets."
+   },
+   "te": {
+    "h": "సెన్సెక్స్, నిఫ్టీ నష్టాల్లో ప్రారంభం; విదేశీ కొనుగోళ్లు కొనసాగుతున్నాయి",
+    "p": "ప్రపంచ మార్కెట్ల అమ్మకాలు, రెండు రోజుల ర్యాలీ తర్వాత లాభాల స్వీకరణతో సోమవారం ఉదయం సెన్సెక్స్ సుమారు 244 పాయింట్లు, నిఫ్టీ 110 పాయింట్లు తగ్గాయి. ఆసియాలోని ఇతర మార్కెట్లతో పోలిస్తే నష్టం తక్కువే. AI షేర్లు ఎక్కువగా ఉన్న మార్కెట్ల నుంచి డబ్బు బయటకు వస్తుండటంతో శుక్రవారం విదేశీ సంస్థాగత పెట్టుబడిదారులు ₹10,308 కోట్ల షేర్లు కొన్నారు."
+   },
+   "src": [
+    [
+     "Daily Pioneer",
+     "https://dailypioneer.com/business/sensex-nifty-fall-global-market-selloff-monday"
+    ],
+    [
+     "Business Recorder",
+     "https://brecorder.com/news/40450313/ai-rout-deepens-keeping-indian-rupee-rally-alive-on-foreign-equity-buying"
+    ]
+   ]
+  },
+  {
+   "s": "business",
+   "when": {
+    "en": "Mon, 23 Nov",
+    "te": "సోమ, 23 నవం"
+   },
+   "en": {
+    "h": "Kospi plunges 5.8% as Samsung and SK Hynix tumble",
+    "p": "South Korea took the hardest hit in Asia on Monday. Samsung Electronics lost 5.5% and SK Hynix 4.9%, and the exchange triggered a trading curb for the second session in a row. Hong Kong's Hang Seng fell 1.8% and Shanghai 1.4%. Tokyo was closed for a holiday."
+   },
+   "te": {
+    "h": "కోస్పీ 5.8% పతనం; శామ్‌సంగ్, SK హైనిక్స్ షేర్లు కుదేలు",
+    "p": "సోమవారం ఆసియాలో దక్షిణ కొరియా మార్కెట్ ఎక్కువగా దెబ్బతింది. శామ్‌సంగ్ ఎలక్ట్రానిక్స్ 5.5%, SK హైనిక్స్ 4.9% పడ్డాయి. వరుసగా రెండో సెషన్‌లోనూ ఎక్స్ఛేంజ్ ట్రేడింగ్ నియంత్రణ అమలు చేసింది. హాంకాంగ్ హాంగ్ సెంగ్ 1.8%, షాంఘై 1.4% తగ్గాయి. టోక్యో మార్కెట్‌కు సెలవు."
+   },
+   "src": [
+    [
+     "AP",
+     "https://wtop.com/national/2026/11/asian-shares-mostly-fall-after-sp-500-drops-3-7-into-a-correction"
+    ],
+    [
+     "IBTimes",
+     "https://ibtimes.com.au/south-korea-kospi-falls-ai-stock-selloff-chipmakers-1879205"
+    ]
+   ]
+  },
+  {
+   "s": "business",
+   "when": {
+    "en": "Mon, 23 Nov",
+    "te": "సోమ, 23 నవం"
+   },
+   "en": {
+    "h": "Rupee slips 23 paise after five-day rally; GDP data due 30 November",
+    "p": "The rupee traded at 92.85 to the dollar on Monday morning, weaker than Friday's 92.62, after gaining more than 1.6% over five sessions. Retail inflation was 6.09% in October, above the RBI's 6% limit. July to September GDP figures come on 30 November and the RBI's policy decision on 4 December."
+   },
+   "te": {
+    "h": "ఐదు రోజుల ర్యాలీ తర్వాత రూపాయి 23 పైసలు బలహీనం; నవంబర్ 30న GDP గణాంకాలు",
+    "p": "సోమవారం ఉదయం డాలర్‌తో రూపాయి 92.85 వద్ద ట్రేడయింది. శుక్రవారం ముగింపు 92.62. అంతకుముందు ఐదు సెషన్లలో రూపాయి 1.6%కు పైగా బలపడింది. అక్టోబర్‌లో రిటైల్ ద్రవ్యోల్బణం 6.09%, ఇది RBI పరిమితి 6% కంటే ఎక్కువ. జూలై–సెప్టెంబర్ GDP గణాంకాలు నవంబర్ 30న, RBI విధాన నిర్ణయం డిసెంబర్ 4న రానున్నాయి."
+   },
+   "src": [
+    [
+     "National Herald",
+     "https://www.nationalheraldindia.com/business/rupee-falls-23-paise-to-9285-against-dollar-after-five-day-rally"
+    ],
+    [
+     "Daily Financial",
+     "https://dailyfinancial.in/nasdaq-crashed-5-but-nifty-hit-a-9-month-high-can-india-defy-gravity-again-on-expiry-day/"
+    ]
+   ]
+  },
+  {
+   "s": "technology",
+   "when": {
+    "en": "Thu–Fri, 19–20 Nov",
+    "te": "గురు–శుక్ర, 19–20 నవం"
+   },
+   "en": {
+    "h": "Anthropic's record IPO: shares jump on debut, then fall in Friday's rout",
+    "p": "Claude maker Anthropic began trading on Nasdaq on 19 November under the ticker ANT. Priced at $83, the shares opened at $111.50 and closed the first day at $97.17, in the largest IPO on record at about $81 billion raised. A day later the stock fell about 9% as the wider AI sell-off hit."
+   },
+   "te": {
+    "h": "ఆంత్రోపిక్ రికార్డు IPO: మొదటి రోజు జోరు, శుక్రవారం పతనం",
+    "p": "Claude AI తయారీదారు ఆంత్రోపిక్ నవంబర్ 19న ANT టిక్కర్‌తో నాస్‌డాక్‌లో లిస్టయింది. IPO ధర $83 కాగా, షేరు $111.50 వద్ద ప్రారంభమై మొదటి రోజు $97.17 వద్ద ముగిసింది. సుమారు $81 బిలియన్ల సమీకరణతో ఇది ఇప్పటివరకు అతిపెద్ద IPO. మరుసటి రోజు AI అమ్మకాల ప్రభావంతో షేరు సుమారు 9% పడింది."
+   },
+   "src": [
+    [
+     "Reuters via Devdiscourse",
+     "https://www.devdiscourse.com/article/international/4009769-anthropics-blockbuster-debut-tests-wall-streets-faith-in-ai-boom"
+    ],
+    [
+     "Al Jazeera",
+     "https://www.aljazeera.com/economy/2026/11/19/anthropic-starts-trading-in-the-us-after-blockbuster-ipo"
+    ],
+    [
+     "Fox Business",
+     "https://www.foxbusiness.com/markets/wall-street-suffers-historic-losses-dow-sp-500-plunge-correction-territory"
+    ]
+   ]
+  },
+  {
+   "s": "technology",
+   "when": {
+    "en": "Fri, 20 Nov",
+    "te": "శుక్ర, 20 నవం"
+   },
+   "en": {
+    "h": "Chipmakers lead the slide on data-centre and export worries",
+    "p": "AMD and Broadcom led Friday's losses on fears that data-centre construction could slow and that US rules on exporting chips will get tighter. The S&P 500 has now fallen for seven days in a row, its longest losing streak since February 2020."
+   },
+   "te": {
+    "h": "డేటా సెంటర్లు, ఎగుమతి ఆంక్షల భయంతో చిప్ కంపెనీల షేర్లు పతనం",
+    "p": "డేటా సెంటర్ల నిర్మాణం నెమ్మదించవచ్చని, చిప్ ఎగుమతులపై అమెరికా నిబంధనలు కఠినమవుతాయని భయాలతో శుక్రవారం AMD, బ్రాడ్‌కామ్ షేర్లు ఎక్కువగా పడ్డాయి. S&P 500 వరుసగా ఏడు రోజులు నష్టపోయింది. ఫిబ్రవరి 2020 తర్వాత ఇదే అతి పొడవైన నష్టాల పరంపర."
+   },
+   "src": [
+    [
+     "CBS News",
+     "https://www.cbsnews.com/news/stocks-enter-correction-territory-ai-fears/"
+    ]
+   ]
+  },
+  {
+   "s": "technology",
+   "when": {
+    "en": "Thu, 12 Nov",
+    "te": "గురు, 12 నవం"
+   },
+   "en": {
+    "h": "Nvidia names Colette Kress interim CEO after Jensen Huang resigns",
+    "p": "Jensen Huang, who co-founded Nvidia in 1993 and led it for 33 years, resigned as CEO and left the board on 12 November amid personal controversies. CFO Colette Kress is interim CEO while the board looks for a permanent successor, and Harvey C. Jones became the company's first board chair."
+   },
+   "te": {
+    "h": "జెన్సెన్ హువాంగ్ రాజీనామా; ఎన్విడియా తాత్కాలిక CEOగా కొలెట్ క్రెస్",
+    "p": "1993లో ఎన్విడియాను స్థాపించి 33 ఏళ్లు నడిపిన జెన్సెన్ హువాంగ్ వ్యక్తిగత వివాదాల నేపథ్యంలో నవంబర్ 12న CEO పదవికి, బోర్డుకు రాజీనామా చేశారు. శాశ్వత వారసుడిని ఎంపిక చేసే వరకు CFO కొలెట్ క్రెస్ తాత్కాలిక CEOగా ఉంటారు. హార్వీ సి. జోన్స్ కంపెనీ తొలి బోర్డు ఛైర్మన్ అయ్యారు."
+   },
+   "src": [
+    [
+     "Nvidia filing (SEC)",
+     "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm"
+    ],
+    [
+     "TechCrunch",
+     "https://techcrunch.com/?p=3187751"
+    ]
+   ]
+  },
+  {
+   "s": "sports",
+   "when": {
+    "en": "Mon, 23 Nov",
+    "te": "సోమ, 23 నవం"
+   },
+   "en": {
+    "h": "Mitchell and Phillips hold out as New Zealand draw with India in Wellington",
+    "p": "India piled up 720/9 declared, their highest Test total in New Zealand, led by Rishabh Pant's 128, and took a 352-run lead. But New Zealand batted out the final day to finish on 239/5, with Daryl Mitchell and Glenn Phillips unbeaten. The draw hurts India's hopes of reaching the World Test Championship final. The second Test starts in Christchurch on 27 November."
+   },
+   "te": {
+    "h": "వెల్లింగ్టన్ టెస్టు డ్రా: మిచెల్, ఫిలిప్స్ పోరాటంతో భారత్‌కు నిరాశ",
+    "p": "రిషభ్ పంత్ 128 పరుగులతో భారత్ 720/9 వద్ద డిక్లేర్ చేసింది. న్యూజిలాండ్‌లో భారత్‌కు ఇదే అత్యధిక టెస్టు స్కోరు. 352 పరుగుల ఆధిక్యం దక్కినా, చివరి రోజు డారిల్ మిచెల్, గ్లెన్ ఫిలిప్స్ నాటౌట్‌గా నిలవడంతో కివీస్ 239/5తో మ్యాచ్‌ను కాపాడుకుంది. ఈ డ్రాతో WTC ఫైనల్ అవకాశాలు దెబ్బతిన్నాయి. రెండో టెస్టు నవంబర్ 27న క్రైస్ట్‌చర్చ్‌లో ప్రారంభం."
+   },
+   "src": [
+    [
+     "ESPNcricinfo",
+     "https://www.cricinfo.com/series/india-in-new-zealand-2026-27-1539421/new-zealand-vs-india-1st-test-1539442/live-match-blog"
+    ],
+    [
+     "NZ Herald",
+     "https://www.nzherald.co.nz/sport/cricket/black-caps/black-caps-v-india-live-updates-first-test-day-five-from-wellingtons-basin-reserve/PS2ZO2E5GREJFC5GF72D3UXC3M/"
+    ],
+    [
+     "Outlook",
+     "https://www.outlookindia.com/sports/cricket/india-vs-new-zealand-1st-test-day-5-live-score-ind-vs-nz-scorecard-latest-updates-highlights"
+    ]
+   ]
+  },
+  {
+   "s": "sports",
+   "when": {
+    "en": "Mid-November",
+    "te": "నవంబర్ మధ్యలో"
+   },
+   "en": {
+    "h": "India's under-19s win the Asia Cup with a last-ball finish",
+    "p": "India's under-19 team won the U19 Asia Cup in Oman in a final decided on the last ball. Prime Minister Modi called it an outstanding day for Indian cricket, and Home Minister Amit Shah said the title would inspire young players."
+   },
+   "te": {
+    "h": "చివరి బంతికి విజయం: అండర్-19 ఆసియా కప్ భారత్‌దే",
+    "p": "ఒమన్‌లో జరిగిన అండర్-19 ఆసియా కప్‌ను చివరి బంతికి తేలిన ఫైనల్‌లో భారత్ గెలుచుకుంది. ఇది భారత క్రికెట్‌కు అద్భుతమైన రోజని ప్రధాని మోదీ అన్నారు. ఈ విజయం యువ క్రీడాకారులకు స్ఫూర్తినిస్తుందని హోంమంత్రి అమిత్ షా పేర్కొన్నారు."
+   },
+   "src": [
+    [
+     "Cricketnmore",
+     "https://www.cricketnmore.com/india-cricket"
+    ]
+   ]
+  },
+  {
+   "s": "sports",
+   "when": {
+    "en": "November",
+    "te": "నవంబర్"
+   },
+   "en": {
+    "h": "India fined 35% of match fee for slow over-rate in final ODI",
+    "p": "The ICC docked India 35% of their match fee for a slow over-rate in the last ODI against New Zealand. Next at home, India host Sri Lanka in a white-ball series starting 13 December."
+   },
+   "te": {
+    "h": "స్లో ఓవర్ రేట్: భారత్‌కు మ్యాచ్ ఫీజులో 35% జరిమానా",
+    "p": "న్యూజిలాండ్‌తో చివరి వన్డేలో నెమ్మదిగా ఓవర్లు వేసినందుకు ICC భారత జట్టుకు మ్యాచ్ ఫీజులో 35% జరిమానా విధించింది. డిసెంబర్ 13 నుంచి శ్రీలంకతో స్వదేశంలో వైట్-బాల్ సిరీస్ ఆడనుంది."
+   },
+   "src": [
+    [
+     "Cricketnmore",
+     "https://www.cricketnmore.com/india-cricket"
+    ],
+    [
+     "Wikipedia",
+     "https://en.wikipedia.org/wiki/International_cricket_in_2026%E2%80%9327"
+    ]
+   ]
+  },
+  {
+   "s": "entertainment",
+   "when": {
+    "en": "Fri, 20 Nov",
+    "te": "శుక్ర, 20 నవం"
+   },
+   "en": {
+    "h": "Dulquer Salmaan's Aakasamlo Oka Tara opens to an encouraging response",
+    "p": "Directed by Pavan Sadineni, the drama stars Dulquer Salmaan with Satvika Veeravalli as the female lead and Shruti Haasan in an important role. It drew positive word from its premiere shows and is presented by Swapna Cinema and Geetha Arts."
+   },
+   "te": {
+    "h": "దుల్కర్ సల్మాన్ 'ఆకాశంలో ఒక తార'కు మంచి స్పందన",
+    "p": "పవన్ సాదినేని దర్శకత్వంలో దుల్కర్ సల్మాన్ హీరోగా, సాత్విక వీరవల్లి హీరోయిన్‌గా నటించిన ఈ చిత్రంలో శ్రుతి హాసన్ కీలక పాత్ర పోషించారు. ప్రీమియర్ షోల నుంచే సానుకూల టాక్ వచ్చింది. స్వప్న సినిమా, గీతా ఆర్ట్స్ సమర్పణలో విడుదలైంది."
+   },
+   "src": [
+    [
+     "Gulte",
+     "https://www.gulte.com/movienews/443205/tollywood-box-office-a-very-good-weekend-ahead"
+    ],
+    [
+     "91mobiles",
+     "https://www.91mobiles.com/entertainment/aakasam-lo-oka-tara-movie-219614"
+    ]
+   ]
+  },
+  {
+   "s": "entertainment",
+   "when": {
+    "en": "Thu, 19 Nov",
+    "te": "గురు, 19 నవం"
+   },
+   "en": {
+    "h": "Vishwak Sen's ENE Repeat keeps the laughs coming",
+    "p": "The sequel opened to decent reviews. Gulte rated it 3 out of 5 and called it a refreshing, gore-free comedy with laughs at regular intervals, a welcome change after a run of blood-soaked 'saviour' action films."
+   },
+   "te": {
+    "h": "విశ్వక్ సేన్ 'ENE రిపీట్'కు నవ్వుల టాక్",
+    "p": "ఈ సీక్వెల్‌కు మంచి సమీక్షలు వచ్చాయి. గుల్టే 3/5 రేటింగ్ ఇచ్చి, రక్తపాతం లేకుండా తరచూ నవ్వించే రిఫ్రెషింగ్ కామెడీ అని పేర్కొంది. ఇటీవలి హింసాత్మక యాక్షన్ సినిమాల తర్వాత ఇది మంచి మార్పు."
+   },
+   "src": [
+    [
+     "Gulte review",
+     "https://www.gulte.com/moviereviews/442793/ene-repeat-review"
+    ]
+   ]
+  },
+  {
+   "s": "entertainment",
+   "when": {
+    "en": "Sun, 15 Nov",
+    "te": "ఆది, 15 నవం"
+   },
+   "en": {
+    "h": "Last week's releases struggled to pull audiences",
+    "p": "Itllu Arjuna, Donga Naa Koduku and G.O.A.T. all opened weakly despite heavy promotion, with theatres seeing thin crowds. Trade watchers hope this week's better-reviewed films can turn things around."
+   },
+   "te": {
+    "h": "గత వారం సినిమాలకు ప్రేక్షకులు కరువు",
+    "p": "భారీ ప్రచారం చేసినా ఇట్లు అర్జున, దొంగ నా కొడుకు, G.O.A.T. సినిమాలకు ఓపెనింగ్స్ బలహీనంగా వచ్చాయి. థియేటర్లు ఖాళీగా కనిపించాయి. ఈ వారం మంచి సమీక్షలు పొందిన సినిమాలు పరిస్థితిని మారుస్తాయని ట్రేడ్ వర్గాలు ఆశిస్తున్నాయి."
+   },
+   "src": [
+    [
+     "M9 News",
+     "https://www.m9.news/movienews/tollywood-new-releases-box-office-november-2026/"
+    ]
+   ]
+  }
+ ]
+}
