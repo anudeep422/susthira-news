@@ -1,7 +1,7 @@
 {
  "updated": {
-  "en": "Updated 23 Nov 2026, 3:40 PM IST",
-  "te": "నవీకరణ: 23 నవం 2026, మ. 3:40"
+  "en": "Updated 23 Nov 2026, 3:50 PM IST",
+  "te": "నవీకరణ: 23 నవం 2026, మ. 3:50"
  },
  "date": {
   "en": "Monday, 23 November 2026",
@@ -11,22 +11,39 @@
   {
    "en": "Sensex",
    "te": "సెన్సెక్స్",
-   "v": "82,444 −1,476"
+   "v": "82,436 −1,484"
   },
   {
    "en": "Nifty",
    "te": "నిఫ్టీ",
-   "v": "25,366 −434"
+   "v": "25,350 −451"
+  },
+  {
+   "en": "India VIX",
+   "te": "ఇండియా VIX",
+   "v": "17.86 +3.11%",
+   "up": 1
+  },
+  {
+   "en": "USD/INR",
+   "te": "డాలర్/రూపాయి",
+   "v": "₹92.93"
+  },
+  {
+   "en": "Brent",
+   "te": "బ్రెంట్",
+   "v": "$92.41 −0.17% (2 PM)"
   },
   {
    "en": "Kospi",
    "te": "కోస్పీ",
-   "v": "−5.6%"
+   "v": "−3.3%"
   },
   {
-   "en": "Hang Seng",
-   "te": "హాంగ్ సెంగ్",
-   "v": "−1.8%"
+   "en": "Taiex",
+   "te": "తైఎక్స్",
+   "v": "+2.2%",
+   "up": 1
   },
   {
    "en": "Nasdaq (Fri)",
@@ -37,43 +54,23 @@
    "en": "S&P 500 (Fri)",
    "te": "S&P 500 (శుక్ర)",
    "v": "−3.70%"
-  },
-  {
-   "en": "Brent",
-   "te": "బ్రెంట్",
-   "v": "~$89.80"
-  },
-  {
-   "en": "USD/INR",
-   "te": "డాలర్/రూపాయి",
-   "v": "₹92.85"
   }
  ],
  "chart": {
   "title": {
-   "en": "A red Monday for markets",
-   "te": "మార్కెట్లకు ఎరుపు సోమవారం"
+   "en": "A rough start to the week",
+   "te": "వారం ఆరంభంలోనే ఒడిదొడుకులు"
   },
   "sub": {
-   "en": "% change: India and Asia today, US on Friday",
-   "te": "% మార్పు: భారత్, ఆసియా ఈరోజు; అమెరికా శుక్రవారం"
+   "en": "% change: US on Friday; Asia and India close on Monday",
+   "te": "% మార్పు: అమెరికా శుక్రవారం; ఆసియా, భారత్ ముగింపు (సోమవారం)"
   },
   "note": {
-   "en": "India figures are from the closing auction session.",
-   "te": "భారత గణాంకాలు క్లోజింగ్ ఆక్షన్ సెషన్ నాటివి."
+   "en": "Indian shares gave up an early rally as banks and metals fell; Taiwan bucked the trend.",
+   "te": "బ్యాంకు, మెటల్ షేర్ల పతనంతో భారత మార్కెట్లు ఉదయం లాభాలను కోల్పోయాయి; తైవాన్ మాత్రం లాభపడింది."
   },
   "unit": "%",
   "bars": [
-   {
-    "en": "Kospi",
-    "te": "కోస్పీ",
-    "w": {
-     "en": "Korea, Mon",
-     "te": "కొరియా, సోమ"
-    },
-    "v": -5.56,
-    "hi": true
-   },
    {
     "en": "Nasdaq",
     "te": "నాస్‌డాక్",
@@ -91,7 +88,18 @@
      "en": "US, Fri",
      "te": "అమెరికా, శుక్ర"
     },
-    "v": -3.7
+    "v": -3.7,
+    "hi": false
+   },
+   {
+    "en": "Kospi",
+    "te": "కోస్పీ",
+    "w": {
+     "en": "Korea, Mon",
+     "te": "కొరియా, సోమ"
+    },
+    "v": -3.3,
+    "hi": true
    },
    {
     "en": "Sensex",
@@ -100,17 +108,8 @@
      "en": "India, Mon",
      "te": "భారత్, సోమ"
     },
-    "v": -1.76,
+    "v": -1.77,
     "hi": true
-   },
-   {
-    "en": "Hang Seng",
-    "te": "హాంగ్ సెంగ్",
-    "w": {
-     "en": "Hong Kong, Mon",
-     "te": "హాంకాంగ్, సోమ"
-    },
-    "v": -1.79
    },
    {
     "en": "Nifty 50",
@@ -119,8 +118,18 @@
      "en": "India, Mon",
      "te": "భారత్, సోమ"
     },
-    "v": -1.68,
-    "hi": true
+    "v": -1.75,
+    "hi": false
+   },
+   {
+    "en": "Taiex",
+    "te": "తైఎక్స్",
+    "w": {
+     "en": "Taiwan, Mon",
+     "te": "తైవాన్, సోమ"
+    },
+    "v": 2.2,
+    "hi": false
    }
   ]
  },
@@ -129,58 +138,54 @@
    "s": "business",
    "lead": 1,
    "when": {
-    "en": "Mon, 23 Nov, 3:30 PM",
-    "te": "సోమ, 23 నవం, మ. 3:30"
+    "en": "Mon, 23 Nov",
+    "te": "సోమ, 23 నవం"
    },
    "en": {
-    "h": "Sensex tanks about 1,476 points as early gains vanish; Nifty near 25,366",
-    "p": "Indian markets opened higher on Monday but reversed sharply, with the Sensex down 1,475.75 points (1.76%) at 82,443.96 and the Nifty down 434.20 points (1.68%) near 25,366 in the closing auction session. Banking and metal shares led the selling as investors booked profits after a four-week rally. Analysts also pointed to fears of a US Fed rate hike in December and a weaker rupee, while India's volatility index jumped nearly 8%."
+    "h": "Sensex crashes 1,484 points as early rally turns into a sell-off",
+    "p": "Indian shares opened higher on Monday but reversed within minutes. The Sensex closed 1,484 points (1.77%) lower at 82,436 and the Nifty fell 451 points (1.75%) to 25,350, leaving the Sensex more than 2,200 points below its early high of 84,663. Banks and metal stocks led the fall, with Tata Steel down over 8% in afternoon trade, while IT shares such as TCS and Tech Mahindra bucked the trend and ended among the top gainers. Analysts pointed to profit booking after a strong November, worries about a US rate hike and continued AI-linked selling abroad."
    },
    "te": {
-    "h": "సెన్సెక్స్ సుమారు 1,476 పాయింట్లు పతనం; ఉదయం లాభాలు ఆవిరి, నిఫ్టీ 25,366 దగ్గర",
-    "p": "సోమవారం లాభాలతో ప్రారంభమైన మార్కెట్లు మధ్యాహ్నానికి భారీగా పడిపోయాయి. క్లోజింగ్ ఆక్షన్ సెషన్‌లో సెన్సెక్స్ 1,475.75 పాయింట్లు (1.76%) తగ్గి 82,443.96 వద్ద, నిఫ్టీ 434.20 పాయింట్లు (1.68%) తగ్గి 25,366 దగ్గర ఉన్నాయి. నాలుగు వారాల ర్యాలీ తర్వాత లాభాల స్వీకరణతో బ్యాంకింగ్, మెటల్ షేర్లలో అమ్మకాలు ఎక్కువగా జరిగాయి. డిసెంబర్‌లో అమెరికా ఫెడ్ వడ్డీ రేట్లు పెంచుతుందన్న భయం, రూపాయి బలహీనత కూడా ప్రభావం చూపాయని విశ్లేషకులు చెప్పారు. మార్కెట్ ఒడిదుడుకుల సూచీ (India VIX) దాదాపు 8% పెరిగింది."
+    "h": "ఉదయం లాభాలు ఆవిరి: సెన్సెక్స్ 1,484 పాయింట్లు పతనం",
+    "p": "సోమవారం ఉదయం లాభాలతో మొదలైన మార్కెట్లు కొద్ది నిమిషాల్లోనే దిగజారాయి. చివరకు సెన్సెక్స్ 1,484 పాయింట్లు (1.77%) తగ్గి 82,436 వద్ద, నిఫ్టీ 451 పాయింట్లు (1.75%) తగ్గి 25,350 వద్ద ముగిశాయి. ఉదయం గరిష్ఠం 84,663 నుంచి సెన్సెక్స్ 2,200 పాయింట్లకు పైగా పడింది. బ్యాంకు, మెటల్ షేర్లు ఎక్కువగా నష్టపోయాయి; మధ్యాహ్నం టాటా స్టీల్ 8%కు పైగా పడింది. TCS, టెక్ మహీంద్రా వంటి IT షేర్లు మాత్రం లాభపడి టాప్ గెయినర్లలో నిలిచాయి. నవంబర్‌లో భారీ ర్యాలీ తర్వాత లాభాల స్వీకరణ, అమెరికా వడ్డీ రేట్ల పెంపు భయం, విదేశాల్లో AI షేర్ల అమ్మకాలు కారణమని నిపుణులు చెబుతున్నారు."
    },
    "src": [
     [
-     "Business Standard",
-     "https://www.business-standard.com/amp/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
+     "ChiniMandi",
+     "https://www.chinimandi.com/sensex-plunges-1480-points-nifty-below-25350/"
     ],
     [
-     "Upstox",
-     "https://upstox.com/news/market-news/stocks/nifty-50-sensex-fall-1-india-vix-jumps-nearly-8-key-factors-explained/article-203852/"
+     "IIFL",
+     "https://www.indiainfoline.com/news/markets/nifty-crashes-by-350-points-sensex-down-1-35-why-is-the-market-down-today"
     ],
     [
-     "The Open Press",
-     "https://theopenpress.in/article/sensex-crashes-1700-points-nifty-below-25500"
+     "Free Press Journal",
+     "https://www.freepressjournal.in/business/sensex-crashes-1000-points-nifty-slips-to-25500-as-bank-stocks-tumble-global-ai-sell-off-weighs"
     ]
    ]
   },
   {
    "s": "business",
    "when": {
-    "en": "Fri, 20 Nov",
-    "te": "శుక్ర, 20 నవం"
+    "en": "Fri–Mon, 20–23 Nov",
+    "te": "శుక్ర–సోమ, 20–23 నవం"
    },
    "en": {
-    "h": "AI stock rout drags world markets; S&P 500 slides into correction",
-    "p": "A heavy sell-off in AI and chip stocks pulled the S&P 500 down 3.7% on Friday, capping its worst week in more than 18 months, while the Nasdaq fell 5.3% and wiped out its gains for 2026. Nvidia sank about 14%. Investors fear that AI companies' huge valuations and data-centre spending can't be justified, and rising interest rates and tighter chip-export rules added to the pressure. Both the S&P 500 and the Dow are now more than 10% below their peaks."
+    "h": "Foreign investors pour record money into India even as global markets wobble",
+    "p": "Foreign portfolio investors bought ₹10,308 crore of Indian shares on Friday, taking November's purchases to a record $13 billion, though they are still net sellers of $18.4 billion for the year. That buying helped the Sensex close Friday at 83,919.71 and the Nifty at 25,800.60, both nine-month closing highs after four straight weekly gains. Before Monday's fall, FPJ noted that both indices were up more than 11% for November."
    },
    "te": {
-    "h": "AI షేర్ల పతనం: ప్రపంచ మార్కెట్లు కుదేలు, S&P 500 కరెక్షన్‌లోకి",
-    "p": "AI, చిప్ కంపెనీల షేర్లలో భారీ అమ్మకాలతో శుక్రవారం S&P 500 3.7% పడిపోయింది. 18 నెలల్లో ఇదే అత్యంత చెత్త వారం. నాస్‌డాక్ 5.3% పతనమై 2026 లాభాలన్నీ కోల్పోయింది. ఎన్విడియా సుమారు 14% పడింది. AI కంపెనీల భారీ విలువలు, డేటా సెంటర్ల ఖర్చులు సమర్థనీయమేనా అన్న ఆందోళనకు పెరుగుతున్న వడ్డీ రేట్లు, చిప్ ఎగుమతి ఆంక్షలు తోడయ్యాయి. S&P 500, డౌ రెండూ గరిష్ఠ స్థాయి నుంచి 10%కు పైగా తగ్గాయి."
+    "h": "అంతర్జాతీయ ఒడిదొడుకుల మధ్య భారత్‌లోకి రికార్డు విదేశీ పెట్టుబడులు",
+    "p": "విదేశీ పోర్ట్‌ఫోలియో పెట్టుబడిదారులు శుక్రవారం ₹10,308 కోట్ల విలువైన భారత షేర్లు కొన్నారు. దీంతో నవంబర్‌లో వారి కొనుగోళ్లు రికార్డు స్థాయిలో $13 బిలియన్లకు చేరాయి. అయితే ఈ ఏడాది మొత్తంగా చూస్తే వారు ఇంకా $18.4 బిలియన్ల నికర అమ్మకందారులే. ఈ కొనుగోళ్లతో శుక్రవారం సెన్సెక్స్ 83,919.71, నిఫ్టీ 25,800.60 వద్ద ముగిశాయి — ఇవి తొమ్మిది నెలల గరిష్ఠ ముగింపులు. సోమవారం పతనానికి ముందు నవంబర్‌లో రెండు సూచీలు 11%కు పైగా లాభంలో ఉన్నాయని FPJ పేర్కొంది."
    },
    "src": [
     [
-     "AP",
-     "https://abcnews.com/Business/wireStory/asia-shares-drop-ai-worries-echoing-wall-streets-138309523"
+     "HDFC Sky",
+     "https://hdfcsky.com/news/bse-nse-sensex-november-23-2026-open-report-sensex-nifty-extend-rally-at-open-as-oil-eases-foreign-investors-keep-rotating-into-india-amid-global-ai-selloff"
     ],
     [
-     "Fox Business",
-     "https://www.foxbusiness.com/markets/wall-street-suffers-historic-losses-dow-sp-500-plunge-correction-territory"
-    ],
-    [
-     "CBS News",
-     "https://www.cbsnews.com/news/stocks-enter-correction-territory-ai-fears/"
+     "Free Press Journal",
+     "https://www.freepressjournal.in/business/sensex-crashes-1000-points-nifty-slips-to-25500-as-bank-stocks-tumble-global-ai-sell-off-weighs"
     ]
    ]
   },
@@ -191,21 +196,21 @@
     "te": "సోమ, 23 నవం"
    },
    "en": {
-    "h": "Kospi plunges as Samsung and SK Hynix tumble",
-    "p": "South Korea took the hardest hit in Asia on Monday. Samsung Electronics lost 5.5% and SK Hynix 4.9%, and the exchange triggered a trading curb for the second session in a row. Hong Kong's Hang Seng fell 1.8% and Shanghai 1.4%. Tokyo was closed for a holiday."
+    "h": "Kospi slides again as AI worries hit Asian chip stocks",
+    "p": "South Korea's Kospi fell as much as 5.8% on Monday before closing 3.3% lower, with Samsung Electronics and SK Hynix among the losers, after Friday's Wall Street rout in which the Nasdaq lost 5.28% and the S&P 500 fell 3.7% into a correction. The mood was mixed elsewhere: Taiwan's Taiex closed 2.2% higher, Hong Kong's Hang Seng recovered most of an early fall, and Japan was shut for a holiday. US stock futures pointed higher."
    },
    "te": {
-    "h": "కోస్పీ భారీ పతనం; శామ్‌సంగ్, SK హైనిక్స్ షేర్లు కుదేలు",
-    "p": "సోమవారం ఆసియాలో దక్షిణ కొరియా మార్కెట్ ఎక్కువగా దెబ్బతింది. శామ్‌సంగ్ ఎలక్ట్రానిక్స్ 5.5%, SK హైనిక్స్ 4.9% పడ్డాయి. వరుసగా రెండో సెషన్‌లోనూ ఎక్స్ఛేంజ్ ట్రేడింగ్ నియంత్రణ అమలు చేసింది. హాంకాంగ్ హాంగ్ సెంగ్ 1.8%, షాంఘై 1.4% తగ్గాయి. టోక్యో మార్కెట్‌కు సెలవు."
+    "h": "AI భయాలతో మళ్లీ పడిన కోస్పీ; ఆసియా చిప్ షేర్లకు దెబ్బ",
+    "p": "దక్షిణ కొరియా కోస్పీ సోమవారం ఒక దశలో 5.8% పడి, చివరకు 3.3% నష్టంతో ముగిసింది. శాంసంగ్ ఎలక్ట్రానిక్స్, SK హైనిక్స్ షేర్లు నష్టపోయాయి. శుక్రవారం అమెరికాలో నాస్‌డాక్ 5.28%, S&P 500 3.7% పడి కరెక్షన్‌లోకి వెళ్లడం దీనికి నేపథ్యం. మిగతా చోట్ల పరిస్థితి మిశ్రమంగా ఉంది: తైవాన్ తైఎక్స్ 2.2% లాభంతో ముగియగా, హాంకాంగ్ హాంగ్ సెంగ్ ఉదయం నష్టాలను చాలావరకు పూడ్చుకుంది. జపాన్ మార్కెట్లకు సెలవు. అమెరికా ఫ్యూచర్స్ లాభాలు సూచించాయి."
    },
    "src": [
     [
-     "AP",
-     "https://wtop.com/national/2026/11/asian-shares-mostly-fall-after-sp-500-drops-3-7-into-a-correction"
+     "Al Jazeera",
+     "https://www.aljazeera.com/news/2026/11/23/south-koreas-stock-market-tumbles-as-ai-bubble-fears-mount"
     ],
     [
-     "IBTimes",
-     "https://ibtimes.com.au/south-korea-kospi-falls-ai-stock-selloff-chipmakers-1879205"
+     "Business Standard",
+     "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
     ]
    ]
   },
@@ -216,97 +221,89 @@
     "te": "సోమ, 23 నవం"
    },
    "en": {
-    "h": "Rupee slips 23 paise after five-day rally; GDP data due 30 November",
-    "p": "The rupee traded at 92.85 to the dollar on Monday morning, weaker than Friday's 92.62, after gaining more than 1.6% over five sessions. Retail inflation was 6.09% in October, above the RBI's 6% limit. July to September GDP figures come on 30 November and the RBI's policy decision on 4 December."
+    "h": "Rupee opens stronger but ends weaker at 92.93; oil near $92",
+    "p": "The rupee opened at 92.49 to the US dollar on Monday, 19 paise stronger than Friday's close, but slipped as Indian shares fell and closed at 92.93, about 26 paise weaker on the day. Brent crude was trading around $92.41 a barrel in the afternoon, slightly lower, on hopes of a recovery in Gulf supplies. Markets are also watching the US Federal Reserve: CME FedWatch data cited by IIFL put the odds of a December rate hike at 93%."
    },
    "te": {
-    "h": "ఐదు రోజుల ర్యాలీ తర్వాత రూపాయి 23 పైసలు బలహీనం; నవంబర్ 30న GDP గణాంకాలు",
-    "p": "సోమవారం ఉదయం డాలర్‌తో రూపాయి 92.85 వద్ద ట్రేడయింది. శుక్రవారం ముగింపు 92.62. అంతకుముందు ఐదు సెషన్లలో రూపాయి 1.6%కు పైగా బలపడింది. అక్టోబర్‌లో రిటైల్ ద్రవ్యోల్బణం 6.09%, ఇది RBI పరిమితి 6% కంటే ఎక్కువ. జూలై–సెప్టెంబర్ GDP గణాంకాలు నవంబర్ 30న, RBI విధాన నిర్ణయం డిసెంబర్ 4న రానున్నాయి."
+    "h": "బలంగా మొదలై 92.93 వద్ద బలహీనంగా ముగిసిన రూపాయి; $92 దగ్గర చమురు",
+    "p": "సోమవారం రూపాయి డాలర్‌తో 92.49 వద్ద ప్రారంభమైంది — శుక్రవారం ముగింపు కంటే 19 పైసలు బలంగా. కానీ షేర్లు పడటంతో బలహీనపడి, రోజు మొత్తం మీద సుమారు 26 పైసలు తగ్గి 92.93 వద్ద ముగిసింది. మధ్యాహ్నం బ్రెంట్ ముడిచమురు బ్యారెల్‌కు సుమారు $92.41 వద్ద స్వల్ప నష్టంతో ఉంది; గల్ఫ్ సరఫరాలు కోలుకుంటాయన్న అంచనాలు దీనికి కారణం. అమెరికా ఫెడరల్ రిజర్వ్ నిర్ణయంపైనా మార్కెట్ల దృష్టి ఉంది: డిసెంబర్‌లో వడ్డీ రేట్లు పెరిగే అవకాశం 93% ఉందని CME FedWatch డేటా చెబుతోందని IIFL పేర్కొంది."
    },
    "src": [
-    [
-     "National Herald",
-     "https://www.nationalheraldindia.com/business/rupee-falls-23-paise-to-9285-against-dollar-after-five-day-rally"
-    ],
-    [
-     "Daily Financial",
-     "https://dailyfinancial.in/nasdaq-crashed-5-but-nifty-hit-a-9-month-high-can-india-defy-gravity-again-on-expiry-day/"
-    ]
-   ]
-  },
-  {
-   "s": "technology",
-   "when": {
-    "en": "Thu–Fri, 19–20 Nov",
-    "te": "గురు–శుక్ర, 19–20 నవం"
-   },
-   "en": {
-    "h": "Anthropic's record IPO: shares jump on debut, then fall in Friday's rout",
-    "p": "Claude maker Anthropic began trading on Nasdaq on 19 November under the ticker ANT. Priced at $83, the shares opened at $111.50 and closed the first day at $97.17, in the largest IPO on record at about $81 billion raised. A day later the stock fell about 9% as the wider AI sell-off hit."
-   },
-   "te": {
-    "h": "ఆంత్రోపిక్ రికార్డు IPO: మొదటి రోజు జోరు, శుక్రవారం పతనం",
-    "p": "Claude AI తయారీదారు ఆంత్రోపిక్ నవంబర్ 19న ANT టిక్కర్‌తో నాస్‌డాక్‌లో లిస్టయింది. IPO ధర $83 కాగా, షేరు $111.50 వద్ద ప్రారంభమై మొదటి రోజు $97.17 వద్ద ముగిసింది. సుమారు $81 బిలియన్ల సమీకరణతో ఇది ఇప్పటివరకు అతిపెద్ద IPO. మరుసటి రోజు AI అమ్మకాల ప్రభావంతో షేరు సుమారు 9% పడింది."
-   },
-   "src": [
-    [
-     "Reuters via Devdiscourse",
-     "https://www.devdiscourse.com/article/international/4009769-anthropics-blockbuster-debut-tests-wall-streets-faith-in-ai-boom"
-    ],
-    [
-     "Al Jazeera",
-     "https://www.aljazeera.com/economy/2026/11/19/anthropic-starts-trading-in-the-us-after-blockbuster-ipo"
-    ],
-    [
-     "Fox Business",
-     "https://www.foxbusiness.com/markets/wall-street-suffers-historic-losses-dow-sp-500-plunge-correction-territory"
-    ]
-   ]
-  },
-  {
-   "s": "technology",
-   "when": {
-    "en": "Fri, 20 Nov",
-    "te": "శుక్ర, 20 నవం"
-   },
-   "en": {
-    "h": "Chipmakers lead the slide on data-centre and export worries",
-    "p": "AMD and Broadcom led Friday's losses on fears that data-centre construction could slow and that US rules on exporting chips will get tighter. The S&P 500 has now fallen for seven days in a row, its longest losing streak since February 2020."
-   },
-   "te": {
-    "h": "డేటా సెంటర్లు, ఎగుమతి ఆంక్షల భయంతో చిప్ కంపెనీల షేర్లు పతనం",
-    "p": "డేటా సెంటర్ల నిర్మాణం నెమ్మదించవచ్చని, చిప్ ఎగుమతులపై అమెరికా నిబంధనలు కఠినమవుతాయని భయాలతో శుక్రవారం AMD, బ్రాడ్‌కామ్ షేర్లు ఎక్కువగా పడ్డాయి. S&P 500 వరుసగా ఏడు రోజులు నష్టపోయింది. ఫిబ్రవరి 2020 తర్వాత ఇదే అతి పొడవైన నష్టాల పరంపర."
-   },
-   "src": [
-    [
-     "CBS News",
-     "https://www.cbsnews.com/news/stocks-enter-correction-territory-ai-fears/"
-    ]
-   ]
-  },
-  {
-   "s": "technology",
-   "when": {
-    "en": "Sun–Mon, 22–23 Nov",
-    "te": "ఆది–సోమ, 22–23 నవం"
-   },
-   "en": {
-    "h": "Meta's AI chief says 'superintelligence' is arriving, after a disputed AI maths claim",
-    "p": "Meta's Chief AI Officer Alexandr Wang warned that AI far beyond human intelligence is close and may be hard to control. His comments came after an Anthropic employee said he had used Claude to work on a proof of the Riemann hypothesis, one of mathematics' hardest problems; the claim is disputed and has not been confirmed by mathematicians."
-   },
-   "te": {
-    "h": "'సూపర్ ఇంటెలిజెన్స్ వచ్చేస్తోంది': మెటా AI చీఫ్ హెచ్చరిక",
-    "p": "మనిషి మేధస్సును మించిన AI దగ్గర్లోనే ఉందని, దాన్ని నియంత్రించడం కష్టం కావచ్చని మెటా చీఫ్ AI ఆఫీసర్ అలెగ్జాండర్ వాంగ్ హెచ్చరించారు. గణితంలో అత్యంత కఠినమైన సమస్యల్లో ఒకటైన రీమాన్ హైపోథిసిస్‌పై Claude సహాయంతో రుజువు రూపొందించినట్లు ఆంత్రోపిక్ ఉద్యోగి ఒకరు ప్రకటించిన తర్వాత ఈ వ్యాఖ్యలు వచ్చాయి. ఆ వాదనపై వివాదం ఉంది, గణిత నిపుణులు ఇంకా ధృవీకరించలేదు."
-   },
-   "src": [
-    [
-     "Al Jazeera",
-     "https://aljazeera.com/economy/2026/11/23/ai-superintelligence-arriving-warns-top-meta-executive"
-    ],
     [
      "Business Standard",
-     "https://www.business-standard.com/technology/artificial-intelligence/superintelligence-is-arriving-meta-ai-chief-urges-rethink-of-ai-future-126112300311_1.html"
+     "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
     ],
+    [
+     "ChiniMandi",
+     "https://www.chinimandi.com/sensex-plunges-1480-points-nifty-below-25350/"
+    ],
+    [
+     "IIFL",
+     "https://www.indiainfoline.com/news/markets/nifty-crashes-by-350-points-sensex-down-1-35-why-is-the-market-down-today"
+    ]
+   ]
+  },
+  {
+   "s": "technology",
+   "when": {
+    "en": "This week, 23–26 Nov",
+    "te": "ఈ వారం, 23–26 నవం"
+   },
+   "en": {
+    "h": "Motorola, Vivo lead a busy week of phone launches",
+    "p": "Motorola launches the Edge 70 Neo in India on 24 November, with a 6.8-inch 144Hz curved OLED screen, Snapdragon 7s Gen 3 chip and a 7,000mAh battery; it is expected to cost ₹35,000–40,000. Vivo's X500 series (X500, X500 Pro and X500 Pro Max) follows on 26 November, with expected prices from about ₹1,19,999. In China, Honor unveils its 700 series on 23 November and Huawei its Mate X8 foldable on 24 November."
+   },
+   "te": {
+    "h": "ఈ వారం కొత్త ఫోన్ల జాతర: మోటరోలా, వివో ముందంజ",
+    "p": "మోటరోలా ఎడ్జ్ 70 నియో ఫోన్ నవంబర్ 24న భారత్‌లో విడుదలవుతోంది. ఇందులో 6.8 అంగుళాల 144Hz కర్వ్‌డ్ OLED స్క్రీన్, స్నాప్‌డ్రాగన్ 7s Gen 3 చిప్, 7,000mAh బ్యాటరీ ఉంటాయి; ధర ₹35,000–40,000 మధ్య ఉండొచ్చని అంచనా. వివో X500 సిరీస్ (X500, X500 Pro, X500 Pro Max) నవంబర్ 26న వస్తోంది; ధరలు సుమారు ₹1,19,999 నుంచి మొదలవుతాయని అంచనా. చైనాలో హానర్ 700 సిరీస్ నవంబర్ 23న, హువావే మేట్ X8 ఫోల్డబుల్ నవంబర్ 24న విడుదలవుతున్నాయి."
+   },
+   "src": [
+    [
+     "My Mobile India",
+     "https://www.mymobileindia.com/smartphone-launches-this-week-november-23-29-vivo-x500-motorola-edge-70-neo-honor-700-and-more/"
+    ],
+    [
+     "Beebom",
+     "https://gadgets.beebom.com/news/all-upcoming-phones-launching-this-week-november-23-november-29"
+    ]
+   ]
+  },
+  {
+   "s": "technology",
+   "when": {
+    "en": "16–20 Nov",
+    "te": "16–20 నవం"
+   },
+   "en": {
+    "h": "Indian startups raise about $203 million in a week; AI and chips lead",
+    "p": "Indian startups announced 15 funding rounds worth about $202.9 million between 16 and 20 November, according to StartupFeed, with AI and deep-tech firms taking seven rounds. The biggest were value-fashion chain Style Union (₹485 crore), Bengaluru's Humyn Labs, which supplies training data for robots and AI ($47 million), and New Delhi chip designer Bharat Semi, which raised a $24 million seed round led by Info Edge. Urban Company also raised ₹2,500 crore through a share sale to institutions."
+   },
+   "te": {
+    "h": "వారంలో భారత స్టార్టప్‌లకు సుమారు $203 మిలియన్ల నిధులు; AI, చిప్స్ ముందు",
+    "p": "నవంబర్ 16–20 మధ్య భారత స్టార్టప్‌లు 15 ఫండింగ్ రౌండ్లలో సుమారు $202.9 మిలియన్లు సమీకరించాయని స్టార్టప్‌ఫీడ్ తెలిపింది. వీటిలో ఏడు రౌండ్లు AI, డీప్‌టెక్ సంస్థలవే. అతిపెద్దవి: ఫ్యాషన్ రిటైల్ సంస్థ స్టైల్ యూనియన్ (₹485 కోట్లు), రోబోలు, AI కోసం శిక్షణ డేటా అందించే బెంగళూరు సంస్థ హ్యూమిన్ ల్యాబ్స్ ($47 మిలియన్లు), ఇన్ఫో ఎడ్జ్ నేతృత్వంలో $24 మిలియన్ల సీడ్ నిధులు పొందిన ఢిల్లీ చిప్ డిజైన్ సంస్థ భారత్ సెమి. అర్బన్ కంపెనీ కూడా సంస్థాగత పెట్టుబడిదారుల నుంచి ₹2,500 కోట్లు సమీకరించింది."
+   },
+   "src": [
+    [
+     "StartupFeed",
+     "https://startupfeed.in/indian-startup-funding-16-20-november-2026/"
+    ]
+   ]
+  },
+  {
+   "s": "technology",
+   "when": {
+    "en": "20–23 Nov",
+    "te": "20–23 నవం"
+   },
+   "en": {
+    "h": "Claim of AI-assisted Riemann hypothesis proof under expert review",
+    "p": "Anthropic mathematician Levent Alpöge has published a computer-checkable proof of the Riemann hypothesis, a famous problem first posed 167 years ago, saying the company's Claude AI helped produce it. Independent mathematicians have compiled the Lean code but are still checking whether the formal statement actually proves the intended claim, and the result has not been formally accepted. A separate, human-written proposed proof has also appeared."
+   },
+   "te": {
+    "h": "AI సాయంతో రీమాన్ పరికల్పనకు నిరూపణ? నిపుణుల పరిశీలనలో వాదన",
+    "p": "167 ఏళ్ల క్రితం ప్రతిపాదించిన ప్రసిద్ధ గణిత సమస్య రీమాన్ పరికల్పనకు కంప్యూటర్ తనిఖీ చేయగల నిరూపణను ఆంత్రోపిక్ గణిత శాస్త్రవేత్త లెవెంట్ అల్పోగే ప్రచురించారు. సంస్థ AI 'క్లాడ్' దీనికి సాయపడిందని ఆయన చెప్పారు. స్వతంత్ర గణిత నిపుణులు Lean కోడ్‌ను కంపైల్ చేశారు, కానీ అది అసలు వాదనను నిజంగా నిరూపిస్తుందా అన్నది ఇంకా పరిశీలిస్తున్నారు. దీనికి ఇంకా అధికారిక ఆమోదం రాలేదు. మనుషులు రాసిన మరో నిరూపణ ప్రతిపాదన కూడా వెలువడింది."
+   },
+   "src": [
     [
      "The Neuron",
      "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-november-23-2026/"
@@ -320,24 +317,24 @@
     "te": "సోమ, 23 నవం"
    },
    "en": {
-    "h": "Mitchell and Phillips hold out as New Zealand draw with India in Wellington",
-    "p": "India piled up 720/9 declared, their highest Test total in New Zealand, led by Rishabh Pant's 128, and took a 352-run lead. But New Zealand batted out the final day to finish on 239/5, with Daryl Mitchell and Glenn Phillips unbeaten. The draw hurts India's hopes of reaching the World Test Championship final. The second Test starts in Christchurch on 27 November."
+    "h": "Mitchell and Phillips save New Zealand as Wellington Test ends in a draw",
+    "p": "India could not force a win in the first Test at the Basin Reserve, where New Zealand finished on 239 for 5 on the last day, still 113 runs behind. India had made 720 for 9 declared, with centuries from KL Rahul (136) and Rishabh Pant (128), in reply to New Zealand's 368, built on Henry Nicholls' unbeaten 175 and Glenn Phillips' 118. On a lifeless pitch, Daryl Mitchell (49 not out) and Phillips (26 not out) held firm, and the teams shook hands about an hour early. Australia now join South Africa at the top of the World Test Championship table, with India fourth."
    },
    "te": {
-    "h": "వెల్లింగ్టన్ టెస్టు డ్రా: మిచెల్, ఫిలిప్స్ పోరాటంతో భారత్‌కు నిరాశ",
-    "p": "రిషభ్ పంత్ 128 పరుగులతో భారత్ 720/9 వద్ద డిక్లేర్ చేసింది. న్యూజిలాండ్‌లో భారత్‌కు ఇదే అత్యధిక టెస్టు స్కోరు. 352 పరుగుల ఆధిక్యం దక్కినా, చివరి రోజు డారిల్ మిచెల్, గ్లెన్ ఫిలిప్స్ నాటౌట్‌గా నిలవడంతో కివీస్ 239/5తో మ్యాచ్‌ను కాపాడుకుంది. ఈ డ్రాతో WTC ఫైనల్ అవకాశాలు దెబ్బతిన్నాయి. రెండో టెస్టు నవంబర్ 27న క్రైస్ట్‌చర్చ్‌లో ప్రారంభం."
+    "h": "మిచెల్, ఫిలిప్స్ పోరాటం: వెల్లింగ్టన్ టెస్ట్ డ్రా",
+    "p": "బేసిన్ రిజర్వ్‌లో జరిగిన తొలి టెస్ట్‌లో భారత్ విజయం సాధించలేకపోయింది. చివరి రోజు న్యూజిలాండ్ 239/5 వద్ద నిలిచింది, అప్పటికీ 113 పరుగులు వెనుకబడి ఉంది. న్యూజిలాండ్ తొలి ఇన్నింగ్స్ 368 (హెన్రీ నికోల్స్ 175 నాటౌట్, గ్లెన్ ఫిలిప్స్ 118)కు జవాబుగా భారత్ 720/9 వద్ద డిక్లేర్ చేసింది; కేఎల్ రాహుల్ (136), రిషభ్ పంత్ (128) సెంచరీలు చేశారు. ప్రాణం లేని పిచ్‌పై డారిల్ మిచెల్ (49 నాటౌట్), ఫిలిప్స్ (26 నాటౌట్) నిలకడగా ఆడటంతో గంట ముందే ఇరు జట్లు డ్రాకు అంగీకరించాయి. ప్రపంచ టెస్ట్ ఛాంపియన్‌షిప్ పట్టికలో ఆస్ట్రేలియా ఇప్పుడు దక్షిణాఫ్రికాతో కలిసి అగ్రస్థానంలో ఉంది; భారత్ నాలుగో స్థానంలో ఉంది."
    },
    "src": [
     [
-     "ESPNcricinfo",
-     "https://www.cricinfo.com/series/india-in-new-zealand-2026-27-1539421/new-zealand-vs-india-1st-test-1539442/live-match-blog"
+     "Al Jazeera",
+     "https://www.aljazeera.com/sports/2026/11/23/new-zealand-india-first-test-cricket-wtc-phillips-mitchell-nicholls"
     ],
     [
-     "NZ Herald",
-     "https://www.nzherald.co.nz/sport/cricket/black-caps/black-caps-v-india-live-updates-first-test-day-five-from-wellingtons-basin-reserve/PS2ZO2E5GREJFC5GF72D3UXC3M/"
+     "Yahoo Sports (AFP)",
+     "https://uk.sports.yahoo.com/news/zealand-battle-239-5-draw-062952747.html"
     ],
     [
-     "Outlook",
+     "Outlook India",
      "https://www.outlookindia.com/sports/cricket/india-vs-new-zealand-1st-test-day-5-live-score-ind-vs-nz-scorecard-latest-updates-highlights"
     ]
    ]
@@ -345,92 +342,146 @@
   {
    "s": "sports",
    "when": {
-    "en": "November",
-    "te": "నవంబర్"
+    "en": "Next: Fri, 27 Nov",
+    "te": "తదుపరి: శుక్ర, 27 నవం"
    },
    "en": {
-    "h": "India fined 35% of match fee for slow over-rate in final ODI",
-    "p": "The ICC docked India 35% of their match fee for a slow over-rate in the last ODI against New Zealand. Next at home, India host Sri Lanka in a white-ball series starting 13 December."
+    "h": "Series decider in Christchurch from Friday",
+    "p": "With the two-Test series level, the second Test at Hagley Oval, Christchurch, runs from 27 November to 1 December, with play starting at 3:30 AM IST each day. New Zealand have lost Mitchell Santner to a fractured finger and called up Dean Foxcroft, while India added Gurnoor Brar in place of Kuldeep Yadav. India dropped Mitchell three times in Wellington, something Shubman Gill's side will want to fix."
    },
    "te": {
-    "h": "స్లో ఓవర్ రేట్: భారత్‌కు మ్యాచ్ ఫీజులో 35% జరిమానా",
-    "p": "న్యూజిలాండ్‌తో చివరి వన్డేలో నెమ్మదిగా ఓవర్లు వేసినందుకు ICC భారత జట్టుకు మ్యాచ్ ఫీజులో 35% జరిమానా విధించింది. డిసెంబర్ 13 నుంచి శ్రీలంకతో స్వదేశంలో వైట్-బాల్ సిరీస్ ఆడనుంది."
+    "h": "శుక్రవారం నుంచి క్రైస్ట్‌చర్చ్‌లో సిరీస్ నిర్ణయాత్మక టెస్ట్",
+    "p": "రెండు టెస్టుల సిరీస్ సమంగా ఉండటంతో, క్రైస్ట్‌చర్చ్‌లోని హేగ్లీ ఓవల్‌లో నవంబర్ 27 నుంచి డిసెంబర్ 1 వరకు జరిగే రెండో టెస్ట్ సిరీస్‌ను తేల్చనుంది. రోజూ భారత కాలమానం ప్రకారం తెల్లవారుజామున 3:30కి ఆట మొదలవుతుంది. వేలి ఎముక విరగడంతో మిచెల్ శాంట్నర్ దూరమవగా, న్యూజిలాండ్ డీన్ ఫాక్స్‌క్రాఫ్ట్‌ను తీసుకుంది. భారత్ కుల్దీప్ యాదవ్ స్థానంలో గుర్నూర్ బ్రార్‌ను చేర్చింది. వెల్లింగ్టన్‌లో మిచెల్‌కు మూడు సార్లు అవకాశాలు వదిలేసిన లోపాన్ని శుభ్‌మన్ గిల్ జట్టు సరిదిద్దుకోవాలి."
    },
    "src": [
     [
-     "Cricketnmore",
-     "https://www.cricketnmore.com/india-cricket"
+     "Wisden",
+     "https://www.wisden.com/series/new-zealand-vs-india-m-2026/cricket-news/nz-vs-ind-tests-2026-schedule-squads-match-timings"
     ],
     [
-     "Wikipedia",
-     "https://en.wikipedia.org/wiki/International_cricket_in_2026%E2%80%9327"
+     "Outlook India",
+     "https://www.outlookindia.com/sports/cricket/india-vs-new-zealand-1st-test-day-5-live-score-ind-vs-nz-scorecard-latest-updates-highlights"
     ]
    ]
   },
   {
    "s": "sports",
    "when": {
-    "en": "Mid-November",
-    "te": "నవంబర్ మధ్యలో"
+    "en": "Sun, 22 Nov",
+    "te": "ఆది, 22 నవం"
    },
    "en": {
-    "h": "India's under-19s win the Asia Cup with a last-ball finish",
-    "p": "India's under-19 team won the U19 Asia Cup in Oman in a final decided on the last ball. Prime Minister Modi called it an outstanding day for Indian cricket, and Home Minister Amit Shah said the title would inspire young players."
+    "h": "Wang Zhiyi keeps Hong Kong Open crown; Antonsen wins by walkover",
+    "p": "China's Wang Zhiyi defended her Hong Kong Open title on Sunday, beating Thailand's Pornpawee Chochuwong 21-16, 21-11 without dropping a game all week. Denmark's Anders Antonsen took the men's title after Thailand's Kunlavut Vitidsarn withdrew from the final, and Malaysia's Man Wei Chong and Tee Kai Wun won the men's doubles. The season ends with the BWF World Tour Finals in Hangzhou in December."
    },
    "te": {
-    "h": "చివరి బంతికి విజయం: అండర్-19 ఆసియా కప్ భారత్‌దే",
-    "p": "ఒమన్‌లో జరిగిన అండర్-19 ఆసియా కప్‌ను చివరి బంతికి తేలిన ఫైనల్‌లో భారత్ గెలుచుకుంది. ఇది భారత క్రికెట్‌కు అద్భుతమైన రోజని ప్రధాని మోదీ అన్నారు. ఈ విజయం యువ క్రీడాకారులకు స్ఫూర్తినిస్తుందని హోంమంత్రి అమిత్ షా పేర్కొన్నారు."
+    "h": "హాంకాంగ్ ఓపెన్: టైటిల్ నిలబెట్టుకున్న వాంగ్ జీయీ; వాకోవర్‌తో ఆంటోన్సెన్ విజయం",
+    "p": "చైనా క్రీడాకారిణి వాంగ్ జీయీ ఆదివారం ఫైనల్‌లో థాయ్‌లాండ్‌కు చెందిన పోర్న్‌పావీ చోచువాంగ్‌ను 21-16, 21-11తో ఓడించి హాంకాంగ్ ఓపెన్ టైటిల్‌ను నిలబెట్టుకుంది; టోర్నీ మొత్తంలో ఒక్క గేమ్ కూడా కోల్పోలేదు. థాయ్‌లాండ్ ఆటగాడు కున్లావుట్ విటిడ్‌సర్న్ ఫైనల్ నుంచి తప్పుకోవడంతో డెన్మార్క్‌కు చెందిన ఆండర్స్ ఆంటోన్సెన్ పురుషుల టైటిల్ గెలిచాడు. పురుషుల డబుల్స్‌లో మలేషియా జోడీ మాన్ వీ చాంగ్–టీ కై వున్ విజేతలుగా నిలిచారు. డిసెంబర్‌లో హాంగ్‌జౌలో జరిగే BWF వరల్డ్ టూర్ ఫైనల్స్‌తో సీజన్ ముగుస్తుంది."
    },
    "src": [
     [
-     "Cricketnmore",
-     "https://www.cricketnmore.com/india-cricket"
+     "People's Daily (Xinhua)",
+     "https://en.people.cn/n3/2026/1123/c90000-20522080.html"
     ]
    ]
   },
   {
    "s": "entertainment",
    "when": {
-    "en": "Fri, 20 Nov",
-    "te": "శుక్ర, 20 నవం"
+    "en": "Fri–Sun, 20–22 Nov",
+    "te": "శుక్ర–ఆది, 20–22 నవం"
    },
    "en": {
-    "h": "Dulquer Salmaan's Aakasamlo Oka Tara opens to an encouraging response",
-    "p": "Directed by Pavan Sadineni, the drama stars Dulquer Salmaan with Satvika Veeravalli as the female lead and Shruti Haasan in an important role. It drew positive word from its premiere shows and is presented by Swapna Cinema and Geetha Arts."
+    "h": "Aakasamlo Oka Tara grows over its first weekend, crosses ₹22 crore worldwide",
+    "p": "Dulquer Salmaan's Aakasamlo Oka Tara, directed by Pavan Sadineni, collected an estimated ₹22.70 crore gross worldwide in its first three days, according to Sacnilk figures reported by The Week. Its India net rose each day, from ₹2.90 crore on Friday to an estimated ₹5.75 crore on Sunday, with the Telugu version earning most. Strong word of mouth is driving the growth, and Gulte noted that the film has drawn almost no negative social-media talk."
    },
    "te": {
-    "h": "దుల్కర్ సల్మాన్ 'ఆకాశంలో ఒక తార'కు మంచి స్పందన",
-    "p": "పవన్ సాదినేని దర్శకత్వంలో దుల్కర్ సల్మాన్ హీరోగా, సాత్విక వీరవల్లి హీరోయిన్‌గా నటించిన ఈ చిత్రంలో శ్రుతి హాసన్ కీలక పాత్ర పోషించారు. ప్రీమియర్ షోల నుంచే సానుకూల టాక్ వచ్చింది. స్వప్న సినిమా, గీతా ఆర్ట్స్ సమర్పణలో విడుదలైంది."
+    "h": "తొలి వారాంతంలో పెరిగిన 'ఆకాశంలో ఒక తార' వసూళ్లు; ₹22 కోట్లు దాటిన గ్రాస్",
+    "p": "దుల్కర్ సల్మాన్ హీరోగా పవన్ సాదినేని దర్శకత్వంలో వచ్చిన 'ఆకాశంలో ఒక తార' మొదటి మూడు రోజుల్లో ప్రపంచవ్యాప్తంగా సుమారు ₹22.70 కోట్ల గ్రాస్ వసూలు చేసిందని శాక్‌నిల్క్ గణాంకాలతో 'ది వీక్' పేర్కొంది. భారత్‌లో నెట్ వసూళ్లు రోజురోజుకూ పెరిగాయి — శుక్రవారం ₹2.90 కోట్ల నుంచి ఆదివారం సుమారు ₹5.75 కోట్లకు. తెలుగు వెర్షన్‌దే ఎక్కువ వాటా. మంచి మౌత్ టాక్ సినిమాకు బలంగా మారింది; సోషల్ మీడియాలో దాదాపు ఎలాంటి నెగెటివ్ టాక్ లేదని గుల్టే రాసింది."
    },
    "src": [
     [
-     "Gulte",
-     "https://www.gulte.com/movienews/443205/tollywood-box-office-a-very-good-weekend-ahead"
+     "The Week",
+     "https://www.theweek.in/news/entertainment/2026/11/23/aakasamlo-oka-tara-day-3-box-office-collection.html"
     ],
     [
-     "91mobiles",
-     "https://www.91mobiles.com/entertainment/aakasam-lo-oka-tara-movie-219614"
+     "Gulte",
+     "https://www.gulte.com/movienews/443637/a-rare-telugu-film-with-zero-trolls-in-recent-times"
+    ],
+    [
+     "Sacnilk",
+     "https://www.sacnilk.com/quicknews/Aakasamlo_Oka_Tara_2026_Box_Office_Collection_Day_3"
     ]
    ]
   },
   {
    "s": "entertainment",
    "when": {
-    "en": "Thu, 19 Nov",
-    "te": "గురు, 19 నవం"
+    "en": "Fri–Sun, 20–22 Nov",
+    "te": "శుక్ర–ఆది, 20–22 నవం"
    },
    "en": {
-    "h": "Vishwak Sen's ENE Repeat keeps the laughs coming",
-    "p": "The sequel opened to decent reviews. Gulte rated it 3 out of 5 and called it a refreshing, gore-free comedy with laughs at regular intervals, a welcome change after a run of blood-soaked 'saviour' action films."
+    "h": "Dhanush's OM opens big but slows over the weekend",
+    "p": "Dhanush's OM, directed by Rajkumar Periasamy and co-starring Mammootty and Sai Pallavi, earned an estimated ₹46.56 crore net in India over its first three days, with the Telugu version contributing ₹2.78 crore on Sunday. Its ₹21 crore opening-day gross is Dhanush's biggest in India, but daily collections fell from ₹18.10 crore on Friday to an estimated ₹12.21 crore on Sunday amid mixed reviews that praised the performances but faulted the pacing."
    },
    "te": {
-    "h": "విశ్వక్ సేన్ 'ENE రిపీట్'కు నవ్వుల టాక్",
-    "p": "ఈ సీక్వెల్‌కు మంచి సమీక్షలు వచ్చాయి. గుల్టే 3/5 రేటింగ్ ఇచ్చి, రక్తపాతం లేకుండా తరచూ నవ్వించే రిఫ్రెషింగ్ కామెడీ అని పేర్కొంది. ఇటీవలి హింసాత్మక యాక్షన్ సినిమాల తర్వాత ఇది మంచి మార్పు."
+    "h": "ధనుష్ 'ఓం' భారీ ఓపెనింగ్; వారాంతంలో తగ్గిన జోరు",
+    "p": "రాజ్‌కుమార్ పెరియసామి దర్శకత్వంలో ధనుష్, మమ్ముట్టి, సాయి పల్లవి నటించిన 'ఓం' మొదటి మూడు రోజుల్లో భారత్‌లో సుమారు ₹46.56 కోట్ల నెట్ వసూలు చేసింది; ఆదివారం తెలుగు వెర్షన్ వాటా ₹2.78 కోట్లు. తొలి రోజు ₹21 కోట్ల గ్రాస్ ధనుష్ కెరీర్‌లో భారత్‌లో అతిపెద్ద ఓపెనింగ్. అయితే రోజువారీ వసూళ్లు శుక్రవారం ₹18.10 కోట్ల నుంచి ఆదివారం సుమారు ₹12.21 కోట్లకు తగ్గాయి. నటనకు ప్రశంసలు దక్కినా, కథనం నెమ్మదిగా ఉందన్న విమర్శలతో మిశ్రమ స్పందన వచ్చింది."
    },
    "src": [
     [
-     "Gulte review",
-     "https://www.gulte.com/moviereviews/442793/ene-repeat-review"
+     "ETV Bharat",
+     "https://www.etvbharat.com/en/entertainment/om-vs-aakasamlo-oka-tara-box-office-collection-day-3-which-film-is-winning-the-first-weekend-race-enn26112204317"
+    ]
+   ]
+  },
+  {
+   "s": "entertainment",
+   "when": {
+    "en": "Sun, 22 Nov",
+    "te": "ఆది, 22 నవం"
+   },
+   "en": {
+    "h": "Sharwanand turns mass hero in Bhogi trailer; film lands on 27 November",
+    "p": "The makers of Bhogi released its trailer on Sunday, showing Sharwanand as Ganga, an elder brother of five sisters who takes on a feudal gang in a remote Telangana village. Directed by Sampath Nandi, with Anupama Parameswaran and Dimple Hayathi, the film was pushed from 12 November by a censor issue and now releases on 27 November. With other films leaving that date, Bhogi is set to get most of the available screens."
+   },
+   "te": {
+    "h": "'భోగి' ట్రైలర్‌లో మాస్ హీరోగా శర్వానంద్; నవంబర్ 27న విడుదల",
+    "p": "'భోగి' ట్రైలర్‌ను ఆదివారం విడుదల చేశారు. తెలంగాణలోని ఓ మారుమూల గ్రామంలో పటేల్ ముఠాను ఎదిరించే, ఐదుగురు చెల్లెళ్ల అన్న 'గంగ' పాత్రలో శర్వానంద్ కనిపిస్తున్నారు. సంపత్ నంది దర్శకత్వంలో అనుపమ పరమేశ్వరన్, డింపుల్ హయతి హీరోయిన్లుగా నటించిన ఈ సినిమా సెన్సార్ సమస్య వల్ల నవంబర్ 12 నుంచి వాయిదా పడి, ఇప్పుడు నవంబర్ 27న విడుదలవుతోంది. అదే తేదీ నుంచి ఇతర సినిమాలు తప్పుకోవడంతో ఎక్కువ థియేటర్లు 'భోగి'కే దక్కనున్నాయి."
+   },
+   "src": [
+    [
+     "Gulte Telugu",
+     "https://telugu.gulte.com/movie-news/159918/bhogi-trailer-sharwanands-blood-fest"
+    ],
+    [
+     "Gulte Telugu",
+     "https://telugu.gulte.com/movie-news/159889/sharwas-bhogi-gets-open-ground-at-box-office"
+    ]
+   ]
+  },
+  {
+   "s": "entertainment",
+   "when": {
+    "en": "Sun, 22 Nov",
+    "te": "ఆది, 22 నవం"
+   },
+   "en": {
+    "h": "Rashmika's Mysaa postponed; Vrushakarma stays on 4 December",
+    "p": "The makers of Rashmika Mandanna's Mysaa have officially postponed its 27 November release, saying they do not want to compromise on quality; a new date will be announced later. Bellamkonda Sai Srinivas's Haindava had already moved off the same date. Meanwhile, the producers of Naga Chaitanya's mystic thriller Vrushakarma, directed by Karthik Dandu with Meenakshi Chaudhary, denied postponement rumours and confirmed a 4 December release."
+   },
+   "te": {
+    "h": "రష్మిక 'మైసా' వాయిదా; డిసెంబర్ 4నే 'వృషకర్మ'",
+    "p": "నవంబర్ 27న రావాల్సిన రష్మిక మందన్న 'మైసా' విడుదలను నాణ్యత విషయంలో రాజీ పడకూడదనే ఉద్దేశంతో వాయిదా వేసినట్లు నిర్మాతలు అధికారికంగా ప్రకటించారు; కొత్త తేదీని త్వరలో చెబుతామన్నారు. బెల్లంకొండ సాయి శ్రీనివాస్ 'హైందవ' కూడా ఇదివరకే ఆ తేదీ నుంచి తప్పుకుంది. మరోవైపు, కార్తీక్ దండు దర్శకత్వంలో నాగ చైతన్య, మీనాక్షి చౌదరి నటించిన మిస్టిక్ థ్రిల్లర్ 'వృషకర్మ' వాయిదా పడుతుందన్న పుకార్లను నిర్మాణ సంస్థ ఖండించి, డిసెంబర్ 4న విడుదల ఖాయమని స్పష్టం చేసింది."
+   },
+   "src": [
+    [
+     "Gulte Telugu",
+     "https://telugu.gulte.com/movie-news/159881/rashmikas-mysaa-officially-postponed"
+    ],
+    [
+     "Gulte Telugu",
+     "https://telugu.gulte.com/movie-news/159884/official-no-postponement-for-vrushakarma"
     ]
    ]
   },
@@ -441,38 +492,17 @@
     "te": "సోమ, 23 నవం"
    },
    "en": {
-    "h": "Vishnu Manchu to lead Prabhu Deva's Telugu-Tamil action thriller",
-    "p": "Announced on his birthday, Vishnu Manchu will headline a bilingual action thriller directed by Prabhu Deva, tentatively called #VM24. It will be his first acting project in Tamil cinema, and shooting is expected to begin soon."
+    "h": "Kiran Abbavaram launches his 14th film, titled Record",
+    "p": "Kiran Abbavaram's 14th film was launched with a pooja ceremony on Monday and titled Record, with a pre-look poster showing a horse under a blood-red moon. Directed by Veera Kogatam and backed by producers including Sukumar Writings, the film has music by Justin Prabhakaran; Dil Raju, Bunny Vas and Sukumar attended the launch. Regular shooting begins soon, and Kiran's next release, Reality, is due in December."
    },
    "te": {
-    "h": "ప్రభుదేవా దర్శకత్వంలో విష్ణు మంచు ద్విభాషా యాక్షన్ థ్రిల్లర్",
-    "p": "తన పుట్టినరోజు సందర్భంగా విష్ణు మంచు కొత్త సినిమాను ప్రకటించారు. ప్రభుదేవా దర్శకత్వంలో తెలుగు, తమిళ భాషల్లో రానున్న ఈ యాక్షన్ థ్రిల్లర్‌కు తాత్కాలికంగా #VM24 అని పేరు పెట్టారు. తమిళ సినిమాలో ఆయనకు ఇదే తొలి చిత్రం. త్వరలో షూటింగ్ ప్రారంభం కానుంది."
+    "h": "కిరణ్ అబ్బవరం 14వ సినిమా 'రికార్డ్' ప్రారంభం",
+    "p": "కిరణ్ అబ్బవరం 14వ సినిమా సోమవారం పూజా కార్యక్రమంతో ప్రారంభమైంది. దీనికి 'రికార్డ్' అనే టైటిల్ పెట్టారు; ఎర్రటి పౌర్ణమి చంద్రుడి నేపథ్యంలో గుర్రం ఉన్న ప్రీ-లుక్ పోస్టర్‌ను విడుదల చేశారు. వీర కోగటం దర్శకత్వం వహిస్తున్న ఈ సినిమాను సుకుమార్ రైటింగ్స్ సహా పలు సంస్థలు నిర్మిస్తున్నాయి; జస్టిన్ ప్రభాకరన్ సంగీతం అందిస్తున్నారు. కార్యక్రమానికి దిల్ రాజు, బన్నీ వాసు, సుకుమార్ హాజరయ్యారు. త్వరలో రెగ్యులర్ షూటింగ్ మొదలవుతుంది; కిరణ్ తదుపరి సినిమా 'రియాలిటీ' డిసెంబర్‌లో విడుదల కానుంది."
    },
    "src": [
     [
-     "Telangana Today",
-     "https://telanganatoday.com/vishnu-manchu-to-headline-prabhu-devas-tamil-telugu-bilingual-film"
-    ]
-   ]
-  },
-  {
-   "s": "entertainment",
-   "when": {
-    "en": "Mon, 23 Nov",
-    "te": "సోమ, 23 నవం"
-   },
-   "en": {
-    "h": "Birthday today: Anil Ravipudi's run of nine straight hits",
-    "p": "Director Anil Ravipudi turns a year older today with an unbeaten streak of nine consecutive box-office hits, a record that has made him one of Telugu cinema's most dependable filmmakers."
-   },
-   "te": {
-    "h": "నేడు అనిల్ రావిపూడి పుట్టినరోజు: వరుసగా తొమ్మిది హిట్లు",
-    "p": "దర్శకుడు అనిల్ రావిపూడి ఈరోజు పుట్టినరోజు జరుపుకుంటున్నారు. వరుసగా తొమ్మిది బాక్సాఫీస్ హిట్లతో ఓటమి లేని రికార్డు ఆయనది. ఈ రికార్డుతో తెలుగు సినిమాలో అత్యంత నమ్మకమైన దర్శకుల్లో ఒకరిగా నిలిచారు."
-   },
-   "src": [
-    [
-     "Telugu360",
-     "https://www.telugu360.com/anil-ravipudi-a-rare-phenomenon-in-telugu-cinema/"
+     "The Hans India",
+     "https://www.thehansindia.com/cinema/tollywood/kiran-abbavaram-announces-his-next-as-record-1144949"
     ]
    ]
   },
@@ -548,31 +578,6 @@
     [
      "Hindutone",
      "https://hindutone.com/news/koti-deepotsavam-2026-opening-ntr-stadium/"
-    ]
-   ]
-  },
-  {
-   "s": "devotional",
-   "when": {
-    "en": "10 Nov – 8 Dec",
-    "te": "నవం 10 – డిసెం 8"
-   },
-   "en": {
-    "h": "Karthika Masam calendar: the key days still ahead",
-    "p": "Karthika Masam runs from 10 November to 8 December this year in Telangana and Andhra Pradesh. After Pournami on 24 November come the third Somavaram on 30 November, Kalabhairava Jayanti on 1 December, the fourth Somavaram on 7 December, and Karthika Amavasya on 8 December, which closes the month."
-   },
-   "te": {
-    "h": "కార్తీక మాసం: ఇంకా రానున్న ముఖ్యమైన రోజులు",
-    "p": "ఈ ఏడాది తెలంగాణ, ఆంధ్రప్రదేశ్‌లో కార్తీక మాసం నవంబర్ 10 నుంచి డిసెంబర్ 8 వరకు. నవంబర్ 24 పౌర్ణమి తర్వాత నవంబర్ 30న మూడో సోమవారం, డిసెంబర్ 1న కాలభైరవ జయంతి, డిసెంబర్ 7న నాలుగో సోమవారం, డిసెంబర్ 8న కార్తీక అమావాస్యతో మాసం ముగుస్తుంది."
-   },
-   "src": [
-    [
-     "Sri Sakthi Peetam",
-     "https://store.srisakthipeetam.org/pages/karthika-masam-2026"
-    ],
-    [
-     "Karishye",
-     "https://karishye.co/pages/karthika-masam-2026"
     ]
    ]
   }
