@@ -41,17 +41,25 @@ Pushing to `main` deploys to Firebase automatically (see `.github/workflows/depl
 - `significance`: why today matters for Telugu readers — the tithi/festival/observance (with its tradition and meaning), and any notable anniversary (jayanti, punyatithi, national/international day). Dates must come from fetched sources.
 - `history`: 3–5 verified events that happened on this calendar date (India and Telugu states first), oldest first. Each must be verifiable from a fetched source listed in `src`.
 
-## Spirituality column (`column`) — new each morning, kept in the evening
+## Mantra of the day (`mantra`) — next mantra each morning, kept in the evening
+Replaces the old spirituality column (`column` is no longer used; leave it out).
 ```json
-"column": {"by": {"en": "Susthira News desk", "te": "సుస్థిర న్యూస్ డెస్క్"},
-  "verse": {"en": "transliteration", "te": "తెలుగు లిపిలో శ్లోకం", "ref": {"en": "Bhagavad Gita 2.47", "te": "భగవద్గీత 2.47"}},
-  "en": {"h": "Title", "body": ["para", "para", "para", "para"]},
-  "te": {"h": "శీర్షిక", "body": ["...", "...", "...", "..."]}}
+"mantra": {"series": {"en": "Isha Upanishad", "te": "ఈశావాస్య ఉపనిషత్తు"}, "n": 2, "total": 18,
+  "ref": {"en": "Isha Upanishad · Mantra 2", "te": "ఈశావాస్య ఉపనిషత్తు · మంత్రం 2"},
+  "by": {"en": "Susthira News desk", "te": "సుస్థిర న్యూస్ డెస్క్"},
+  "note": {"en": "Explanation follows Adi Shankaracharya's commentary", "te": "వివరణ ఆది శంకరాచార్యుల భాష్యం ఆధారంగా"},
+  "text": {"te": "line 1 ।\nline 2 ॥", "en": "IAST transliteration line 1 |\nline 2 ||"},
+  "words": [{"w": "తెలుగు లిపిలో పదం", "tr": "iast", "en": "meaning", "te": "అర్థం"}],
+  "meaning": {"en": "2–3 sentence meaning", "te": "భావం"},
+  "explain": {"en": ["para", "para", "para"], "te": ["...", "...", "..."]},
+  "practice": {"en": "one small thing to practise today", "te": "..."}}
 ```
-- 220–320 words per language, 3–5 short paragraphs, warm and simple. Telugu written naturally, not translated word for word.
-- Draw on classical sources (Upanishads, Bhagavad Gita, Brahma Sutras, Yoga Sutras, saints like Annamayya, Vemana, Tyagaraja, Potana) and link to the season or day when possible. Quote only the short Sanskrit/Telugu verse (classical texts only), with its exact reference; never invent a verse or reference.
-- Explain ideas as the tradition teaches them ("the Upanishads teach…"), end with one small practice for the reader. No predictions, astrology, miracle claims, health claims, or criticism of any faith.
-- Byline stays "Susthira News desk". Change the column only in the morning edition; the evening edition keeps the morning column.
+- Sequence: Isha Upanishad mantras 1→18, then Kena (35), Katha, Mundaka, Mandukya (12), then the Bhagavad Gita (selected verses, in chapter order). Each morning take the NEXT mantra after the one in the current file (`n` + 1; when a series ends, start the next with `n`: 1 and its `total`). Never skip or repeat.
+- Text: the standard (Shankara-tradition) reading, in Telugu script with correct Sanskrit spelling, ।/॥ dandas, lines split with \n; IAST transliteration. Verify the text against a reliable source fetched in the run (e.g. a published edition, sanskritdocuments.org, Gita Supersite) — character by character.
+- Words: every word or compound of the mantra in order, with IAST and short meanings in en + te.
+- Meaning 2–3 sentences; explanation 3 short paragraphs (220–320 words per language) following Shankara's commentary, simply worded, with an everyday example; ideas framed as what the tradition/Upanishad teaches. Practice: one small, concrete thing for today.
+- No astrology, predictions, miracle or health claims. Byline stays "Susthira News desk".
+- Evening edition keeps the morning mantra unchanged.
 
 ## AI explainer (`ai`) — new each morning, kept in the evening
 ```json

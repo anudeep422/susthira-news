@@ -690,38 +690,6 @@
    ]
   ]
  },
- "column": {
-  "by": {
-   "en": "Susthira News desk",
-   "te": "సుస్థిర న్యూస్ డెస్క్"
-  },
-  "verse": {
-   "en": "asato mā sad gamaya, tamaso mā jyotir gamaya, mṛtyor mā amṛtaṁ gamaya",
-   "te": "అసతో మా సద్గమయ, తమసో మా జ్యోతిర్గమయ, మృత్యోర్మా అమృతం గమయ",
-   "ref": {
-    "en": "Brihadaranyaka Upanishad 1.3.28",
-    "te": "బృహదారణ్యక ఉపనిషత్తు 1.3.28"
-   }
-  },
-  "en": {
-   "h": "The lamp we light each Karthika evening",
-   "body": [
-    "All through Karthika, homes and temples glow with small clay lamps at dusk. It is easy to see this as a beautiful custom and nothing more. But the Upanishads give the lamp a deeper meaning, in one of the oldest prayers we have: lead me from darkness to light.",
-    "The darkness in this prayer is not the night outside. It is the darkness of not knowing: forgetting who we really are, and mistaking our worries, roles and possessions for ourselves. The light is clear understanding, the awareness that quietly watches every thought and feeling without being disturbed by them.",
-    "A lamp does not argue with the dark. It simply shines, and the darkness is gone. In the same way, the tradition teaches that peace does not come from fighting the mind, but from seeing it clearly. When we sit still for a few minutes and watch our thoughts come and go, a little of that light appears.",
-    "So tonight, as you light the Karthika deepam, try this: before lighting it, sit for two minutes in silence. As the flame catches, let it be a reminder of the light within, the one that was never put out, even on our darkest days."
-   ]
-  },
-  "te": {
-   "h": "కార్తీక సాయంత్రం మనం వెలిగించే దీపం",
-   "body": [
-    "కార్తీక మాసమంతా సాయంత్రం వేళ ఇళ్లు, ఆలయాలు చిన్న మట్టి దీపాలతో వెలిగిపోతాయి. దీన్ని ఒక అందమైన ఆచారంగా మాత్రమే చూడటం సులభం. కానీ ఉపనిషత్తులు దీపానికి లోతైన అర్థం ఇస్తాయి. మనకున్న అతి పురాతన ప్రార్థనల్లో ఒకటి చెబుతోంది: చీకటి నుంచి వెలుగు వైపు నన్ను నడిపించు.",
-    "ఈ ప్రార్థనలోని చీకటి బయటి రాత్రి కాదు. అది అజ్ఞానం అనే చీకటి: మనం నిజంగా ఎవరమో మర్చిపోయి, మన ఆందోళనలు, పాత్రలు, ఆస్తులే మనమని పొరపడటం. వెలుగు అంటే స్పష్టమైన అవగాహన. ప్రతి ఆలోచనను, ప్రతి భావనను కలవరపడకుండా నిశ్శబ్దంగా గమనించే చైతన్యం.",
-    "దీపం చీకటితో వాదించదు. అది కేవలం వెలుగుతుంది, చీకటి తొలగిపోతుంది. అలాగే మనసుతో పోరాడటం వల్ల కాదు, దాన్ని స్పష్టంగా చూడటం వల్లే శాంతి వస్తుందని మన సంప్రదాయం చెబుతుంది. కొన్ని నిమిషాలు నిశ్చలంగా కూర్చుని ఆలోచనలు వచ్చి వెళ్లడాన్ని గమనిస్తే, ఆ వెలుగు కొంచెం కనిపిస్తుంది.",
-    "కాబట్టి ఈ రాత్రి కార్తీక దీపం వెలిగించే ముందు రెండు నిమిషాలు మౌనంగా కూర్చోండి. జ్యోతి వెలిగినప్పుడు, అది మనలోని వెలుగును గుర్తు చేయనివ్వండి. మన చీకటి రోజుల్లో కూడా ఎప్పుడూ ఆరిపోని వెలుగు అది."
-   ]
-  }
- },
  "ai": {
   "by": {
    "en": "Susthira News desk",
@@ -746,6 +714,112 @@
     "కాబట్టి AIని ఉపయోగపడే సహాయకుడిగా వాడండి, చివరి మాటగా కాదు. రాయడానికి, వివరించడానికి, ఆలోచనలు పొందడానికి ఇది అద్భుతం. డబ్బు, ఆరోగ్యం, చట్టం, వార్తల లాంటి ముఖ్యమైన విషయాల్లో నమ్మకమైన మూలంతో సరిచూసుకోండి. ఆధార్ నంబర్, బ్యాంక్ వివరాలు, పాస్‌వర్డ్‌లు, OTPలను ఏ చాట్‌బాట్‌లోనూ ఎప్పుడూ టైప్ చేయకండి."
    ],
    "tip": "ఏదైనా AI చాట్‌బాట్‌ను ఇలా అడగండి: \"ఫిక్స్‌డ్ డిపాజిట్ ఎలా పనిచేస్తుందో సులభమైన తెలుగులో 5 లైన్లలో చెప్పు.\" తర్వాత అడగండి: \"నీ సమాధానంలో నేను ఏ విషయాలు మళ్లీ సరిచూసుకోవాలి, ఎక్కడ?\" రెండో ప్రశ్నకు అది ఎలా స్పందిస్తుందో గమనించండి."
+  }
+ },
+ "mantra": {
+  "series": {
+   "en": "Isha Upanishad",
+   "te": "ఈశావాస్య ఉపనిషత్తు"
+  },
+  "n": 1,
+  "total": 18,
+  "ref": {
+   "en": "Isha Upanishad · Mantra 1",
+   "te": "ఈశావాస్య ఉపనిషత్తు · మంత్రం 1"
+  },
+  "by": {
+   "en": "Susthira News desk",
+   "te": "సుస్థిర న్యూస్ డెస్క్"
+  },
+  "note": {
+   "en": "Explanation follows Adi Shankaracharya's commentary",
+   "te": "వివరణ ఆది శంకరాచార్యుల భాష్యం ఆధారంగా"
+  },
+  "text": {
+   "te": "ఈశా వాస్యమిదం సర్వం యత్కించ జగత్యాం జగత్ ।\nతేన త్యక్తేన భుంజీథా మా గృధః కస్యస్విద్ధనమ్ ॥",
+   "en": "īśā vāsyam idaṁ sarvaṁ yat kiñca jagatyāṁ jagat |\ntena tyaktena bhuñjīthā mā gṛdhaḥ kasya svid dhanam ||"
+  },
+  "words": [
+   {
+    "w": "ఈశా",
+    "tr": "īśā",
+    "en": "by the Lord",
+    "te": "ఈశ్వరునిచే"
+   },
+   {
+    "w": "వాస్యం",
+    "tr": "vāsyam",
+    "en": "is to be covered, pervaded",
+    "te": "ఆవరించబడాలి, నిండి ఉంది"
+   },
+   {
+    "w": "ఇదం సర్వం",
+    "tr": "idaṁ sarvam",
+    "en": "all this",
+    "te": "ఇదంతా"
+   },
+   {
+    "w": "యత్ కించ",
+    "tr": "yat kiñca",
+    "en": "whatever",
+    "te": "ఏదైతే ఉందో"
+   },
+   {
+    "w": "జగత్యాం",
+    "tr": "jagatyām",
+    "en": "in this world",
+    "te": "ఈ లోకంలో"
+   },
+   {
+    "w": "జగత్",
+    "tr": "jagat",
+    "en": "moves and changes",
+    "te": "కదిలేది, మారేది"
+   },
+   {
+    "w": "తేన త్యక్తేన",
+    "tr": "tena tyaktena",
+    "en": "through that renunciation",
+    "te": "ఆ త్యాగం ద్వారా"
+   },
+   {
+    "w": "భుంజీథాః",
+    "tr": "bhuñjīthāḥ",
+    "en": "enjoy, sustain yourself",
+    "te": "అనుభవించు, పోషించుకో"
+   },
+   {
+    "w": "మా గృధః",
+    "tr": "mā gṛdhaḥ",
+    "en": "do not covet",
+    "te": "ఆశపడకు"
+   },
+   {
+    "w": "కస్యస్విత్ ధనం",
+    "tr": "kasya svid dhanam",
+    "en": "whose is wealth?",
+    "te": "ధనం ఎవరిది?"
+   }
+  ],
+  "meaning": {
+   "en": "Whatever moves and changes in this world, all of it is to be seen as covered by the Lord. Enjoy life through that spirit of letting go. Do not covet; for whose, really, is wealth?",
+   "te": "ఈ లోకంలో కదిలేది, మారేది ఏదైతే ఉందో, అదంతా ఈశ్వరునితో నిండి ఉన్నట్లు చూడాలి. ఆ త్యాగ భావంతో జీవితాన్ని అనుభవించు. ఎవరి ధనాన్నీ ఆశించకు; నిజానికి ధనం ఎవరిది?"
+  },
+  "explain": {
+   "en": [
+    "This is the opening mantra of the Isha Upanishad, and it holds the whole Upanishad in seed form. Its first word gives the text its name. The mantra asks us to see the world in a new way: not as a collection of things to grab, but as something filled through and through with the divine.",
+    "Shankaracharya explains 'covering' with a simple example. Sandalwood kept in water can start to smell bad; when you rub it, its own natural fragrance covers that smell. In the same way, when we see everything as pervaded by the Lord, the false sense of 'this is mine' fades away. Renunciation here does not mean running to the forest. It means dropping the grip of ownership while still living fully.",
+    "The last line is a gentle question: whose is wealth? Money, land and possessions come to us and pass on to others. The tradition teaches that when we hold them as caretakers rather than owners, greed loses its power and a deep contentment remains. Mahatma Gandhi admired this verse so much that he said it alone could carry the essence of the whole tradition."
+   ],
+   "te": [
+    "ఇది ఈశావాస్య ఉపనిషత్తు మొదటి మంత్రం. మొత్తం ఉపనిషత్తు సారం ఈ ఒక్క మంత్రంలోనే బీజరూపంలో ఉంది. ఉపనిషత్తుకు పేరు కూడా ఇందులోని మొదటి పదం నుంచే వచ్చింది. ప్రపంచాన్ని లాక్కోవలసిన వస్తువుల గుంపుగా కాకుండా, అణువణువునా భగవంతునితో నిండినదిగా చూడమని ఈ మంత్రం చెబుతుంది.",
+    "'ఆవరించడం' అంటే ఏమిటో శంకరాచార్యులు ఒక చక్కని ఉదాహరణతో వివరిస్తారు. నీటిలో ఉంచిన చందనపు చెక్కకు దుర్వాసన రావచ్చు; దాన్ని అరగదీస్తే దాని సహజ సుగంధం ఆ వాసనను కప్పేస్తుంది. అలాగే అన్నిటిలో ఈశ్వరుణ్ణి చూసినప్పుడు 'ఇది నాది' అనే తప్పుడు భావన తొలగిపోతుంది. ఇక్కడ త్యాగం అంటే అడవికి వెళ్లిపోవడం కాదు; పూర్తిగా జీవిస్తూనే యాజమాన్య భావనను వదలడం.",
+    "చివరి పంక్తి ఒక సున్నితమైన ప్రశ్న: ధనం ఎవరిది? డబ్బు, భూమి, ఆస్తులు మన దగ్గరికి వస్తాయి, మళ్లీ ఇతరులకు వెళ్లిపోతాయి. వాటికి యజమానులుగా కాకుండా సంరక్షకులుగా ఉన్నప్పుడు దురాశ బలం కోల్పోతుందని, లోతైన తృప్తి మిగులుతుందని మన సంప్రదాయం బోధిస్తుంది. మహాత్మా గాంధీ ఈ మంత్రాన్ని ఎంతగానో మెచ్చుకుని, సంప్రదాయ సారమంతా ఈ ఒక్క శ్లోకంలోనే ఉందని అన్నారు."
+   ]
+  },
+  "practice": {
+   "en": "Today, before you eat, spend money or pick up your phone, pause for one breath and think: 'This is given to me, not owned by me.' Then enjoy it with gratitude.",
+   "te": "ఈరోజు భోజనం చేసే ముందు, డబ్బు ఖర్చు చేసే ముందు, ఫోన్ తీసుకునే ముందు ఒక్క శ్వాస ఆగి ఇలా అనుకోండి: 'ఇది నాకు ఇవ్వబడింది, నా సొంతం కాదు.' తర్వాత కృతజ్ఞతతో అనుభవించండి."
   }
  }
 }

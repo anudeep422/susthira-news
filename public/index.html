@@ -6,7 +6,7 @@
 <title>Susthira News</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@500;700;800&family=Noto+Sans+Telugu:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@500;700;800&family=Noto+Sans+Telugu:wght@400;600&family=Noto+Serif+Telugu:wght@500;700&display=swap" rel="stylesheet">
 <style>
 /* VOICE everyday news, read by families and clients in Telangana and Andhra Pradesh
    IDEA a colourful Telugu daily: red masthead, each section has its own colour and icon
@@ -115,6 +115,37 @@ footer b{color:var(--ink)}
 .aicol .tip b{display:block;font:800 17px "Anek Telugu",sans-serif;color:var(--c);margin-bottom:4px}
 .aicol .tip p{margin:0;font-size:16px}
 @media(max-width:820px){.aicol{grid-template-columns:minmax(0,1fr)}}
+.mantra{--c:var(--devotional);--ink2:light-dark(#3b1f0a,#f6e7cf);margin-block:clamp(16px,2.4vw,28px);background:var(--card);border:1px solid color-mix(in srgb,var(--c) 30%,var(--rule));border-radius:20px;overflow:hidden;box-shadow:0 8px 28px rgba(0,0,0,.07)}
+.mantra .mh{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 20px;padding:14px clamp(18px,3vw,32px);background:linear-gradient(100deg,color-mix(in srgb,var(--c) 92%,#000),color-mix(in srgb,var(--c) 70%,#e0263f));color:#fff}
+.mantra .mh .t{display:flex;align-items:center;gap:10px;font:800 20px "Anek Telugu",sans-serif}
+.mantra .mh .t svg{width:26px;height:26px}
+.mantra .prog{display:flex;align-items:center;gap:10px;font:600 14px "Noto Sans Telugu",sans-serif;white-space:nowrap}
+.mantra .prog i{display:block;width:clamp(80px,14vw,160px);height:6px;border-radius:6px;background:rgba(255,255,255,.3);overflow:hidden}
+.mantra .prog i b{display:block;height:100%;background:#fff;border-radius:6px}
+.mantra .verse{position:relative;text-align:center;padding:clamp(22px,4vw,44px) clamp(18px,5vw,64px) clamp(18px,3vw,30px);background:radial-gradient(120% 90% at 50% 0%,color-mix(in srgb,var(--c) 13%,var(--card)),var(--card) 70%);border-bottom:1px solid color-mix(in srgb,var(--c) 22%,var(--rule))}
+.mantra .verse::before,.mantra .verse::after{content:"";display:block;width:120px;height:2px;margin:0 auto;background:linear-gradient(90deg,transparent,var(--c),transparent)}
+.mantra .verse::before{margin-bottom:18px}.mantra .verse::after{margin-top:18px}
+.mantra .src-t{font:600 14px "Noto Sans Telugu",sans-serif;color:var(--c);margin:0 0 12px}
+.mantra .sk{font:700 clamp(21px,2.9vw,31px)/1.75 "Noto Serif Telugu","Anek Telugu",serif;color:var(--ink2);margin:0;white-space:pre-line;text-wrap:balance}
+.mantra .tr{font:italic 400 clamp(15px,1.6vw,17px)/1.6 Georgia,"Times New Roman",serif;color:var(--soft);margin:12px auto 0;max-width:62ch;white-space:pre-line}
+.mantra .mb{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:clamp(18px,3vw,36px);padding:clamp(18px,3vw,32px)}
+.mantra h3{display:flex;align-items:center;gap:8px;font:800 18px "Anek Telugu",sans-serif;color:var(--c);margin:0 0 10px}
+.mantra h3 small{font:400 13px "Noto Sans Telugu",sans-serif;color:var(--soft)}
+.words{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px;margin:0 0 22px}
+.words div{border:1px solid var(--rule);border-radius:10px;padding:8px 11px;background:color-mix(in srgb,var(--c) 4%,var(--card))}
+.words b{display:block;font:700 17px/1.3 "Noto Serif Telugu","Anek Telugu",serif;color:var(--ink2)}
+.words em{display:block;font:italic 13px Georgia,serif;color:var(--soft)}
+.words span{display:block;font-size:14.5px;line-height:1.4;margin-top:3px}
+.bhavam{margin:0;padding:14px 18px;border-left:4px solid var(--c);border-radius:0 12px 12px 0;background:color-mix(in srgb,var(--c) 9%,var(--card));font:500 17.5px/1.65 "Noto Sans Telugu",sans-serif}
+.mantra .ex p{margin:0 0 12px;font-size:16.5px;line-height:1.75}
+.mantra .prac{display:flex;gap:14px;align-items:flex-start;margin-top:6px;padding:14px 16px;border-radius:12px;background:var(--bg);border:1px dashed color-mix(in srgb,var(--c) 50%,var(--rule))}
+.mantra .prac svg{flex:none;width:26px;height:26px;color:var(--c);margin-top:2px}
+.mantra .prac b{display:block;font:800 16px "Anek Telugu",sans-serif;color:var(--c)}
+.mantra .prac p{margin:2px 0 0;font-size:16px}
+.mantra .mf{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 16px;padding:12px clamp(18px,3vw,32px);border-top:1px solid var(--rule);font-size:13.5px;color:var(--soft)}
+.today1{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:8px 32px;align-items:start}
+.today1 .hd{grid-column:1/-1}
+@media(max-width:820px){.mantra .mb,.today1{grid-template-columns:minmax(0,1fr)}}
 @media(max-width:900px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:760px){.lead{grid-template-columns:minmax(0,1fr)}}
 @media(max-width:600px){.grid{grid-template-columns:minmax(0,1fr)}.meta .date{flex-basis:100%}.hero{border-radius:14px}}
@@ -157,10 +188,10 @@ const ICON={
 };
 const svg=(k,c="")=>`<svg class="${c}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICON[k]||""}</svg>`;
 const UI={
- en:{all:"Top stories",more:"More",read:"Read full report:",lead:"Top story",mkts:"Markets",share:"Share on WhatsApp",today:"This day",hist:"On this day in history",col:"Spirituality column",ai:"AI explained",tip:"Try this today",empty:"No stories in this section yet.",fail:"News could not be loaded. Please refresh the page.",
+ en:{all:"Top stories",more:"More",read:"Read full report:",lead:"Top story",mkts:"Markets",share:"Share on WhatsApp",today:"This day",hist:"On this day in history",col:"Spirituality column",ai:"AI explained",tip:"Try this today",mtr:"Mantra of the day",words:"Word by word",bhav:"Meaning",expl:"Explanation",prac:"In daily life",of:"of",empty:"No stories in this section yet.",fail:"News could not be loaded. Please refresh the page.",
   contact:"Contact and grievances: Anudeep Kumar, 88853 25418",
   foot:"Summaries are written by Susthira News from the linked reports. Market figures are for information only and are not investment advice. To report an error or raise a grievance, contact us at the number above."},
- te:{all:"ముఖ్య వార్తలు",more:"మరిన్ని",read:"పూర్తి కథనం:",lead:"ప్రధాన వార్త",mkts:"మార్కెట్లు",share:"వాట్సాప్‌లో షేర్ చేయండి",today:"ఈ రోజు ప్రత్యేకత",hist:"చరిత్రలో ఈ రోజు",col:"ఆధ్యాత్మిక కాలమ్",ai:"AI సులభంగా",tip:"ఈరోజు ప్రయత్నించండి",empty:"ఈ విభాగంలో ఇంకా వార్తలు లేవు.",fail:"వార్తలు లోడ్ కాలేదు. దయచేసి పేజీని రీఫ్రెష్ చేయండి.",
+ te:{all:"ముఖ్య వార్తలు",more:"మరిన్ని",read:"పూర్తి కథనం:",lead:"ప్రధాన వార్త",mkts:"మార్కెట్లు",share:"వాట్సాప్‌లో షేర్ చేయండి",today:"ఈ రోజు ప్రత్యేకత",hist:"చరిత్రలో ఈ రోజు",col:"ఆధ్యాత్మిక కాలమ్",ai:"AI సులభంగా",tip:"ఈరోజు ప్రయత్నించండి",mtr:"ఈ రోజు మంత్రం",words:"పదార్థం",bhav:"భావం",expl:"వివరణ",prac:"జీవితంలో",of:"/",empty:"ఈ విభాగంలో ఇంకా వార్తలు లేవు.",fail:"వార్తలు లోడ్ కాలేదు. దయచేసి పేజీని రీఫ్రెష్ చేయండి.",
   contact:"సంప్రదింపులు, ఫిర్యాదులు: అనుదీప్ కుమార్, 88853 25418",
   foot:"సారాంశాలను సుస్థిర న్యూస్ కింద ఇచ్చిన కథనాల ఆధారంగా రాసింది. మార్కెట్ గణాంకాలు సమాచారం కోసం మాత్రమే, పెట్టుబడి సలహా కాదు. తప్పులు లేదా ఫిర్యాదుల కోసం పై నంబర్‌ను సంప్రదించండి."}
 };
@@ -181,11 +212,29 @@ function chartHTML(c){
   const max=Math.max(...c.bars.map(b=>Math.abs(b.v)))||1;
   return `<figure class="chart" style="margin:0"><h2>${esc(T(c.title))}</h2><p class="sub">${esc(T(c.sub))}</p><div class="bars">${c.bars.map(b=>`<div class="n">${esc(T(b))}<small>${esc(T(b.w))}</small></div><div class="t"><i class="${b.v>0?"up":(b.hi?"hi":"")}" style="width:${(Math.abs(b.v)/max*100).toFixed(1)}%"></i></div><div class="v">${fmt(b.v,c.unit)}</div>`).join("")}</div>${c.note?`<p class="note">${esc(T(c.note))}</p>`:""}</figure>`;
 }
+function mantraHTML(){
+  const u=UI[lang],m=D.mantra;
+  if(!m||!m.text)return "";
+  const pct=m.total?Math.min(100,Math.round(m.n/m.total*100)):0;
+  const lotus='<path d="M12 20c-4 0-8-2.5-9-6 3 0 5.5 1 7 3-1.5-3-1.5-7 2-11 3.5 4 3.5 8 2 11 1.5-2 4-3 7-3-1 3.5-5 6-9 6z"/>';
+  const ic=`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true">${lotus}</svg>`;
+  const ex=(m.explain&&m.explain[lang])||[];
+  const wa="https://wa.me/?text="+encodeURIComponent(`${u.mtr} — ${T(m.ref)}\n\n${m.text.te}\n\n${u.bhav}: ${T(m.meaning)}\n\n${lang==="te"?"సుస్థిర న్యూస్":"Susthira News"}: ${location.origin}${location.pathname}#devotional`);
+  return `<section class="mantra" aria-label="${u.mtr}">
+   <div class="mh"><span class="t">${ic}${u.mtr}</span>${m.total?`<span class="prog">${esc(T(m.series))} · ${m.n} ${u.of} ${m.total}<i><b style="width:${pct}%"></b></i></span>`:`<span class="prog">${esc(T(m.series))}</span>`}</div>
+   <div class="verse"><p class="src-t">${esc(T(m.ref))}</p><p class="sk" lang="sa">${esc(m.text.te)}</p>${m.text.en?`<p class="tr">${esc(m.text.en)}</p>`:""}</div>
+   <div class="mb"><div>${(m.words||[]).length?`<h3>${u.words}</h3><div class="words">${m.words.map(w=>`<div><b>${esc(w.w)}</b>${w.tr?`<em>${esc(w.tr)}</em>`:""}<span>${esc(T(w))}</span></div>`).join("")}</div>`:""}<h3>${u.bhav}</h3><p class="bhavam">${esc(T(m.meaning))}</p></div>
+   <div class="ex"><h3>${u.expl}</h3>${ex.map(p=>`<p>${esc(p)}</p>`).join("")}${m.practice?`<div class="prac">${ic}<div><b>${u.prac}</b><p>${esc(T(m.practice))}</p></div></div>`:""}</div></div>
+   <div class="mf"><span>${esc(T(m.by))}${m.note?" · "+esc(T(m.note)):""}</span><a class="wa" href="${esc(wa)}" target="_blank" rel="noopener">${svg("wa")}WhatsApp</a></div>
+  </section>`;
+}
 function dayHTML(){
-  const u=UI[lang],t=D.today,c=D.column;
-  const tp=t?`<section class="panel" style="--c:var(--devotional)"><span class="badge">${svg("devotional")}${u.today}</span><h2>${esc(T(t.title))}</h2>${t.significance?`<p class="sig">${esc(T(t.significance))}</p>`:""}${(t.history||[]).length?`<div class="kicker" style="margin-bottom:8px">${u.hist}</div><ul class="hist">${t.history.map(x=>`<li><b>${esc(x.y)}</b>${esc(T(x))}</li>`).join("")}</ul>`:""}${srcs(t)}</section>`:"";
+  const u=UI[lang],t=D.today,c=D.mantra?null:D.column;
+  const hist=t&&(t.history||[]).length?`<div><div class="kicker" style="margin-bottom:8px">${u.hist}</div><ul class="hist">${t.history.map(x=>`<li><b>${esc(x.y)}</b>${esc(T(x))}</li>`).join("")}</ul></div>`:"";
+  const tp=t?(c?`<section class="panel" style="--c:var(--devotional)"><span class="badge">${svg("devotional")}${u.today}</span><h2>${esc(T(t.title))}</h2>${t.significance?`<p class="sig">${esc(T(t.significance))}</p>`:""}${hist}${srcs(t)}</section>`
+     :`<section class="panel today1" style="--c:var(--devotional)"><div class="hd"><span class="badge">${svg("devotional")}${u.today}</span><h2>${esc(T(t.title))}</h2></div><div>${t.significance?`<p class="sig">${esc(T(t.significance))}</p>`:""}${srcs(t)}</div>${hist}</section>`):"";
   const cc=c&&c[lang]?`<article class="panel col" style="--c:var(--devotional)"><span class="badge">${svg("devotional")}${u.col}</span><h2>${esc(c[lang].h)}</h2><p class="by">${esc(T(c.by))}</p>${c.verse?`<div class="verse">${esc(T(c.verse))}${c.verse.ref?`<small>${esc(T(c.verse.ref))}</small>`:""}</div>`:""}${(c[lang].body||[]).map(p=>`<p>${esc(p)}</p>`).join("")}</article>`:"";
-  return (tp||cc)?`<div class="dayband" style="${tp&&cc?"":"grid-template-columns:minmax(0,1fr)"}">${tp}${cc}</div>`:"";
+  return mantraHTML()+((tp||cc)?`<div class="dayband" style="${tp&&cc?"":"grid-template-columns:minmax(0,1fr)"}">${tp}${cc}</div>`:"");
 }
 function aiHTML(){
   const u=UI[lang],a=D.ai;

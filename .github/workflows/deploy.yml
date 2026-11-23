@@ -22,6 +22,10 @@ jobs:
           if d.get("column"):
               for l in ("en", "te"):
                   assert d["column"][l]["h"] and d["column"][l]["body"], "column missing text"
+          if d.get("mantra"):
+              m = d["mantra"]
+              assert m["text"]["te"] and m["meaning"]["en"] and m["meaning"]["te"], "mantra missing text"
+              assert m["explain"]["en"] and m["explain"]["te"], "mantra missing explanation"
           if d.get("ai"):
               for l in ("en", "te"):
                   assert d["ai"][l]["h"] and d["ai"][l]["body"], "ai article missing text"
