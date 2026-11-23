@@ -4,6 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Susthira News</title>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SPPCZJJJZF"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-SPPCZJJJZF');</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@500;700;800&family=Noto+Sans+Telugu:wght@400;600&family=Noto+Serif+Telugu:wght@500;700&display=swap" rel="stylesheet">
@@ -267,10 +269,12 @@ function render(){
   }
   document.getElementById("main").innerHTML=body;
 }
-function setLang(l){lang=l;try{localStorage.setItem("sn-lang",l)}catch(e){}render()}
+const track=(n,p)=>{try{window.gtag&&gtag("event",n,p||{})}catch(e){}};
+document.addEventListener("click",e=>{const a=e.target.closest&&e.target.closest("a.wa");if(!a)return;const s=a.closest("[style*='--c']");track("share_whatsapp",{section:(location.hash.slice(1)||"all"),item:(a.closest(".mantra")?"mantra":(a.closest(".card,.hero")?.querySelector("h1,h3")?.textContent||"").slice(0,90))})});
+function setLang(l){lang=l;track("language_switch",{language:l});try{localStorage.setItem("sn-lang",l)}catch(e){}render()}
 document.getElementById("lang-en").addEventListener("click",()=>setLang("en"));
 document.getElementById("lang-te").addEventListener("click",()=>setLang("te"));
-window.addEventListener("hashchange",()=>{render();window.scrollTo(0,0)});
+window.addEventListener("hashchange",()=>{render();window.scrollTo(0,0);track("section_view",{section:location.hash.slice(1)||"all"})});
 render();
 fetch("stories.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(d=>{D=d;render()}).catch(()=>{document.getElementById("main").innerHTML=`<p class="empty">${UI[lang].fail}</p>`});
 }
