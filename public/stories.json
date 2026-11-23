@@ -1,7 +1,7 @@
 {
  "updated": {
-  "en": "Updated 23 Nov 2026, 12:50 IST",
-  "te": "నవీకరణ: 23 నవం 2026, మ. 12:50"
+  "en": "Updated 23 Nov 2026, 3:40 PM IST",
+  "te": "నవీకరణ: 23 నవం 2026, మ. 3:40"
  },
  "date": {
   "en": "Monday, 23 November 2026",
@@ -9,24 +9,19 @@
  },
  "ticker": [
   {
-   "en": "Nasdaq",
-   "te": "నాస్‌డాక్",
-   "v": "−5.28%"
+   "en": "Sensex",
+   "te": "సెన్సెక్స్",
+   "v": "82,444 −1,476"
   },
   {
-   "en": "S&P 500",
-   "te": "S&P 500",
-   "v": "−3.70%"
-  },
-  {
-   "en": "Dow",
-   "te": "డౌ",
-   "v": "−1.93%"
+   "en": "Nifty",
+   "te": "నిఫ్టీ",
+   "v": "25,366 −434"
   },
   {
    "en": "Kospi",
    "te": "కోస్పీ",
-   "v": "−5.8%"
+   "v": "−5.6%"
   },
   {
    "en": "Hang Seng",
@@ -34,45 +29,38 @@
    "v": "−1.8%"
   },
   {
-   "en": "Shanghai",
-   "te": "షాంఘై",
-   "v": "−1.4%"
+   "en": "Nasdaq (Fri)",
+   "te": "నాస్‌డాక్ (శుక్ర)",
+   "v": "−5.28%"
   },
   {
-   "en": "Sensex",
-   "te": "సెన్సెక్స్",
-   "v": "83,676 −244"
-  },
-  {
-   "en": "Nifty",
-   "te": "నిఫ్టీ",
-   "v": "25,672 −110"
+   "en": "S&P 500 (Fri)",
+   "te": "S&P 500 (శుక్ర)",
+   "v": "−3.70%"
   },
   {
    "en": "Brent",
    "te": "బ్రెంట్",
-   "v": "$92.34",
-   "up": 1
+   "v": "~$89.80"
   },
   {
    "en": "USD/INR",
    "te": "డాలర్/రూపాయి",
-   "v": "₹92.85",
-   "up": 1
+   "v": "₹92.85"
   }
  ],
  "chart": {
   "title": {
-   "en": "How far the markets fell",
-   "te": "మార్కెట్లు ఎంత పడ్డాయి"
+   "en": "A red Monday for markets",
+   "te": "మార్కెట్లకు ఎరుపు సోమవారం"
   },
   "sub": {
-   "en": "Friday close (US) and Monday morning (Asia, India)",
-   "te": "శుక్రవారం ముగింపు (అమెరికా), సోమవారం ఉదయం (ఆసియా, భారత్)"
+   "en": "% change: India and Asia today, US on Friday",
+   "te": "% మార్పు: భారత్, ఆసియా ఈరోజు; అమెరికా శుక్రవారం"
   },
   "note": {
-   "en": "India fell least: foreign investors kept buying Indian shares as money moved out of AI-heavy markets.",
-   "te": "భారత్ అతి తక్కువగా పడింది: AI షేర్లు ఎక్కువగా ఉన్న మార్కెట్ల నుంచి డబ్బు బయటకు రావడంతో విదేశీ పెట్టుబడిదారులు భారత షేర్లు కొంటూనే ఉన్నారు."
+   "en": "India figures are from the closing auction session.",
+   "te": "భారత గణాంకాలు క్లోజింగ్ ఆక్షన్ సెషన్ నాటివి."
   },
   "unit": "%",
   "bars": [
@@ -83,7 +71,7 @@
      "en": "Korea, Mon",
      "te": "కొరియా, సోమ"
     },
-    "v": -5.8,
+    "v": -5.56,
     "hi": true
    },
    {
@@ -103,18 +91,17 @@
      "en": "US, Fri",
      "te": "అమెరికా, శుక్ర"
     },
-    "v": -3.7,
-    "hi": false
+    "v": -3.7
    },
    {
-    "en": "Dow",
-    "te": "డౌ",
+    "en": "Sensex",
+    "te": "సెన్సెక్స్",
     "w": {
-     "en": "US, Fri",
-     "te": "అమెరికా, శుక్ర"
+     "en": "India, Mon",
+     "te": "భారత్, సోమ"
     },
-    "v": -1.93,
-    "hi": false
+    "v": -1.76,
+    "hi": true
    },
    {
     "en": "Hang Seng",
@@ -123,28 +110,17 @@
      "en": "Hong Kong, Mon",
      "te": "హాంకాంగ్, సోమ"
     },
-    "v": -1.8,
-    "hi": false
-   },
-   {
-    "en": "Shanghai",
-    "te": "షాంఘై",
-    "w": {
-     "en": "China, Mon",
-     "te": "చైనా, సోమ"
-    },
-    "v": -1.4,
-    "hi": false
+    "v": -1.79
    },
    {
     "en": "Nifty 50",
     "te": "నిఫ్టీ 50",
     "w": {
-     "en": "India, Mon early",
-     "te": "భారత్, సోమ ఉదయం"
+     "en": "India, Mon",
+     "te": "భారత్, సోమ"
     },
-    "v": -0.43,
-    "hi": false
+    "v": -1.68,
+    "hi": true
    }
   ]
  },
@@ -152,6 +128,35 @@
   {
    "s": "business",
    "lead": 1,
+   "when": {
+    "en": "Mon, 23 Nov, 3:30 PM",
+    "te": "సోమ, 23 నవం, మ. 3:30"
+   },
+   "en": {
+    "h": "Sensex tanks about 1,476 points as early gains vanish; Nifty near 25,366",
+    "p": "Indian markets opened higher on Monday but reversed sharply, with the Sensex down 1,475.75 points (1.76%) at 82,443.96 and the Nifty down 434.20 points (1.68%) near 25,366 in the closing auction session. Banking and metal shares led the selling as investors booked profits after a four-week rally. Analysts also pointed to fears of a US Fed rate hike in December and a weaker rupee, while India's volatility index jumped nearly 8%."
+   },
+   "te": {
+    "h": "సెన్సెక్స్ సుమారు 1,476 పాయింట్లు పతనం; ఉదయం లాభాలు ఆవిరి, నిఫ్టీ 25,366 దగ్గర",
+    "p": "సోమవారం లాభాలతో ప్రారంభమైన మార్కెట్లు మధ్యాహ్నానికి భారీగా పడిపోయాయి. క్లోజింగ్ ఆక్షన్ సెషన్‌లో సెన్సెక్స్ 1,475.75 పాయింట్లు (1.76%) తగ్గి 82,443.96 వద్ద, నిఫ్టీ 434.20 పాయింట్లు (1.68%) తగ్గి 25,366 దగ్గర ఉన్నాయి. నాలుగు వారాల ర్యాలీ తర్వాత లాభాల స్వీకరణతో బ్యాంకింగ్, మెటల్ షేర్లలో అమ్మకాలు ఎక్కువగా జరిగాయి. డిసెంబర్‌లో అమెరికా ఫెడ్ వడ్డీ రేట్లు పెంచుతుందన్న భయం, రూపాయి బలహీనత కూడా ప్రభావం చూపాయని విశ్లేషకులు చెప్పారు. మార్కెట్ ఒడిదుడుకుల సూచీ (India VIX) దాదాపు 8% పెరిగింది."
+   },
+   "src": [
+    [
+     "Business Standard",
+     "https://www.business-standard.com/amp/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
+    ],
+    [
+     "Upstox",
+     "https://upstox.com/news/market-news/stocks/nifty-50-sensex-fall-1-india-vix-jumps-nearly-8-key-factors-explained/article-203852/"
+    ],
+    [
+     "The Open Press",
+     "https://theopenpress.in/article/sensex-crashes-1700-points-nifty-below-25500"
+    ]
+   ]
+  },
+  {
+   "s": "business",
    "when": {
     "en": "Fri, 20 Nov",
     "te": "శుక్ర, 20 నవం"
@@ -186,36 +191,11 @@
     "te": "సోమ, 23 నవం"
    },
    "en": {
-    "h": "Sensex, Nifty open lower, but foreign investors keep buying",
-    "p": "The Sensex fell about 244 points and the Nifty about 110 points in early trade on Monday, tracking the global sell-off and profit booking after a two-day rally. The fall was milder than elsewhere in Asia: foreign investors bought ₹10,308 crore of Indian shares on Friday as money rotated out of AI-heavy markets."
-   },
-   "te": {
-    "h": "సెన్సెక్స్, నిఫ్టీ నష్టాల్లో ప్రారంభం; విదేశీ కొనుగోళ్లు కొనసాగుతున్నాయి",
-    "p": "ప్రపంచ మార్కెట్ల అమ్మకాలు, రెండు రోజుల ర్యాలీ తర్వాత లాభాల స్వీకరణతో సోమవారం ఉదయం సెన్సెక్స్ సుమారు 244 పాయింట్లు, నిఫ్టీ 110 పాయింట్లు తగ్గాయి. ఆసియాలోని ఇతర మార్కెట్లతో పోలిస్తే నష్టం తక్కువే. AI షేర్లు ఎక్కువగా ఉన్న మార్కెట్ల నుంచి డబ్బు బయటకు వస్తుండటంతో శుక్రవారం విదేశీ సంస్థాగత పెట్టుబడిదారులు ₹10,308 కోట్ల షేర్లు కొన్నారు."
-   },
-   "src": [
-    [
-     "Daily Pioneer",
-     "https://dailypioneer.com/business/sensex-nifty-fall-global-market-selloff-monday"
-    ],
-    [
-     "Business Recorder",
-     "https://brecorder.com/news/40450313/ai-rout-deepens-keeping-indian-rupee-rally-alive-on-foreign-equity-buying"
-    ]
-   ]
-  },
-  {
-   "s": "business",
-   "when": {
-    "en": "Mon, 23 Nov",
-    "te": "సోమ, 23 నవం"
-   },
-   "en": {
-    "h": "Kospi plunges 5.8% as Samsung and SK Hynix tumble",
+    "h": "Kospi plunges as Samsung and SK Hynix tumble",
     "p": "South Korea took the hardest hit in Asia on Monday. Samsung Electronics lost 5.5% and SK Hynix 4.9%, and the exchange triggered a trading curb for the second session in a row. Hong Kong's Hang Seng fell 1.8% and Shanghai 1.4%. Tokyo was closed for a holiday."
    },
    "te": {
-    "h": "కోస్పీ 5.8% పతనం; శామ్‌సంగ్, SK హైనిక్స్ షేర్లు కుదేలు",
+    "h": "కోస్పీ భారీ పతనం; శామ్‌సంగ్, SK హైనిక్స్ షేర్లు కుదేలు",
     "p": "సోమవారం ఆసియాలో దక్షిణ కొరియా మార్కెట్ ఎక్కువగా దెబ్బతింది. శామ్‌సంగ్ ఎలక్ట్రానిక్స్ 5.5%, SK హైనిక్స్ 4.9% పడ్డాయి. వరుసగా రెండో సెషన్‌లోనూ ఎక్స్ఛేంజ్ ట్రేడింగ్ నియంత్రణ అమలు చేసింది. హాంకాంగ్ హాంగ్ సెంగ్ 1.8%, షాంఘై 1.4% తగ్గాయి. టోక్యో మార్కెట్‌కు సెలవు."
    },
    "src": [
@@ -307,25 +287,29 @@
   {
    "s": "technology",
    "when": {
-    "en": "Thu, 12 Nov",
-    "te": "గురు, 12 నవం"
+    "en": "Sun–Mon, 22–23 Nov",
+    "te": "ఆది–సోమ, 22–23 నవం"
    },
    "en": {
-    "h": "Nvidia names Colette Kress interim CEO after Jensen Huang resigns",
-    "p": "Jensen Huang, who co-founded Nvidia in 1993 and led it for 33 years, resigned as CEO and left the board on 12 November amid personal controversies. CFO Colette Kress is interim CEO while the board looks for a permanent successor, and Harvey C. Jones became the company's first board chair."
+    "h": "Meta's AI chief says 'superintelligence' is arriving, after a disputed AI maths claim",
+    "p": "Meta's Chief AI Officer Alexandr Wang warned that AI far beyond human intelligence is close and may be hard to control. His comments came after an Anthropic employee said he had used Claude to work on a proof of the Riemann hypothesis, one of mathematics' hardest problems; the claim is disputed and has not been confirmed by mathematicians."
    },
    "te": {
-    "h": "జెన్సెన్ హువాంగ్ రాజీనామా; ఎన్విడియా తాత్కాలిక CEOగా కొలెట్ క్రెస్",
-    "p": "1993లో ఎన్విడియాను స్థాపించి 33 ఏళ్లు నడిపిన జెన్సెన్ హువాంగ్ వ్యక్తిగత వివాదాల నేపథ్యంలో నవంబర్ 12న CEO పదవికి, బోర్డుకు రాజీనామా చేశారు. శాశ్వత వారసుడిని ఎంపిక చేసే వరకు CFO కొలెట్ క్రెస్ తాత్కాలిక CEOగా ఉంటారు. హార్వీ సి. జోన్స్ కంపెనీ తొలి బోర్డు ఛైర్మన్ అయ్యారు."
+    "h": "'సూపర్ ఇంటెలిజెన్స్ వచ్చేస్తోంది': మెటా AI చీఫ్ హెచ్చరిక",
+    "p": "మనిషి మేధస్సును మించిన AI దగ్గర్లోనే ఉందని, దాన్ని నియంత్రించడం కష్టం కావచ్చని మెటా చీఫ్ AI ఆఫీసర్ అలెగ్జాండర్ వాంగ్ హెచ్చరించారు. గణితంలో అత్యంత కఠినమైన సమస్యల్లో ఒకటైన రీమాన్ హైపోథిసిస్‌పై Claude సహాయంతో రుజువు రూపొందించినట్లు ఆంత్రోపిక్ ఉద్యోగి ఒకరు ప్రకటించిన తర్వాత ఈ వ్యాఖ్యలు వచ్చాయి. ఆ వాదనపై వివాదం ఉంది, గణిత నిపుణులు ఇంకా ధృవీకరించలేదు."
    },
    "src": [
     [
-     "Nvidia filing (SEC)",
-     "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm"
+     "Al Jazeera",
+     "https://aljazeera.com/economy/2026/11/23/ai-superintelligence-arriving-warns-top-meta-executive"
     ],
     [
-     "TechCrunch",
-     "https://techcrunch.com/?p=3187751"
+     "Business Standard",
+     "https://www.business-standard.com/technology/artificial-intelligence/superintelligence-is-arriving-meta-ai-chief-urges-rethink-of-ai-future-126112300311_1.html"
+    ],
+    [
+     "The Neuron",
+     "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-november-23-2026/"
     ]
    ]
   },
@@ -361,27 +345,6 @@
   {
    "s": "sports",
    "when": {
-    "en": "Mid-November",
-    "te": "నవంబర్ మధ్యలో"
-   },
-   "en": {
-    "h": "India's under-19s win the Asia Cup with a last-ball finish",
-    "p": "India's under-19 team won the U19 Asia Cup in Oman in a final decided on the last ball. Prime Minister Modi called it an outstanding day for Indian cricket, and Home Minister Amit Shah said the title would inspire young players."
-   },
-   "te": {
-    "h": "చివరి బంతికి విజయం: అండర్-19 ఆసియా కప్ భారత్‌దే",
-    "p": "ఒమన్‌లో జరిగిన అండర్-19 ఆసియా కప్‌ను చివరి బంతికి తేలిన ఫైనల్‌లో భారత్ గెలుచుకుంది. ఇది భారత క్రికెట్‌కు అద్భుతమైన రోజని ప్రధాని మోదీ అన్నారు. ఈ విజయం యువ క్రీడాకారులకు స్ఫూర్తినిస్తుందని హోంమంత్రి అమిత్ షా పేర్కొన్నారు."
-   },
-   "src": [
-    [
-     "Cricketnmore",
-     "https://www.cricketnmore.com/india-cricket"
-    ]
-   ]
-  },
-  {
-   "s": "sports",
-   "when": {
     "en": "November",
     "te": "నవంబర్"
    },
@@ -401,6 +364,27 @@
     [
      "Wikipedia",
      "https://en.wikipedia.org/wiki/International_cricket_in_2026%E2%80%9327"
+    ]
+   ]
+  },
+  {
+   "s": "sports",
+   "when": {
+    "en": "Mid-November",
+    "te": "నవంబర్ మధ్యలో"
+   },
+   "en": {
+    "h": "India's under-19s win the Asia Cup with a last-ball finish",
+    "p": "India's under-19 team won the U19 Asia Cup in Oman in a final decided on the last ball. Prime Minister Modi called it an outstanding day for Indian cricket, and Home Minister Amit Shah said the title would inspire young players."
+   },
+   "te": {
+    "h": "చివరి బంతికి విజయం: అండర్-19 ఆసియా కప్ భారత్‌దే",
+    "p": "ఒమన్‌లో జరిగిన అండర్-19 ఆసియా కప్‌ను చివరి బంతికి తేలిన ఫైనల్‌లో భారత్ గెలుచుకుంది. ఇది భారత క్రికెట్‌కు అద్భుతమైన రోజని ప్రధాని మోదీ అన్నారు. ఈ విజయం యువ క్రీడాకారులకు స్ఫూర్తినిస్తుందని హోంమంత్రి అమిత్ షా పేర్కొన్నారు."
+   },
+   "src": [
+    [
+     "Cricketnmore",
+     "https://www.cricketnmore.com/india-cricket"
     ]
    ]
   },
@@ -453,21 +437,142 @@
   {
    "s": "entertainment",
    "when": {
-    "en": "Sun, 15 Nov",
-    "te": "ఆది, 15 నవం"
+    "en": "Mon, 23 Nov",
+    "te": "సోమ, 23 నవం"
    },
    "en": {
-    "h": "Last week's releases struggled to pull audiences",
-    "p": "Itllu Arjuna, Donga Naa Koduku and G.O.A.T. all opened weakly despite heavy promotion, with theatres seeing thin crowds. Trade watchers hope this week's better-reviewed films can turn things around."
+    "h": "Vishnu Manchu to lead Prabhu Deva's Telugu-Tamil action thriller",
+    "p": "Announced on his birthday, Vishnu Manchu will headline a bilingual action thriller directed by Prabhu Deva, tentatively called #VM24. It will be his first acting project in Tamil cinema, and shooting is expected to begin soon."
    },
    "te": {
-    "h": "గత వారం సినిమాలకు ప్రేక్షకులు కరువు",
-    "p": "భారీ ప్రచారం చేసినా ఇట్లు అర్జున, దొంగ నా కొడుకు, G.O.A.T. సినిమాలకు ఓపెనింగ్స్ బలహీనంగా వచ్చాయి. థియేటర్లు ఖాళీగా కనిపించాయి. ఈ వారం మంచి సమీక్షలు పొందిన సినిమాలు పరిస్థితిని మారుస్తాయని ట్రేడ్ వర్గాలు ఆశిస్తున్నాయి."
+    "h": "ప్రభుదేవా దర్శకత్వంలో విష్ణు మంచు ద్విభాషా యాక్షన్ థ్రిల్లర్",
+    "p": "తన పుట్టినరోజు సందర్భంగా విష్ణు మంచు కొత్త సినిమాను ప్రకటించారు. ప్రభుదేవా దర్శకత్వంలో తెలుగు, తమిళ భాషల్లో రానున్న ఈ యాక్షన్ థ్రిల్లర్‌కు తాత్కాలికంగా #VM24 అని పేరు పెట్టారు. తమిళ సినిమాలో ఆయనకు ఇదే తొలి చిత్రం. త్వరలో షూటింగ్ ప్రారంభం కానుంది."
    },
    "src": [
     [
-     "M9 News",
-     "https://www.m9.news/movienews/tollywood-new-releases-box-office-november-2026/"
+     "Telangana Today",
+     "https://telanganatoday.com/vishnu-manchu-to-headline-prabhu-devas-tamil-telugu-bilingual-film"
+    ]
+   ]
+  },
+  {
+   "s": "entertainment",
+   "when": {
+    "en": "Mon, 23 Nov",
+    "te": "సోమ, 23 నవం"
+   },
+   "en": {
+    "h": "Birthday today: Anil Ravipudi's run of nine straight hits",
+    "p": "Director Anil Ravipudi turns a year older today with an unbeaten streak of nine consecutive box-office hits, a record that has made him one of Telugu cinema's most dependable filmmakers."
+   },
+   "te": {
+    "h": "నేడు అనిల్ రావిపూడి పుట్టినరోజు: వరుసగా తొమ్మిది హిట్లు",
+    "p": "దర్శకుడు అనిల్ రావిపూడి ఈరోజు పుట్టినరోజు జరుపుకుంటున్నారు. వరుసగా తొమ్మిది బాక్సాఫీస్ హిట్లతో ఓటమి లేని రికార్డు ఆయనది. ఈ రికార్డుతో తెలుగు సినిమాలో అత్యంత నమ్మకమైన దర్శకుల్లో ఒకరిగా నిలిచారు."
+   },
+   "src": [
+    [
+     "Telugu360",
+     "https://www.telugu360.com/anil-ravipudi-a-rare-phenomenon-in-telugu-cinema/"
+    ]
+   ]
+  },
+  {
+   "s": "devotional",
+   "when": {
+    "en": "Tue, 24 Nov",
+    "te": "మంగళ, 24 నవం"
+   },
+   "en": {
+    "h": "Karthika Pournami falls tomorrow, Tuesday 24 November",
+    "p": "The most important day of Karthika Masam, Karthika Pournami, is on Tuesday, 24 November. Shiva temples hold Jwala Toranam on the full-moon evening, and families light rows of lamps at home and at temples. Temple guides expect it to be among the busiest days of the month, so devotees planning a visit should allow extra time."
+   },
+   "te": {
+    "h": "రేపే కార్తీక పౌర్ణమి: మంగళవారం, నవంబర్ 24",
+    "p": "కార్తీక మాసంలో అత్యంత ముఖ్యమైన కార్తీక పౌర్ణమి మంగళవారం, నవంబర్ 24న వస్తోంది. పౌర్ణమి సాయంత్రం శివాలయాల్లో జ్వాలా తోరణం నిర్వహిస్తారు, ఇళ్లలో, ఆలయాల్లో దీపాలు వెలిగిస్తారు. ఈ నెలలో అత్యంత రద్దీ ఉండే రోజుల్లో ఇది ఒకటి కాబట్టి ఆలయాలకు వెళ్లేవారు ముందుగానే బయలుదేరడం మంచిది."
+   },
+   "src": [
+    [
+     "Poojalu",
+     "https://www.poojalu.com/karthik-month/"
+    ],
+    [
+     "Srikalahasti temple guide",
+     "https://srikalahastitemple.org.in/karthika-deepotsavam-sri-kalahasti-temple/"
+    ]
+   ]
+  },
+  {
+   "s": "devotional",
+   "when": {
+    "en": "Sun–Mon, 22–23 Nov",
+    "te": "ఆది–సోమ, 22–23 నవం"
+   },
+   "en": {
+    "h": "Devotees throng Shiva temples on the second Karthika Somavaram",
+    "p": "Today, 23 November, is the second of the four Karthika Mondays, the day just before Pournami. Over the weekend, Shiva temples across Warangal and Hanamkonda drew large crowds of devotees marking the month. The remaining Karthika Somavarams are on 30 November and 7 December."
+   },
+   "te": {
+    "h": "రెండో కార్తీక సోమవారం: శివాలయాలకు పోటెత్తిన భక్తులు",
+    "p": "ఈరోజు నవంబర్ 23 నాలుగు కార్తీక సోమవారాల్లో రెండోది, పౌర్ణమికి ముందు రోజు. వారాంతంలో వరంగల్, హనుమకొండ ప్రాంతాల్లోని శివాలయాలకు భక్తులు భారీగా తరలివచ్చారు. మిగిలిన కార్తీక సోమవారాలు నవంబర్ 30, డిసెంబర్ 7 తేదీల్లో."
+   },
+   "src": [
+    [
+     "Channel Hyderabad",
+     "https://www.channelhyderabad.com/2026/11/warangal-hanamkonda-shiva-temples.html"
+    ],
+    [
+     "Karishye",
+     "https://karishye.co/pages/karthika-masam-2026"
+    ]
+   ]
+  },
+  {
+   "s": "devotional",
+   "when": {
+    "en": "Till 30 Nov",
+    "te": "నవంబర్ 30 వరకు"
+   },
+   "en": {
+    "h": "Koti Deepotsavam lights up NTR Stadium, Hyderabad, until 30 November",
+    "p": "The annual Koti Deepotsavam, organised by Bhakti TV, is being held at NTR Stadium from 14 to 30 November, every evening from 5:30 pm. It opened on 14 November with pancha harati to a golden Shiva lingam, and devotees gather daily to light lamps."
+   },
+   "te": {
+    "h": "ఎన్టీఆర్ స్టేడియంలో కోటి దీపోత్సవం: నవంబర్ 30 వరకు",
+    "p": "భక్తి టీవీ ఏటా నిర్వహించే కోటి దీపోత్సవం హైదరాబాద్ ఎన్టీఆర్ స్టేడియంలో నవంబర్ 14 నుంచి 30 వరకు ప్రతిరోజూ సాయంత్రం 5:30 నుంచి జరుగుతోంది. నవంబర్ 14న బంగారు శివలింగానికి పంచ హారతితో ప్రారంభమైంది. భక్తులు రోజూ పెద్ద సంఖ్యలో వచ్చి దీపాలు వెలిగిస్తున్నారు."
+   },
+   "src": [
+    [
+     "Telangana Today",
+     "https://telanganatoday.com/koti-deepotsavam-to-be-held-at-hyderabads-ntr-stadium-from-november-14"
+    ],
+    [
+     "Hindutone",
+     "https://hindutone.com/news/koti-deepotsavam-2026-opening-ntr-stadium/"
+    ]
+   ]
+  },
+  {
+   "s": "devotional",
+   "when": {
+    "en": "10 Nov – 8 Dec",
+    "te": "నవం 10 – డిసెం 8"
+   },
+   "en": {
+    "h": "Karthika Masam calendar: the key days still ahead",
+    "p": "Karthika Masam runs from 10 November to 8 December this year in Telangana and Andhra Pradesh. After Pournami on 24 November come the third Somavaram on 30 November, Kalabhairava Jayanti on 1 December, the fourth Somavaram on 7 December, and Karthika Amavasya on 8 December, which closes the month."
+   },
+   "te": {
+    "h": "కార్తీక మాసం: ఇంకా రానున్న ముఖ్యమైన రోజులు",
+    "p": "ఈ ఏడాది తెలంగాణ, ఆంధ్రప్రదేశ్‌లో కార్తీక మాసం నవంబర్ 10 నుంచి డిసెంబర్ 8 వరకు. నవంబర్ 24 పౌర్ణమి తర్వాత నవంబర్ 30న మూడో సోమవారం, డిసెంబర్ 1న కాలభైరవ జయంతి, డిసెంబర్ 7న నాలుగో సోమవారం, డిసెంబర్ 8న కార్తీక అమావాస్యతో మాసం ముగుస్తుంది."
+   },
+   "src": [
+    [
+     "Sri Sakthi Peetam",
+     "https://store.srisakthipeetam.org/pages/karthika-masam-2026"
+    ],
+    [
+     "Karishye",
+     "https://karishye.co/pages/karthika-masam-2026"
     ]
    ]
   }
