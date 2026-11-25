@@ -1,81 +1,89 @@
 {
  "updated": {
-  "en": "Updated 24 Nov 2026, 6:00 PM IST",
-  "te": "నవీకరణ: 24 నవం 2026, సా. 6:00"
+  "en": "Updated 25 Nov 2026, 7:00 AM IST",
+  "te": "నవీకరణ: 25 నవం 2026, ఉ. 7:00"
  },
  "date": {
-  "en": "Tuesday, 24 November 2026",
-  "te": "మంగళవారం, 24 నవంబర్ 2026"
+  "en": "Wednesday, 25 November 2026",
+  "te": "బుధవారం, 25 నవంబర్ 2026"
  },
  "ticker": [
   {
    "en": "Sensex (Mon)",
    "te": "సెన్సెక్స్ (సోమ)",
-   "v": "−1,484 (−1.77%)"
+   "v": "82,435.99 −1.77%"
   },
   {
    "en": "Nifty (Mon)",
    "te": "నిఫ్టీ (సోమ)",
-   "v": "−451 (−1.75%)"
+   "v": "25,349.65 −1.75%"
   },
   {
-   "en": "NSE/BSE",
-   "te": "NSE/BSE",
-   "v": "Closed today · సెలవు"
-  },
-  {
-   "en": "Kospi",
-   "te": "కోస్పీ",
-   "v": "5,006.04 +6.32%",
+   "en": "GIFT Nifty (3 AM)",
+   "te": "GIFT నిఫ్టీ (తె. 3)",
+   "v": "25,806 +1.22%",
    "up": 1
   },
   {
-   "en": "Nikkei",
-   "te": "నిక్కీ",
-   "v": "58,644.63 +3.91%",
+   "en": "Rupee (Mon)",
+   "te": "రూపాయి (సోమ)",
+   "v": "92.92/$ −30 paise"
+  },
+  {
+   "en": "Dow (Tue)",
+   "te": "డౌ (మంగళ)",
+   "v": "50,018.70 +0.85%",
    "up": 1
   },
   {
-   "en": "S&P 500 (Mon)",
-   "te": "S&P 500 (సోమ)",
-   "v": "+4.73%",
+   "en": "S&P 500 (Tue)",
+   "te": "S&P 500 (మంగళ)",
+   "v": "7,201.09 −0.50%"
+  },
+  {
+   "en": "Nasdaq (Tue)",
+   "te": "నాస్‌డాక్ (మంగళ)",
+   "v": "23,733.54 −1.48%"
+  },
+  {
+   "en": "Nvidia (Tue)",
+   "te": "ఎన్విడియా (మంగళ)",
+   "v": "$155.38 −5.86%"
+  },
+  {
+   "en": "Kospi (Wed early)",
+   "te": "కోస్పీ (బుధ ఉ.)",
+   "v": "4,783.19 −4.45%"
+  },
+  {
+   "en": "Nikkei (Wed early)",
+   "te": "నిక్కీ (బుధ ఉ.)",
+   "v": "57,265.26 −2.35%"
+  },
+  {
+   "en": "Brent",
+   "te": "బ్రెంట్",
+   "v": "$91.40 +2.27%",
    "up": 1
   },
   {
-   "en": "Nasdaq (Mon)",
-   "te": "నాస్‌డాక్ (సోమ)",
-   "v": "+6.5%",
-   "up": 1
-  },
-  {
-   "en": "Dow (Mon)",
-   "te": "డౌ (సోమ)",
-   "v": "+3.0%",
-   "up": 1
-  },
-  {
-   "en": "S&P fut. (Tue am)",
-   "te": "S&P ఫ్యూచర్స్ (మంగళ ఉ.)",
-   "v": "7,190.75 −0.88%"
-  },
-  {
-   "en": "Nvidia (pre-mkt)",
-   "te": "ఎన్విడియా (ప్రీ-మార్కెట్)",
-   "v": "−5%"
+   "en": "Gold",
+   "te": "బంగారం",
+   "v": "$3,555.82 −2.2%"
   }
  ],
  "chart": {
   "title": {
-   "en": "Nvidia rebound lifts Asia; India waits for Wednesday",
-   "te": "ఎన్విడియా పుంజుకోలుతో ఆసియా జోరు; బుధవారం కోసం భారత్ ఎదురుచూపు"
+   "en": "Chip sell-off on Wall Street hits Asia as India reopens",
+   "te": "అమెరికాలో చిప్ షేర్ల అమ్మకాలు; ఆసియా డీలా, నేడు భారత్ పునఃప్రారంభం"
   },
   "sub": {
-   "en": "% change: Asia close Tuesday; US and India close Monday",
-   "te": "% మార్పు: ఆసియా మంగళవారం ముగింపు; అమెరికా, భారత్ సోమవారం ముగింపు"
+   "en": "% change: India close Monday; US close Tuesday; Asia early Wednesday",
+   "te": "% మార్పు: భారత్ సోమవారం ముగింపు; అమెరికా మంగళవారం ముగింపు; ఆసియా బుధవారం ఉదయం"
   },
   "note": {
-   "en": "Indian markets are shut today for Guru Nanak Jayanti and reopen on Wednesday.",
-   "te": "గురునానక్ జయంతి సందర్భంగా భారత మార్కెట్లకు ఈరోజు సెలవు; బుధవారం తిరిగి ప్రారంభమవుతాయి."
+   "en": "Asia figures are early-session moves, not closing levels.",
+   "te": "ఆసియా గణాంకాలు ఉదయం ట్రేడింగ్ నాటివి, ముగింపు స్థాయిలు కావు."
   },
   "unit": "%",
   "bars": [
@@ -103,46 +111,55 @@
     "en": "Dow",
     "te": "డౌ",
     "w": {
-     "en": "US, Mon",
-     "te": "అమెరికా, సోమ"
+     "en": "US, Tue",
+     "te": "అమెరికా, మంగళ"
     },
-    "v": 3.0
+    "v": 0.85
    },
    {
     "en": "S&P 500",
     "te": "S&P 500",
     "w": {
-     "en": "US, Mon",
-     "te": "అమెరికా, సోమ"
+     "en": "US, Tue",
+     "te": "అమెరికా, మంగళ"
     },
-    "v": 4.73
+    "v": -0.5
    },
    {
     "en": "Nasdaq",
     "te": "నాస్‌డాక్",
     "w": {
-     "en": "US, Mon",
-     "te": "అమెరికా, సోమ"
+     "en": "US, Tue",
+     "te": "అమెరికా, మంగళ"
     },
-    "v": 6.5
+    "v": -1.48
    },
    {
-    "en": "Nikkei",
-    "te": "నిక్కీ",
+    "en": "Nvidia",
+    "te": "ఎన్విడియా",
     "w": {
-     "en": "Japan, Tue",
-     "te": "జపాన్, మంగళ"
+     "en": "US, Tue",
+     "te": "అమెరికా, మంగళ"
     },
-    "v": 3.91
+    "v": -5.86
    },
    {
     "en": "Kospi",
     "te": "కోస్పీ",
     "w": {
-     "en": "S. Korea, Tue",
-     "te": "ద. కొరియా, మంగళ"
+     "en": "Korea, Wed am",
+     "te": "కొరియా, బుధ ఉ."
     },
-    "v": 6.32
+    "v": -4.45
+   },
+   {
+    "en": "Nikkei",
+    "te": "నిక్కీ",
+    "w": {
+     "en": "Japan, Wed am",
+     "te": "జపాన్, బుధ ఉ."
+    },
+    "v": -2.35
    }
   ]
  },
@@ -151,217 +168,258 @@
    "s": "business",
    "lead": 1,
    "when": {
+    "en": "Wed, 25 Nov",
+    "te": "బుధ, 25 నవం"
+   },
+   "en": {
+    "h": "Markets reopen after holiday as Wall Street chip slide drags Asia lower",
+    "p": "Indian markets reopen today after Tuesday's Guru Nanak Jayanti holiday, coming off Monday's fall when the Sensex lost 1.77% to 82,435.99 and the Nifty 1.75% to 25,349.65. GIFT Nifty futures pointed higher overnight at 25,806 (+1.22%) around 3 AM, but that was before Asia turned weak. On Tuesday the Nasdaq fell 1.48% and the S&P 500 0.50% as Nvidia dropped 5.86% and the chip index sank 7.88%, though the Dow gained 0.85% to 50,018.70. Early on Wednesday South Korea's Kospi was down 4.45% and Japan's Nikkei 2.35%."
+   },
+   "te": {
+    "h": "సెలవు తర్వాత నేడు మార్కెట్లు; అమెరికా చిప్ షేర్ల పతనంతో ఆసియా డీలా",
+    "p": "గురునానక్ జయంతి సెలవు తర్వాత భారత మార్కెట్లు నేడు తిరిగి ప్రారంభమవుతున్నాయి. సోమవారం సెన్సెక్స్ 1.77% పడి 82,435.99 వద్ద, నిఫ్టీ 1.75% పడి 25,349.65 వద్ద ముగిశాయి. రాత్రి 3 గంటల సమయంలో GIFT నిఫ్టీ 25,806 (+1.22%) వద్ద లాభాల సంకేతం ఇచ్చినా, ఆ తర్వాత ఆసియా మార్కెట్లు బలహీనపడ్డాయి. మంగళవారం అమెరికాలో ఎన్విడియా 5.86%, చిప్ సూచీ 7.88% పడటంతో నాస్‌డాక్ 1.48%, S&P 500 0.50% నష్టపోగా, డౌ మాత్రం 0.85% పెరిగి 50,018.70కు చేరింది. బుధవారం ఉదయం కోస్పీ 4.45%, నిక్కీ 2.35% నష్టంలో ఉన్నాయి."
+   },
+   "src": [
+    [
+     "AP via MyMotherLode",
+     "https://mymotherlode.com/news/national/11337878/how-major-us-stock-indexes-fared-tuesday-11-24-2026.html"
+    ],
+    [
+     "JBizNews (Asia open)",
+     "https://jbiznews.com/kospi-sinks-more-than-4-nikkei-slides-more-than-2-in-early-wednesday-trading-after-wall-streets-tuesday-retreat/"
+    ],
+    [
+     "NiftyTrader (GIFT Nifty)",
+     "https://www.niftytrader.in/gift-nifty-live"
+    ]
+   ]
+  },
+  {
+   "s": "business",
+   "when": {
+    "en": "Meeting: 2–4 Dec",
+    "te": "సమావేశం: 2–4 డిసెం"
+   },
+   "en": {
+    "h": "Economists expect RBI to raise repo rate to 5.75% on 4 December",
+    "p": "In a Reuters poll, 56 of 61 economists expect the RBI's Monetary Policy Committee to raise the repo rate by 25 basis points to 5.75% at its 2–4 December meeting, and most see a further hike to 6% in February. October retail inflation of 6.09% went above the RBI's 6% upper limit, with food inflation at 8.94%. Foreign investors kept buying, putting in a provisional ₹5,672.99 crore on Monday, their 16th straight session of purchases, while the rupee ended Monday 30 paise weaker at 92.92 to the dollar."
+   },
+   "te": {
+    "h": "డిసెంబర్ 4న రెపో రేటు 5.75%కు పెంపు: ఆర్థికవేత్తల అంచనా",
+    "p": "డిసెంబర్ 2–4 తేదీల్లో జరిగే RBI ద్రవ్య విధాన కమిటీ సమావేశంలో రెపో రేటును 25 బేసిస్ పాయింట్లు పెంచి 5.75%కు తీసుకెళ్తారని రాయిటర్స్ సర్వేలో 61 మందిలో 56 మంది ఆర్థికవేత్తలు అంచనా వేశారు; ఫిబ్రవరిలో మరోసారి 6%కు పెంచవచ్చని ఎక్కువ మంది భావిస్తున్నారు. అక్టోబర్‌లో రిటైల్ ద్రవ్యోల్బణం 6.09%కు చేరి RBI గరిష్ఠ పరిమితి 6%ను దాటింది; ఆహార ద్రవ్యోల్బణం 8.94%. విదేశీ పెట్టుబడిదారులు సోమవారం ₹5,672.99 కోట్లు (ప్రాథమిక గణాంకాలు) కొనుగోలు చేశారు, వరుసగా 16వ సెషన్. రూపాయి సోమవారం 30 పైసలు బలహీనపడి డాలర్‌కు 92.92 వద్ద ముగిసింది."
+   },
+   "src": [
+    [
+     "Reuters via Yahoo Finance",
+     "https://finance.yahoo.com/economy/policy/articles/indias-rbi-expected-raise-rates-020452816.html"
+    ],
+    [
+     "Kotak Neo",
+     "https://www.kotakneo.com/news/market-news/foreign-investors-extend-16-session-buying-streak-with-5672-crore-inflows-as-markets-fall/"
+    ],
+    [
+     "Telangana Today (rupee)",
+     "https://telanganatoday.com/indian-rupee-reverses-gains-settles-at-92-92-against-us-dollar"
+    ]
+   ]
+  },
+  {
+   "s": "business",
+   "when": {
+    "en": "Wed, 25 Nov",
+    "te": "బుధ, 25 నవం"
+   },
+   "en": {
+    "h": "Mahanadi Coalfields IPO allotment today; oil rises, gold falls on Fed hike bets",
+    "p": "Coal India unit Mahanadi Coalfields' ₹8,981 crore IPO was subscribed 1.52 times, led by institutional buyers at 4.95 times while the retail portion drew only 0.46 times; shares are allotted today and are expected to list on 27 November. The SME issue of Shree Siddhivinayak Greentech opens today, and Foodlink F&B's ₹360.76 crore IPO opens on 26 November at ₹181–191 a share. Globally, Brent crude rose 2.27% to $91.40 on Tuesday on reports of attacks on shipping near the Strait of Hormuz, while gold fell 2.2% to $3,555.82 an ounce as markets priced in a US rate hike in December."
+   },
+   "te": {
+    "h": "మహానది కోల్‌ఫీల్డ్స్ IPO కేటాయింపు నేడు; చమురు పైకి, బంగారం కిందకు",
+    "p": "కోల్ ఇండియా అనుబంధ సంస్థ మహానది కోల్‌ఫీల్డ్స్ ₹8,981 కోట్ల IPO 1.52 రెట్లు సబ్‌స్క్రైబ్ అయింది; సంస్థాగత కొనుగోలుదారుల భాగం 4.95 రెట్లు నిండగా, రిటైల్ భాగం 0.46 రెట్లే నిండింది. షేర్ల కేటాయింపు నేడు, లిస్టింగ్ నవంబర్ 27న ఉండొచ్చు. శ్రీ సిద్ధివినాయక్ గ్రీన్‌టెక్ SME ఇష్యూ నేడు, ఫుడ్‌లింక్ F&B ₹360.76 కోట్ల IPO నవంబర్ 26న (ధర ₹181–191) ప్రారంభమవుతాయి. హార్ముజ్ జలసంధి వద్ద నౌకలపై దాడుల వార్తలతో మంగళవారం బ్రెంట్ ముడిచమురు 2.27% పెరిగి $91.40కు చేరగా, డిసెంబర్‌లో అమెరికా వడ్డీ రేటు పెంపు అంచనాలతో బంగారం 2.2% తగ్గి ఔన్స్ $3,555.82 వద్ద ముగిసింది."
+   },
+   "src": [
+    [
+     "Business Today",
+     "https://www.businesstoday.in/markets/stocks/story/mahanadi-coalfields-ipo-subscribed-1-52-times-on-final-day-qibs-lead-demand-569138-2026-11-23"
+    ],
+    [
+     "Kotak Neo (IPOs this week)",
+     "https://www.kotakneo.com/news/ipos/upcoming-ipos-this-week-three-ipos-set-to-open-alongside-three-stock-listings/"
+    ],
+    [
+     "Nation Thailand (oil)",
+     "https://www.nationthailand.com/news/world/40073886"
+    ]
+   ]
+  },
+  {
+   "s": "technology",
+   "when": {
+    "en": "23–24 Nov",
+    "te": "23–24 నవం"
+   },
+   "en": {
+    "h": "Nvidia brings back Jensen Huang as CEO; shares slip 5.86% a day after big rally",
+    "p": "Nvidia's board voted unanimously on 23 November to reinstate Jensen Huang as president, CEO and director with immediate effect, saying it had consulted senior US government officials and found no national security risk in his return. Interim CEO Colette Kress stays as finance chief. Independent directors are looking into reports that a foreign intelligence effort targeted Huang, and the company is creating a national security and export control committee. After Monday's surge, Nvidia shares fell 5.86% to $155.38 on Tuesday."
+   },
+   "te": {
+    "h": "జెన్సెన్ హువాంగ్ మళ్లీ ఎన్విడియా CEO; మరుసటి రోజే షేరు 5.86% డౌన్",
+    "p": "జెన్సెన్ హువాంగ్‌ను మళ్లీ ప్రెసిడెంట్, CEO, డైరెక్టర్‌గా నియమిస్తూ ఎన్విడియా బోర్డు నవంబర్ 23న ఏకగ్రీవంగా నిర్ణయించింది. అమెరికా ప్రభుత్వ సీనియర్ అధికారులతో సంప్రదించామని, ఆయన తిరిగి రావడం వల్ల జాతీయ భద్రతకు ముప్పు లేదని తేలిందని బోర్డు తెలిపింది. తాత్కాలిక CEOగా ఉన్న కొలెట్ క్రెస్ CFOగా కొనసాగుతారు. హువాంగ్‌ను ఓ విదేశీ నిఘా ప్రయత్నం లక్ష్యంగా చేసుకుందన్న వార్తలపై స్వతంత్ర డైరెక్టర్లు దర్యాప్తు చేస్తున్నారు; జాతీయ భద్రత, ఎగుమతి నియంత్రణపై కొత్త కమిటీని కూడా ఏర్పాటు చేస్తున్నారు. సోమవారం భారీగా పెరిగిన ఎన్విడియా షేరు మంగళవారం 5.86% పడి $155.38కి చేరింది."
+   },
+   "src": [
+    [
+     "Nvidia release (SEC filing)",
+     "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm"
+    ],
+    [
+     "TradingKey",
+     "https://www.tradingkey.com/analysis/stocks/more/262320970-japan-south-korea-stocks-kospi-nikkei-softbank-sk-hynix-samsung-kioxia-tradingkey"
+    ]
+   ]
+  },
+  {
+   "s": "technology",
+   "when": {
+    "en": "24–26 Nov",
+    "te": "24–26 నవం"
+   },
+   "en": {
+    "h": "Motorola Edge 70 Neo launched at ₹40,999; Vivo X500 series arrives tomorrow",
+    "p": "Motorola launched the Edge 70 Neo in India at ₹40,999 for its single 8GB + 128GB model, with sales from 1 December at 12 noon on Flipkart, Motorola.in and in stores. It has a 6.8-inch 144Hz curved AMOLED screen, a Snapdragon 7s Gen 3 chip, a 7,000mAh battery with 45W charging and a 50MP main camera. Vivo launches the X500, X500 Pro and X500 Pro Max with Zeiss cameras on 26 November; prices circulating online are unofficial leaks."
+   },
+   "te": {
+    "h": "మోటరోలా ఎడ్జ్ 70 నియో ధర ₹40,999; రేపు వివో X500 సిరీస్",
+    "p": "మోటరోలా ఎడ్జ్ 70 నియో భారత్‌లో విడుదలైంది. 8GB + 128GB ఒకే మోడల్ ధర ₹40,999; డిసెంబర్ 1 మధ్యాహ్నం 12 నుంచి ఫ్లిప్‌కార్ట్, Motorola.in, స్టోర్లలో అమ్మకాలు మొదలవుతాయి. ఇందులో 6.8 అంగుళాల 144Hz కర్వ్డ్ AMOLED తెర, స్నాప్‌డ్రాగన్ 7s Gen 3 చిప్, 45W ఛార్జింగ్‌తో 7,000mAh బ్యాటరీ, 50MP ప్రధాన కెమెరా ఉన్నాయి. జైస్ కెమెరాలతో వివో X500, X500 Pro, X500 Pro Max ఫోన్లు నవంబర్ 26న విడుదలవుతాయి; ఆన్‌లైన్‌లో తిరుగుతున్న ధరలు అధికారికం కావు."
+   },
+   "src": [
+    [
+     "Digit (Motorola)",
+     "https://www.digit.in/news/mobile-phones/motorola-edge-70-neo-with-7000-mah-battery-launched-in-india-check-specs-price-and-other-details.html"
+    ],
+    [
+     "Digit (Vivo)",
+     "https://www.digit.in/news/mobile-phones/vivo-x500-pro-max-x500-pro-x500-india-launch-set-for-nov-26-check-expected-price-specs-and-more.html"
+    ]
+   ]
+  },
+  {
+   "s": "technology",
+   "when": {
+    "en": "Mon, 23 Nov",
+    "te": "సోమ, 23 నవం"
+   },
+   "en": {
+    "h": "IT stocks buck the fall: TCS up 4.6% in a 'reverse-AI trade'",
+    "p": "The Nifty IT index rose 2.49% on Monday even as the broader market fell, with TCS gaining 4.6%, Tech Mahindra 3.21% and Infosys 1.91%. Analysts called it a 'reverse-AI trade': doubts about US cloud giants' AI spending, higher interest rates and Nvidia's leadership upheaval pushed money towards Indian IT services firms. UBS said AI now accounts for more than 10% of the sector's annualised revenue and is growing 20–30% quarter on quarter."
+   },
+   "te": {
+    "h": "మార్కెట్ పడినా IT షేర్ల జోరు: TCS 4.6% పైకి",
+    "p": "సోమవారం మార్కెట్ మొత్తం నష్టపోయినా నిఫ్టీ IT సూచీ 2.49% పెరిగింది; TCS 4.6%, టెక్ మహీంద్రా 3.21%, ఇన్ఫోసిస్ 1.91% లాభపడ్డాయి. అమెరికా క్లౌడ్ దిగ్గజాల AI ఖర్చులపై సందేహాలు, అధిక వడ్డీ రేట్లు, ఎన్విడియా నాయకత్వ గందరగోళం వల్ల పెట్టుబడులు భారత IT సేవల సంస్థల వైపు మళ్లాయని విశ్లేషకులు దీన్ని 'రివర్స్-AI ట్రేడ్'గా పేర్కొన్నారు. రంగం వార్షిక ఆదాయంలో AI వాటా ఇప్పుడు 10% దాటిందని, అది త్రైమాసికానికి 20–30% పెరుగుతోందని UBS తెలిపింది."
+   },
+   "src": [
+    [
+     "Business Today",
+     "https://www.businesstoday.in/markets/stocks/story/tcs-techm-infosys-ltm-mphasis-nifty-it-up-2-why-it-stocks-are-rising-today-569002-2026-11-23"
+    ]
+   ]
+  },
+  {
+   "s": "technology",
+   "when": {
     "en": "Tue, 24 Nov",
     "te": "మంగళ, 24 నవం"
    },
    "en": {
-    "h": "Asia soars on Nvidia rebound: Kospi jumps 6.3%, Nikkei 3.9%; Indian markets shut",
-    "p": "Asian markets rallied hard on Tuesday after Nvidia's 31% surge on Wall Street, which followed the board's decision to bring back Jensen Huang as CEO. South Korea's Kospi closed 6.32% higher at 5,006.04, and Japan's Nikkei rose 3.91% to 58,644.63, led by chip stocks such as Samsung, SK Hynix and Kioxia; Taiwan's benchmark was up more than 9% during the session. US stock futures slipped on Tuesday morning, with Nvidia down about 5% before the open, as investors tested the rally and weighed a likely Fed rate hike in December. Indian markets were closed for Guru Nanak Jayanti and reopen on Wednesday."
+    "h": "Bengaluru's Cosine Robots raises ₹22.36 crore to make robot joints in India",
+    "p": "Bengaluru start-up Cosine Robots, which builds actuators that work as the joints of robots, has raised ₹22.36 crore in a round led by Avaana Capital, with WEH Ventures and angel investors also taking part. Founded by Kiran Mathew Koshy and Delip Thomas, the company will use the money for research, a facility for precision machining, assembly and testing, and a larger engineering team."
    },
    "te": {
-    "h": "ఎన్విడియా పుంజుకోలుతో ఆసియా మార్కెట్ల జోరు: కోస్పీ 6.3%, నిక్కీ 3.9% అప్; భారత మార్కెట్లకు సెలవు",
-    "p": "జెన్సెన్ హువాంగ్‌ను మళ్లీ సీఈఓగా నియమించడంతో ఎన్విడియా షేరు అమెరికాలో 31% ఎగసింది; దాని ప్రభావంతో మంగళవారం ఆసియా మార్కెట్లు భారీగా లాభపడ్డాయి. దక్షిణ కొరియా కోస్పీ 6.32% పెరిగి 5,006.04 వద్ద, జపాన్ నిక్కీ 3.91% పెరిగి 58,644.63 వద్ద ముగిశాయి; శామ్‌సంగ్, ఎస్‌కే హైనిక్స్, కియోక్సియా వంటి చిప్ షేర్లు ముందున్నాయి. తైవాన్ సూచీ ట్రేడింగ్‌లో 9%కి పైగా ఎగసింది. అయితే మంగళవారం ఉదయం అమెరికా ఫ్యూచర్స్ తగ్గాయి; మార్కెట్ ప్రారంభానికి ముందు ఎన్విడియా సుమారు 5% పడింది, డిసెంబర్‌లో ఫెడ్ వడ్డీ రేటు పెంచవచ్చనే ఆందోళన కూడా ఉంది. గురునానక్ జయంతి సందర్భంగా భారత మార్కెట్లకు ఈరోజు సెలవు; బుధవారం తిరిగి ప్రారంభమవుతాయి."
+    "h": "రోబో కీళ్ల తయారీకి బెంగళూరు స్టార్టప్ కొసైన్ రోబోట్స్‌కు ₹22.36 కోట్లు",
+    "p": "రోబోలకు కీళ్లుగా పనిచేసే యాక్చువేటర్లను తయారుచేసే బెంగళూరు స్టార్టప్ కొసైన్ రోబోట్స్ ₹22.36 కోట్ల నిధులు సమీకరించింది. ఈ రౌండ్‌కు అవానా క్యాపిటల్ నాయకత్వం వహించగా, WEH వెంచర్స్, ఏంజెల్ ఇన్వెస్టర్లు కూడా పాల్గొన్నారు. కిరణ్ మాథ్యూ కోశీ, దిలీప్ థామస్ స్థాపించిన ఈ సంస్థ ఈ నిధులను పరిశోధనకు, ప్రెసిషన్ మెషినింగ్-అసెంబ్లీ-టెస్టింగ్ కేంద్రానికి, ఇంజినీరింగ్ బృందం విస్తరణకు వినియోగించనుంది."
    },
    "src": [
-    [
-     "TradingKey",
-     "https://www.tradingkey.com/analysis/stocks/more/262319507-japan-south-korea-stocks-kospi-nikkei-softbank-sk-hynix-samsung-kioxia-tradingkey"
-    ],
-    [
-     "Kotak Neo",
-     "https://www.kotakneo.com/news/global-markets/asian-markets-rally-kospi-gains-above-7-percent-nikkei-rises-5-percent-taiwan-jumps-9-1-nvidia-rebound/"
-    ],
-    [
-     "Yahoo Finance (live)",
-     "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-rebound-090614276.html"
-    ]
-   ]
-  },
-  {
-   "s": "business",
-   "when": {
-    "en": "Mon, 23 Nov",
-    "te": "సోమ, 23 నవం"
-   },
-   "en": {
-    "h": "Sensex lost 1,484 points on Monday; Tata Steel fell 8% on its APL Apollo deal",
-    "p": "The Sensex closed 1.77% lower at 82,435.99 and the Nifty 1.75% lower at 25,349.65 on Monday, as profit-booking after four weeks of gains hit banks, financials and metals. Tata Steel was the top loser at −8.16% after agreeing to buy 26.6% of APL Apollo Tubes at ₹2,100 a share (about ₹15,511 crore), with an open offer for another 26% at ₹2,301.40. Under the deal Tata Steel will sell its tubes business and Tata Steel Colors to APL Apollo for about ₹28,000 crore; APL Apollo shares sank 21.39%."
-   },
-   "te": {
-    "h": "సోమవారం సెన్సెక్స్ 1,484 పాయింట్లు పతనం; APL అపోలో ఒప్పందంతో టాటా స్టీల్ 8% డౌన్",
-    "p": "నాలుగు వారాల లాభాల తర్వాత లాభాల స్వీకరణతో బ్యాంకు, ఆర్థిక, మెటల్ షేర్లు పడిపోవడంతో సోమవారం సెన్సెక్స్ 1.77% తగ్గి 82,435.99 వద్ద, నిఫ్టీ 1.75% తగ్గి 25,349.65 వద్ద ముగిశాయి. APL అపోలో ట్యూబ్స్‌లో 26.6% వాటాను ఒక్కో షేరు ₹2,100 చొప్పున (సుమారు ₹15,511 కోట్లు) కొనుగోలు చేసి, మరో 26% కోసం ₹2,301.40 ధరతో ఓపెన్ ఆఫర్ ఇస్తామని ప్రకటించిన టాటా స్టీల్ 8.16% నష్టపోయింది. ఈ ఒప్పందంలో భాగంగా టాటా స్టీల్ తన ట్యూబ్స్ వ్యాపారం, టాటా స్టీల్ కలర్స్‌ను సుమారు ₹28,000 కోట్లకు APL అపోలోకు అమ్ముతుంది; APL అపోలో షేరు 21.39% పడిపోయింది."
-   },
-   "src": [
-    [
-     "Daily Excelsior (PTI)",
-     "https://www.dailyexcelsior.com/markets-take-heavy-drubbing-dragged-by-banks-sensex-plunges-1484-pts-nifty-dives-to-25349-65/"
-    ],
     [
      "Business Standard",
-     "https://www.business-standard.com/companies/news/tata-steel-acquire-apl-apollo-stake-15510-crore-open-offer-business-deal-126112300184_1.html"
-    ]
-   ]
-  },
-  {
-   "s": "business",
-   "when": {
-    "en": "This week, 23–27 Nov",
-    "te": "ఈ వారం, 23–27 నవం"
-   },
-   "en": {
-    "h": "Three IPOs open this week; SEBI tells brokers to stop spreading grey-market premiums",
-    "p": "Three public issues open this week: Foodlink F&B Holdings (₹360.76 crore, mainboard), Integris Medtech (₹600 crore fresh issue) and Shree Siddhivinayak Greentech (₹93.66 crore, SME), while the ₹35.64 crore Airpro Technology India SME issue opens on 27 November at ₹99 a share. Market regulator SEBI has told intermediaries not to circulate grey-market premiums for upcoming IPOs. In deals, Adani Airport Holdings raised $300 million from 360 ONE Asset, and Brookfield agreed to buy Blackstone-backed PGP Glass at an enterprise value of $1.7 billion."
-   },
-   "te": {
-    "h": "ఈ వారం మూడు ఐపీఓలు; గ్రే మార్కెట్ ప్రీమియం ప్రచారం ఆపాలని సెబీ ఆదేశం",
-    "p": "ఈ వారం మూడు పబ్లిక్ ఇష్యూలు వస్తున్నాయి: ఫుడ్‌లింక్ ఎఫ్&బీ హోల్డింగ్స్ (₹360.76 కోట్లు, మెయిన్‌బోర్డ్), ఇంటిగ్రిస్ మెడ్‌టెక్ (₹600 కోట్ల కొత్త ఇష్యూ), శ్రీ సిద్ధివినాయక్ గ్రీన్‌టెక్ (₹93.66 కోట్లు, ఎస్‌ఎంఈ). ₹35.64 కోట్ల ఎయిర్‌ప్రో టెక్నాలజీ ఇండియా ఎస్‌ఎంఈ ఇష్యూ నవంబర్ 27న షేరుకు ₹99 ధరతో ప్రారంభమవుతుంది. రాబోయే ఐపీఓల గ్రే మార్కెట్ ప్రీమియంలను ప్రచారం చేయవద్దని సెబీ మధ్యవర్తులకు సూచించింది. ఒప్పందాల విషయంలో, అదానీ ఎయిర్‌పోర్ట్ హోల్డింగ్స్ 360 వన్ అసెట్ నుంచి 30 కోట్ల డాలర్లు సమీకరించగా, బ్లాక్‌స్టోన్ మద్దతున్న పీజీపీ గ్లాస్‌ను 170 కోట్ల డాలర్ల విలువతో కొనేందుకు బ్రూక్‌ఫీల్డ్ ఒప్పందం చేసుకుంది."
-   },
-   "src": [
-    [
-     "INDIA IPO (daily update)",
-     "https://www.indiaipo.in/daily-reporter/india-ipo-daily-market-ipo-updates-24th-november-2026"
-    ]
-   ]
-  },
-  {
-   "s": "technology",
-   "when": {
-    "en": "Mon, 23 Nov",
-    "te": "సోమ, 23 నవం"
-   },
-   "en": {
-    "h": "CrowdStrike to buy Zscaler in all-stock deal worth about $43.9 billion",
-    "p": "Cybersecurity firm CrowdStrike has agreed to acquire rival Zscaler in an all-stock deal valued at about $43.9 billion, according to its filing with the US SEC. Zscaler shareholders will receive 1.135 CrowdStrike shares for each share they hold. CrowdStrike pitched the combination around protecting companies as AI agents take on more work, and said it expects the deal to add to free cash flow per share."
-   },
-   "te": {
-    "h": "సుమారు $43.9 బిలియన్లకు జీస్కేలర్‌ను కొంటున్న క్రౌడ్‌స్ట్రైక్",
-    "p": "సైబర్ భద్రతా సంస్థ క్రౌడ్‌స్ట్రైక్ పోటీ సంస్థ జీస్కేలర్‌ను సుమారు $43.9 బిలియన్ల విలువైన పూర్తి షేర్ల ఒప్పందంతో కొనుగోలు చేయనుంది; ఈ విషయాన్ని అమెరికా SECకి సమర్పించిన పత్రంలో తెలిపింది. జీస్కేలర్ వాటాదారులకు ప్రతి షేరుకు 1.135 క్రౌడ్‌స్ట్రైక్ షేర్లు లభిస్తాయి. AI ఏజెంట్లు ఎక్కువ పనులు చేస్తున్న కాలంలో సంస్థలను రక్షించడమే ఈ విలీన లక్ష్యమని, దీనివల్ల ఒక్కో షేరుపై నగదు ప్రవాహం పెరుగుతుందని కంపెనీ చెప్పింది."
-   },
-   "src": [
-    [
-     "CrowdStrike release (SEC filing)",
-     "https://www.sec.gov/Archives/edgar/data/0001535527/000153552726000035/crwd-20261123xex991.htm"
-    ]
-   ]
-  },
-  {
-   "s": "technology",
-   "when": {
-    "en": "Mon, 23 Nov",
-    "te": "సోమ, 23 నవం"
-   },
-   "en": {
-    "h": "Sarvam AI releases upgraded 105B open model, defends hosting Chinese models",
-    "p": "Bengaluru's Sarvam AI released Sarvam-105B-1711, an upgraded open-weight model it says is better at following instructions, using tools and handling Indian languages. In the company's own tests its average score on eight agent benchmarks rose from 42.6 to 73.9, and it cut the blended price from $0.44 to $0.15 per million tokens. Sarvam also defended hosting Chinese models such as DeepSeek on its Token Factory platform, saying it does not conflict with training its own models."
-   },
-   "te": {
-    "h": "సర్వం AI కొత్త 105B ఓపెన్ మోడల్; చైనా మోడళ్ల హోస్టింగ్‌పై సమర్థన",
-    "p": "బెంగళూరుకు చెందిన సర్వం AI సంస్థ సర్వం-105B-1711 అనే మెరుగైన ఓపెన్ మోడల్‌ను విడుదల చేసింది; సూచనలు పాటించడం, టూల్స్ వాడటం, భారతీయ భాషల్లో ఇది మరింత మెరుగ్గా పనిచేస్తుందని చెప్పింది. కంపెనీ సొంత పరీక్షల్లో ఎనిమిది ఏజెంట్ బెంచ్‌మార్క్‌లలో సగటు స్కోరు 42.6 నుంచి 73.9కి పెరిగిందని, ధరను మిలియన్ టోకెన్లకు $0.44 నుంచి $0.15కు తగ్గించామని తెలిపింది. తన టోకెన్ ఫ్యాక్టరీ ప్లాట్‌ఫామ్‌లో డీప్‌సీక్ వంటి చైనా మోడళ్లను అందించడం సొంత మోడళ్ల తయారీకి అడ్డు కాదని సంస్థ స్పష్టం చేసింది."
-   },
-   "src": [
-    [
-     "Analytics India Magazine",
-     "https://analyticsindiamag.com/ai-news/sarvam-defends-hosting-chinese-ai-models-releases-upgraded-105b-model"
-    ]
-   ]
-  },
-  {
-   "s": "technology",
-   "when": {
-    "en": "This week, 24–26 Nov",
-    "te": "ఈ వారం, 24–26 నవం"
-   },
-   "en": {
-    "h": "Motorola Edge 70 Neo launches today; Vivo X500 series arrives on 26 November",
-    "p": "Motorola's Edge 70 Neo launches in India today on Flipkart, with a 6.8-inch 144Hz curved OLED screen, a Snapdragon 7s Gen 3 chip and a 7,000mAh battery; the price will be revealed at launch. Vivo will launch the X500, X500 Pro and X500 Pro Max in India on Wednesday, 26 November, at 12 noon, along with the Vivo Watch GT 2. Prices circulating online for both brands are unofficial leaks."
-   },
-   "te": {
-    "h": "ఈరోజు మోటరోలా ఎడ్జ్ 70 నియో; నవంబర్ 26న వివో X500 సిరీస్",
-    "p": "6.8 అంగుళాల 144Hz కర్వ్‌డ్ OLED స్క్రీన్, స్నాప్‌డ్రాగన్ 7s Gen 3 చిప్, 7,000mAh బ్యాటరీతో మోటరోలా ఎడ్జ్ 70 నియో ఈరోజు భారత్‌లో ఫ్లిప్‌కార్ట్ ద్వారా విడుదలవుతోంది; ధర లాంచ్‌లోనే తెలుస్తుంది. వివో X500, X500 ప్రో, X500 ప్రో మ్యాక్స్ ఫోన్లను వివో వాచ్ GT 2తో కలిపి బుధవారం, నవంబర్ 26 మధ్యాహ్నం 12 గంటలకు భారత్‌లో విడుదల చేయనుంది. ఆన్‌లైన్‌లో వినిపిస్తున్న ధరలు అధికారికం కావు."
-   },
-   "src": [
-    [
-     "Beebom",
-     "https://gadgets.beebom.com/news/all-upcoming-phones-launching-this-week-november-23-november-29"
-    ],
-    [
-     "My Mobile India",
-     "https://www.mymobileindia.com/vivo-x500-series-india-launch-date-officially-confirmed-for-november-26/"
-    ]
-   ]
-  },
-  {
-   "s": "technology",
-   "when": {
-    "en": "Mon, 23 Nov",
-    "te": "సోమ, 23 నవం"
-   },
-   "en": {
-    "h": "Amazon to buy Decart's AI tech in reported $7.5 billion deal; DeepMind agents speed up fusion maths",
-    "p": "Amazon has agreed to acquire AI start-up Decart's model-optimisation technology and research team in a deal reported at $7.5 billion, aiming to run AI models more efficiently on its own Trainium chips. Separately, Google DeepMind said AI agents improved quantum algorithms used in fusion research, cutting the estimated computing cost by 11.8 times, with a formal proof system checking the results. OpenAI also began rolling out a new ChatGPT model, GPT-6.2, to paid users."
-   },
-   "te": {
-    "h": "డెకార్ట్ ఏఐ సాంకేతికత కొనుగోలుకు అమెజాన్ ఒప్పందం (సుమారు 750 కోట్ల డాలర్లు); ఫ్యూజన్ లెక్కల్లో డీప్‌మైండ్ ఏఐ ఏజెంట్లు",
-    "p": "ఏఐ స్టార్టప్ డెకార్ట్‌కు చెందిన మోడల్ ఆప్టిమైజేషన్ సాంకేతికతను, పరిశోధన బృందాన్ని అమెజాన్ కొనుగోలు చేయనుంది; ఈ ఒప్పందం విలువ 750 కోట్ల డాలర్లు అని వార్తలు చెబుతున్నాయి. తన సొంత ట్రైనియం చిప్‌లపై ఏఐ మోడళ్లను మరింత సమర్థంగా నడపడమే లక్ష్యం. మరోవైపు, ఫ్యూజన్ పరిశోధనలో వాడే క్వాంటమ్ అల్గారిథమ్‌లను ఏఐ ఏజెంట్లు మెరుగుపరిచి, అంచనా వేసిన కంప్యూటింగ్ ఖర్చును 11.8 రెట్లు తగ్గించాయని గూగుల్ డీప్‌మైండ్ తెలిపింది. ఓపెన్‌ఏఐ కూడా కొత్త ChatGPT మోడల్ GPT-6.2ను చెల్లింపు వినియోగదారులకు అందుబాటులోకి తెస్తోంది."
-   },
-   "src": [
-    [
-     "The Neuron (AI digest)",
-     "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-november-24-2026/"
+     "https://www.business-standard.com/companies/news/cosine-robots-raises-22-36-crore-to-manufacture-robotic-joints-in-india-126112400577_1.html"
     ]
    ]
   },
   {
    "s": "sports",
    "when": {
-    "en": "Game 1: Tue, 24 Nov, 7:30 PM IST",
-    "te": "తొలి గేమ్: మంగళ, 24 నవం, రా. 7:30"
+    "en": "Game 2: Wed, 25 Nov",
+    "te": "రెండో గేమ్: బుధ, 25 నవం"
    },
    "en": {
-    "h": "Gukesh begins world title defence with Black against Sindarov tonight",
-    "p": "D Gukesh starts the defence of his world chess crown against Uzbekistan's Javokhir Sindarov tonight, with Game 1 at 7:30 PM IST at the Fondation Martin Bodmer in Cologny, near Geneva. Sindarov has White in the opener after Gukesh picked the clock with the black chocolate knight at Sunday's opening ceremony; colours then alternate. The match runs over 14 games until 12 December, with the first rest day on Friday after three games."
+    "h": "Gukesh survives time trouble to draw Game 1; takes White against Sindarov today",
+    "p": "D Gukesh held Javokhir Sindarov to a 38-move draw by perpetual check in Game 1 of the World Chess Championship near Geneva on Tuesday, leaving the match level at 0.5–0.5. Playing Black in a Berlin Defence, Gukesh won a pawn but fell short of time, with under six minutes left by move 31, before Sindarov simplified and forced repeated checks. Gukesh has the White pieces in Game 2 today; the first rest day is on 27 November."
    },
    "te": {
-    "h": "ఈ రాత్రి నుంచి గుకేశ్ ప్రపంచ టైటిల్ రక్షణ; తొలి గేమ్‌లో నల్ల పావులతో సిందరోవ్‌పై",
-    "p": "ప్రపంచ చెస్ ఛాంపియన్ డి. గుకేశ్ ఉజ్బెకిస్తాన్ ఆటగాడు జవోఖిర్ సిందరోవ్‌తో టైటిల్ పోరును ఈ రాత్రి 7:30కి (భారత కాలమానం) జెనీవా సమీపంలోని కొలోనీలో ఫౌండేషన్ మార్టిన్ బోడ్మర్ వేదికగా మొదలుపెడుతున్నాడు. ఆదివారం ప్రారంభోత్సవంలో గుకేశ్ నల్ల చాక్లెట్ గుర్రం ఉన్న గడియారాన్ని ఎంచుకోవడంతో తొలి గేమ్‌లో సిందరోవ్ తెల్ల పావులతో ఆడతాడు; తర్వాత రంగులు మారుతుంటాయి. మొత్తం 14 గేమ్‌ల ఈ మ్యాచ్ డిసెంబర్ 12 వరకు జరుగుతుంది; మూడు గేమ్‌ల తర్వాత శుక్రవారం తొలి విశ్రాంతి రోజు."
+    "h": "తొలి గేమ్ డ్రా: సమయ ఒత్తిడిని తట్టుకున్న గుకేశ్; నేడు తెల్ల పావులతో",
+    "p": "జెనీవా సమీపంలో జరుగుతున్న ప్రపంచ చెస్ ఛాంపియన్‌షిప్ తొలి గేమ్‌లో డి. గుకేశ్, జావోఖిర్ సిందరోవ్ 38 ఎత్తుల్లో పర్పెచువల్ చెక్‌తో డ్రా చేసుకున్నారు; స్కోరు 0.5–0.5. బెర్లిన్ డిఫెన్స్‌లో నల్ల పావులతో ఆడిన గుకేశ్ ఒక పాన్ గెలిచినా సమయం తగ్గిపోయింది; 31వ ఎత్తు నాటికి ఆరు నిమిషాల కంటే తక్కువే మిగిలింది. తర్వాత సిందరోవ్ ఆటను సరళం చేసి వరుస చెక్‌లు ఇచ్చాడు. నేటి రెండో గేమ్‌లో గుకేశ్ తెల్ల పావులతో ఆడతాడు; తొలి విశ్రాంతి దినం నవంబర్ 27."
    },
    "src": [
     [
-     "Chess.com",
-     "https://www.chess.com/news/view/2026-fide-chess-world-championship-opening-ceremony"
+     "ChessBase India",
+     "https://chessbase.in/news-bites/game-1-gukesh-holds-sindarov"
     ],
     [
-     "ChessBase India (preview)",
-     "https://chessbase.in/news/fide-world-championship-match-2026-preview-report"
+     "ThePrint (PTI)",
+     "https://theprint.in/sport/gukesh-survives-time-pressure-to-draw-opening-game-against-sindarov/3108060/"
+    ],
+    [
+     "WorldChess",
+     "https://worldchess.com/news/gukesh-vs-sindarov-everything-you-need-to-know-about-the-2026-world-chess-championship"
     ]
    ]
   },
   {
    "s": "sports",
    "when": {
-    "en": "Next Test: 27 Nov, 3:30 AM IST",
-    "te": "తదుపరి టెస్టు: 27 నవం, తె. 3:30"
+    "en": "Test: 27 Nov, 3:30 AM IST",
+    "te": "టెస్టు: 27 నవం, తె. 3:30"
    },
    "en": {
-    "h": "After the Wellington draw, India eye Christchurch decider from 27 November",
-    "p": "India's 720/9 declared, built on centuries by KL Rahul (136) and Rishabh Pant (128), was not enough to win at Wellington as New Zealand batted out the final day at 239/5, still 113 behind. Henry Nicholls, who made an unbeaten 175 in the first innings, was Player of the Match. The second and final Test starts at Hagley Oval, Christchurch, on 27 November at 3:30 AM IST; India's squad includes Andhra's Nitish Kumar Reddy and Hyderabad's Mohammed Siraj."
+    "h": "Christchurch Test: NZ lose Tickner to injury; India expect a similar XI",
+    "p": "New Zealand pacer Blair Tickner has been ruled out of the second Test against India with a right hamstring injury, and Matt Fisher has been called up. India captain Shubman Gill said most of the side from the drawn Wellington Test would stay the same and hoped the Christchurch pitch would offer bowlers more help. The deciding Test at Hagley Oval runs from 27 November to 1 December, with play starting at 3:30 AM IST."
    },
    "te": {
-    "h": "వెల్లింగ్టన్ డ్రా తర్వాత నవంబర్ 27 నుంచి క్రైస్ట్‌చర్చ్ టెస్టుపై భారత్ దృష్టి",
-    "p": "కేఎల్ రాహుల్ (136), రిషభ్ పంత్ (128) సెంచరీలతో భారత్ 720/9 వద్ద డిక్లేర్ చేసినా, చివరి రోజు న్యూజిలాండ్ 239/5తో నిలబడటంతో వెల్లింగ్టన్ టెస్టు డ్రాగా ముగిసింది; అప్పటికి కివీస్ ఇంకా 113 పరుగులు వెనుకబడి ఉంది. తొలి ఇన్నింగ్స్‌లో అజేయంగా 175 పరుగులు చేసిన హెన్రీ నికోల్స్ ప్లేయర్ ఆఫ్ ది మ్యాచ్‌గా నిలిచాడు. రెండో, చివరి టెస్టు క్రైస్ట్‌చర్చ్‌లోని హాగ్లీ ఓవల్‌లో నవంబర్ 27న భారత కాలమానం ప్రకారం తెల్లవారుజామున 3:30కి మొదలవుతుంది; జట్టులో ఆంధ్రకు చెందిన నితీశ్ కుమార్ రెడ్డి, హైదరాబాద్‌కు చెందిన మహ్మద్ సిరాజ్ ఉన్నారు."
+    "h": "క్రైస్ట్‌చర్చ్ టెస్టుకు కివీస్ పేసర్ టిక్నర్ దూరం; భారత్ జట్టులో పెద్ద మార్పుల్లేవు",
+    "p": "కుడి తొడ కండరం గాయంతో న్యూజిలాండ్ పేసర్ బ్లెయిర్ టిక్నర్ భారత్‌తో రెండో టెస్టుకు దూరమయ్యాడు; అతని స్థానంలో మ్యాట్ ఫిషర్‌ను తీసుకున్నారు. వెల్లింగ్టన్‌లో డ్రాగా ముగిసిన టెస్టు జట్టే దాదాపు కొనసాగుతుందని, క్రైస్ట్‌చర్చ్ పిచ్ బౌలర్లకు కొంచెం ఎక్కువ సహకరిస్తుందని ఆశిస్తున్నానని కెప్టెన్ శుభ్‌మన్ గిల్ చెప్పాడు. సిరీస్ నిర్ణయాత్మక టెస్టు హాగ్లీ ఓవల్‌లో నవంబర్ 27 నుంచి డిసెంబర్ 1 వరకు జరుగుతుంది; ఆట భారత కాలమానం ప్రకారం తెల్లవారుజామున 3:30కు మొదలవుతుంది."
    },
    "src": [
     [
-     "Open Magazine",
-     "https://openthemagazine.com/sports/india-held-to-draw-by-new-zealand-in-wellington-test-after-tough-fightback-from-mitchell-phillips"
+     "The Hans India (IANS)",
+     "https://www.thehansindia.com/sports/tickner-ruled-out-of-second-india-test-with-hamstring-injury-fisher-drafted-in-1145342"
     ],
     [
-     "ABC News",
-     "https://www.abc.net.au/news/2026-11-23/new-zealand-bat-out-draw-with-india-in-first-test/107418280"
+     "Tribune (Reuters)",
+     "https://tribune.com.pk/story/2641870/indias-gill-wants-bowler-friendly-pitch-for-second-test"
     ],
     [
-     "Wisden",
-     "https://www.wisden.com/series/new-zealand-vs-india-m-2026/cricket-news/nz-vs-ind-tests-2026-schedule-squads-match-timings"
+     "CricketNews (timings)",
+     "https://www.cricketnews.com/en/cricket/news/watch-ind-vs-nz-test-2026-start-time-tv-channels-streaming/342a221f5c3cc5b6ad486b89"
+    ]
+   ]
+  },
+  {
+   "s": "sports",
+   "when": {
+    "en": "Tue, 24 Nov",
+    "te": "మంగళ, 24 నవం"
+   },
+   "en": {
+    "h": "Hockey: Deepika hat-trick as India women thump China 6-2; Japan next tonight",
+    "p": "Defending champions India beat China 6-2 at the Women's Asian Champions Trophy in Bhopal on Tuesday, their biggest win over China in the tournament. Deepika scored a hat-trick inside the first quarter, and Lalremsiami, Neha and Sakshi Rana added goals. India and Japan are both unbeaten on 12 points and meet in their last round-robin match today at 7 PM IST."
+   },
+   "te": {
+    "h": "హాకీ: దీపిక హ్యాట్రిక్; చైనాపై భారత మహిళల 6-2 ఘనవిజయం, నేడు జపాన్‌తో",
+    "p": "భోపాల్‌లో జరుగుతున్న మహిళల ఆసియా ఛాంపియన్స్ ట్రోఫీలో డిఫెండింగ్ ఛాంపియన్ భారత్ మంగళవారం చైనాను 6-2తో ఓడించింది; ఈ టోర్నీలో చైనాపై ఇదే అతిపెద్ద విజయం. తొలి క్వార్టర్‌లోనే దీపిక హ్యాట్రిక్ సాధించగా, లాల్‌రెమ్‌సియామి, నేహా, సాక్షి రాణా తలో గోల్ చేశారు. 12 పాయింట్లతో ఓటమి లేకుండా ఉన్న భారత్, జపాన్ నేడు రాత్రి 7 గంటలకు చివరి రౌండ్-రాబిన్ మ్యాచ్‌లో తలపడతాయి."
+   },
+   "src": [
+    [
+     "The Tribune",
+     "https://www.tribuneindia.com/news/deepika-hockey/deepikas-hat-trick-leads-indias-biggest-womens-asian-champions-trophy-victory-over-china-as-defending-champions-win-6-2"
     ]
    ]
   },
@@ -373,70 +431,16 @@
    },
    "en": {
     "h": "SMAT: Hyderabad beat Gujarat off the last ball for their third win",
-    "p": "Hyderabad chased down Gujarat's 187/7 off the final ball at Eden Gardens in the Syed Mushtaq Ali Trophy on Tuesday, with Aman Rao Perala (59) and Kodimela Himateja (54) leading the chase and Pranav Verma hitting the winning runs. It was Hyderabad's third win of the T20 tournament. Maharashtra also won off the last ball against Tripura, while Punjab thrashed Saurashtra by seven wickets in just 12.4 overs."
+    "p": "Hyderabad chased down Gujarat's 187/7 off the final ball at Eden Gardens in the Syed Mushtaq Ali Trophy on Tuesday, with Aman Rao Perala (59) and Kodimela Himateja (54) leading the chase and Pranav Verma finishing it with a six off the penultimate delivery. It was Hyderabad's third win of the T20 tournament. Maharashtra also won off the last ball against Tripura, and Punjab beat Saurashtra by seven wickets."
    },
    "te": {
-    "h": "ముష్తాక్ అలీ ట్రోఫీ: చివరి బంతికి గుజరాత్‌పై హైదరాబాద్ గెలుపు",
-    "p": "సయ్యద్ ముష్తాక్ అలీ ట్రోఫీలో మంగళవారం ఈడెన్ గార్డెన్స్‌లో గుజరాత్ చేసిన 187/7 లక్ష్యాన్ని హైదరాబాద్ చివరి బంతికి ఛేదించింది. అమన్ రావు పేరాల (59), కొడిమెల హిమతేజ (54) రాణించగా, ప్రణవ్ వర్మ విజయ పరుగులు చేశాడు. ఈ టీ20 టోర్నీలో హైదరాబాద్‌కు ఇది మూడో విజయం. మహారాష్ట్ర కూడా చివరి బంతికి త్రిపురపై గెలవగా, పంజాబ్ కేవలం 12.4 ఓవర్లలోనే సౌరాష్ట్రను 7 వికెట్ల తేడాతో ఓడించింది."
+    "h": "ముస్తాక్ అలీ ట్రోఫీ: చివరి బంతికి గుజరాత్‌పై హైదరాబాద్ గెలుపు",
+    "p": "సయ్యద్ ముస్తాక్ అలీ ట్రోఫీలో మంగళవారం ఈడెన్ గార్డెన్స్‌లో గుజరాత్ చేసిన 187/7 లక్ష్యాన్ని హైదరాబాద్ చివరి బంతికి ఛేదించింది. అమన్ రావు పేరాల (59), కొడిమెల హిమతేజ (54) ఛేజింగ్‌ను నడిపించగా, చివరి నుంచి రెండో బంతికి సిక్సర్‌తో ప్రణవ్ వర్మ ఆటను ముగించాడు. ఈ టోర్నీలో హైదరాబాద్‌కు ఇది మూడో విజయం. మహారాష్ట్ర కూడా చివరి బంతికి త్రిపురపై గెలవగా, పంజాబ్ ఏడు వికెట్ల తేడాతో సౌరాష్ట్రను ఓడించింది."
    },
    "src": [
     [
      "Telangana Today (IANS)",
      "https://telanganatoday.com/syed-mushtaq-ali-trophy-hyderabad-edge-gujarat-maharashtra-overcome-tripura"
-    ]
-   ]
-  },
-  {
-   "s": "sports",
-   "when": {
-    "en": "Sun, 22 Nov",
-    "te": "ఆది, 22 నవం"
-   },
-   "en": {
-    "h": "Hockey: India women rout Thailand 7-0 to reach semis; men win series in New Zealand",
-    "p": "Defending champions India beat Thailand 7-0 at the Women's Asian Champions Trophy in Bhopal to book a semi-final place, with Deepika Sehrawat scoring a hat-trick and Navneet Kaur converting two penalty strokes. In Auckland, India's men drew 2-2 with New Zealand in the final match to win the three-match series 1-0 without losing a game."
-   },
-   "te": {
-    "h": "హాకీ: థాయ్‌లాండ్‌ను 7-0తో చిత్తుచేసి సెమీస్‌కు భారత మహిళలు; కివీస్‌లో సిరీస్ గెలిచిన పురుషులు",
-    "p": "భోపాల్‌లో జరుగుతున్న మహిళల ఆసియా ఛాంపియన్స్ ట్రోఫీలో డిఫెండింగ్ ఛాంపియన్ భారత్ థాయ్‌లాండ్‌ను 7-0తో ఓడించి సెమీఫైనల్ చేరింది; దీపికా సెహ్రావత్ హ్యాట్రిక్ సాధించగా, నవనీత్ కౌర్ రెండు పెనాల్టీ స్ట్రోక్‌లను గోల్స్‌గా మలిచింది. ఆక్లాండ్‌లో భారత పురుషుల జట్టు చివరి మ్యాచ్‌ను న్యూజిలాండ్‌తో 2-2తో డ్రా చేసుకుని, మూడు మ్యాచ్‌ల సిరీస్‌ను ఓటమి లేకుండా 1-0తో గెలుచుకుంది."
-   },
-   "src": [
-    [
-     "UNI (women)",
-     "https://www.uniindia.com/sports/sports-hockey-india-women-asian-champions-trophy-22spd26/254136"
-    ],
-    [
-     "UNI (men)",
-     "https://www.uniindia.com/sports/sports-hockey-india-nz-unity-series/254511"
-    ]
-   ]
-  },
-  {
-   "s": "entertainment",
-   "when": {
-    "en": "Thu–Sun, 19–22 Nov",
-    "te": "గురు–ఆది, 19–22 నవం"
-   },
-   "en": {
-    "h": "ENE Repeat races to ₹41.62 crore in four days; Aakasamlo Oka Tara starts slow",
-    "p": "Vishwak Sen's ENE Repeat, directed by Tharun Bhascker, has grossed ₹41.62 crore worldwide in four days, according to its makers, who expect it to cross ₹50 crore soon; tracker Sacnilk estimates a lower ₹35.45 crore. Dulquer Salmaan's Aakasamlo Oka Tara, directed by Pavan Sadineni, collected about ₹22.7 crore worldwide in its opening weekend, as reported by Great Andhra, which called it a slow start."
-   },
-   "te": {
-    "h": "నాలుగు రోజుల్లో ₹41.62 కోట్లకు ENE రిపీట్; నెమ్మదిగా మొదలైన ఆకాశంలో ఒక తార",
-    "p": "తరుణ్ భాస్కర్ దర్శకత్వంలో విశ్వక్ సేన్ నటించిన ENE రిపీట్ నాలుగు రోజుల్లో ప్రపంచవ్యాప్తంగా ₹41.62 కోట్ల గ్రాస్ వసూలు చేసిందని నిర్మాతలు ప్రకటించారు; త్వరలోనే ₹50 కోట్లు దాటుతుందని అంటున్నారు. ట్రాకర్ సాక్‌నిల్క్ అంచనా మాత్రం ₹35.45 కోట్లు. పవన్ సాదినేని దర్శకత్వంలో దుల్కర్ సల్మాన్ నటించిన ఆకాశంలో ఒక తార తొలి వారాంతంలో ప్రపంచవ్యాప్తంగా సుమారు ₹22.7 కోట్లు రాబట్టిందని, ఇది నెమ్మదైన ఆరంభమని గ్రేట్ ఆంధ్ర పేర్కొంది."
-   },
-   "src": [
-    [
-     "The Hans India",
-     "https://www.thehansindia.com/cinema/vishwak-sens-ene-repeat-crosses-rs-4162-crores-in-just-4-days-1144962"
-    ],
-    [
-     "Sacnilk",
-     "https://www.sacnilk.com/news/ENE_Repeat_2026_Box_Office_Collection_Day_Wise_Worldwide"
-    ],
-    [
-     "Great Andhra",
-     "https://www.greatandhra.com/movies/movie-news/bo-dulquer-starts-slow-vishwak-strikes-gold-dhanush-surprises/"
     ]
    ]
   },
@@ -447,230 +451,263 @@
     "te": "విడుదల: శుక్ర, 27 నవం"
    },
    "en": {
-    "h": "Bhogi trailer is out; Sharwanand's period drama releases this Friday",
-    "p": "The trailer of Sharwanand's Bhogi, a period action drama set in the early 1960s and directed by Sampath Nandi, was released on 22 November ahead of the film's release on Friday, 27 November. Sharwanand plays Ganga, a man devoted to his five sisters, with Anupama Parameswaran and Dimple Hayathi in the cast and music by Bheems Ceciroleo. The film was earlier set for 12 November but was postponed over censor issues. Several small Telugu films also open the same day."
+    "h": "Bhogi gets a solo Friday release after Mysaa and Haindava step aside",
+    "p": "Sharwanand's period action drama Bhogi, directed by Sampath Nandi, releases worldwide this Friday, 27 November, with an A certificate. The film was pulled from its 12 November date when the censor board sent it to the revising committee; the director told The Hans India the committee ordered no cuts. With Rashmika Mandanna's Mysaa and Bellamkonda Sai Sreenivas's Haindava moving off the date, Bhogi now has the weekend to itself among big Telugu releases."
    },
    "te": {
-    "h": "భోగి ట్రైలర్ విడుదల; ఈ శుక్రవారం థియేటర్లలోకి శర్వానంద్ పీరియడ్ డ్రామా",
-    "p": "1960ల నాటి నేపథ్యంలో సంపత్ నంది దర్శకత్వంలో తెరకెక్కిన శర్వానంద్ యాక్షన్ డ్రామా భోగి ట్రైలర్ నవంబర్ 22న విడుదలైంది; సినిమా శుక్రవారం, నవంబర్ 27న థియేటర్లలోకి వస్తోంది. ఐదుగురు చెల్లెళ్లే లోకంగా బతికే గంగ పాత్రలో శర్వానంద్ నటించగా, అనుపమ పరమేశ్వరన్, డింపుల్ హయతి ఇతర పాత్రల్లో ఉన్నారు; సంగీతం భీమ్స్ సిసిరోలియో. సెన్సార్ సమస్యల వల్ల నవంబర్ 12 నుంచి విడుదల వాయిదా పడింది. అదే రోజు పలు చిన్న తెలుగు సినిమాలు కూడా విడుదలవుతున్నాయి."
+    "h": "శుక్రవారం భోగి సోలో రిలీజ్; వాయిదా పడిన మైసా, హైందవ",
+    "p": "శర్వానంద్ హీరోగా సంపత్ నంది తెరకెక్కించిన పీరియడ్ యాక్షన్ డ్రామా 'భోగి' ఈ శుక్రవారం, నవంబర్ 27న A సర్టిఫికెట్‌తో ప్రపంచవ్యాప్తంగా విడుదలవుతోంది. సెన్సార్ బోర్డు రివైజింగ్ కమిటీకి పంపడంతో నవంబర్ 12 విడుదల వాయిదా పడింది; కమిటీ ఒక్క కట్ కూడా చెప్పలేదని దర్శకుడు ది హన్స్ ఇండియాకు తెలిపారు. రష్మిక 'మైసా', బెల్లంకొండ సాయి శ్రీనివాస్ 'హైందవ' ఈ తేదీ నుంచి తప్పుకోవడంతో పెద్ద తెలుగు సినిమాల్లో భోగికి పోటీ లేదు."
    },
    "src": [
     [
-     "Gulte",
-     "https://www.gulte.com/movienews/443706/bhogi-trailer-sharwanands-blood-fest"
+     "Tupaki",
+     "https://english.tupaki.com/entertainment/bhogi-solo-release-november-27-2026-1516332"
     ],
     [
-     "M9 News",
-     "https://www.m9.news/movienews/sharwanands-bhogi-locks-its-theatrical-release/"
-    ],
-    [
-     "Sakshi",
-     "https://www.sakshi.com/telugu-news/movies/week-ott-release-movies-list-november-23-november-29-2967996"
-    ]
-   ]
-  },
-  {
-   "s": "entertainment",
-   "when": {
-    "en": "Fri–Mon, 20–23 Nov",
-    "te": "శుక్ర–సోమ, 20–23 నవం"
-   },
-   "en": {
-    "h": "Dhanush–Mammootty's OM nears ₹93 crore worldwide but drops sharply on Monday",
-    "p": "OM Chapter 1, starring Dhanush, Mammootty and Sai Pallavi, has collected an estimated ₹93.40 crore worldwide in four days, as reported by Sacnilk. Its India net fell about 61% on Monday to ₹6.20 crore after a strong weekend. The Telugu version has contributed about ₹13.25 crore net so far."
-   },
-   "te": {
-    "h": "ధనుష్–మమ్ముట్టి OM ప్రపంచవ్యాప్తంగా ₹93 కోట్లకు చేరువ; సోమవారం భారీ తగ్గుదల",
-    "p": "ధనుష్, మమ్ముట్టి, సాయి పల్లవి నటించిన OM చాప్టర్ 1 నాలుగు రోజుల్లో ప్రపంచవ్యాప్తంగా సుమారు ₹93.40 కోట్లు వసూలు చేసినట్లు సాక్‌నిల్క్ అంచనా వేసింది. బలమైన వారాంతం తర్వాత సోమవారం భారత్‌లో నెట్ వసూళ్లు సుమారు 61% తగ్గి ₹6.20 కోట్లకు పడిపోయాయి. తెలుగు వెర్షన్ ఇప్పటివరకు సుమారు ₹13.25 కోట్ల నెట్ రాబట్టింది."
-   },
-   "src": [
-    [
-     "Sacnilk",
-     "https://www.sacnilk.com/news/OM_Chapter_1_Udhiram_2026_Box_Office_Collection_Day_Wise_Worldwide"
+     "The Hans India",
+     "https://www.thehansindia.com/cinema/tollywood/sharwanand-hans-delivered-stunning-performance-in-bhogi-director-sampath-nandi-1145558"
     ],
     [
      "Great Andhra",
-     "https://www.greatandhra.com/movies/movie-news/bo-dulquer-starts-slow-vishwak-strikes-gold-dhanush-surprises/"
+     "https://www.greatandhra.com/movies/movie-news/two-postponements-one-winner-sharwas-bhogi/"
     ]
    ]
   },
   {
    "s": "entertainment",
    "when": {
-    "en": "19–23 Nov",
-    "te": "19–23 నవం"
+    "en": "19–24 Nov",
+    "te": "19–24 నవం"
    },
    "en": {
-    "h": "On OTT this week: Vishwak Sen's Cult, horror film 418 and Crazy Kalyanam",
-    "p": "Vishwak Sen's slasher Cult is now streaming on Prime Video in Telugu, Tamil and Hindi from 19 November. Mythri Movie Makers' horror film 418 arrived on Netflix on 20 November in five languages, the family comedy Crazy Kalyanam came to Aha, and the comedy thriller Anumana Pakshi to Sun NXT the same day. The psychological thriller Mayookha, on Prime Video from 20 November, added more language versions on Prime Video and JioHotstar on 23 November."
+    "h": "OM Chapter 1 crosses ₹100 crore worldwide; ENE Repeat at ₹39 crore in five days",
+    "p": "Dhanush–Mammootty's OM Chapter 1: Udhiram has grossed an estimated ₹100.75 crore worldwide in five days, according to tracker Sacnilk, with ₹14.90 crore net coming from the Telugu version. Vishwak Sen's ENE Repeat reached an estimated ₹39.15 crore worldwide gross in five days, though its Monday India net of ₹2 crore was about 56% below Sunday's. These are tracker estimates; the ENE Repeat makers had earlier claimed higher figures."
    },
    "te": {
-    "h": "ఈ వారం ఓటీటీలో: విశ్వక్ సేన్ 'కల్ట్', హారర్ సినిమా '418', 'క్రేజీ కళ్యాణం'",
-    "p": "విశ్వక్ సేన్ నటించిన స్లాషర్ సినిమా 'కల్ట్' నవంబర్ 19 నుంచి ప్రైమ్ వీడియోలో తెలుగు, తమిళం, హిందీలో స్ట్రీమ్ అవుతోంది. మైత్రీ మూవీ మేకర్స్ హారర్ సినిమా '418' నవంబర్ 20న ఐదు భాషల్లో నెట్‌ఫ్లిక్స్‌కు వచ్చింది; అదే రోజు ఫ్యామిలీ కామెడీ 'క్రేజీ కళ్యాణం' ఆహాలో, కామెడీ థ్రిల్లర్ 'అనుమాన పక్షి' సన్ నెక్స్ట్‌లో విడుదలయ్యాయి. నవంబర్ 20 నుంచి ప్రైమ్ వీడియోలో ఉన్న సైకలాజికల్ థ్రిల్లర్ 'మయూఖ' ఇతర భాషల వెర్షన్లు నవంబర్ 23 నుంచి ప్రైమ్ వీడియో, జియోహాట్‌స్టార్‌లో అందుబాటులోకి వచ్చాయి."
+    "h": "OM చాప్టర్ 1 ₹100 కోట్లు దాటింది; ఐదు రోజుల్లో ENE రిపీట్ ₹39 కోట్లు",
+    "p": "ధనుష్–మమ్ముట్టి నటించిన 'OM చాప్టర్ 1: ఉధిరం' ఐదు రోజుల్లో ప్రపంచవ్యాప్తంగా సుమారు ₹100.75 కోట్ల గ్రాస్ వసూలు చేసిందని ట్రాకర్ సాక్‌నిల్క్ అంచనా; అందులో తెలుగు వెర్షన్ వాటా ₹14.90 కోట్లు నెట్. విశ్వక్ సేన్ 'ENE రిపీట్' ఐదు రోజుల్లో ప్రపంచవ్యాప్తంగా సుమారు ₹39.15 కోట్ల గ్రాస్‌కు చేరింది; అయితే సోమవారం భారత్ నెట్ ₹2 కోట్లు, ఆదివారం కంటే దాదాపు 56% తక్కువ. ఇవి ట్రాకర్ అంచనాలు మాత్రమే; ENE రిపీట్ నిర్మాతలు ఇంతకుముందు ఎక్కువ అంకెలు ప్రకటించారు."
    },
    "src": [
     [
-     "FilmiBeat",
-     "https://www.filmibeat.com/top-listing/new-ott-releases-this-week-in-telugu-2026-aha-prime-video-netflix-zee5-hotstar-sunnxt-and-sonyliv-6-1079.html"
+     "Sacnilk (OM)",
+     "https://www.sacnilk.com/news/OM_Chapter_1_Udhiram_2026_Box_Office_Collection_Day_Wise_Worldwide"
+    ],
+    [
+     "Sacnilk (ENE Repeat)",
+     "https://www.sacnilk.com/news/ENE_Repeat_2026_Box_Office_Collection_Day_Wise_Worldwide"
+    ]
+   ]
+  },
+  {
+   "s": "entertainment",
+   "when": {
+    "en": "23–24 Nov",
+    "te": "23–24 నవం"
+   },
+   "en": {
+    "h": "Chiranjeevi's Netflix talk show Megaverse unveils promo; Vishwambhara eyes Sankranti",
+    "p": "Netflix has released a promo for Megaverse, a talk show hosted by Chiranjeevi; some episodes have been shot, but no premiere date has been announced. His fantasy film Vishwambhara now has a clear path to a Sankranti release, with post-production nearly complete, Great Andhra reports. Separately, unconfirmed reports say Mahesh Babu and SS Rajamouli's Varanasi, which wrapped shooting on 15 November, may move from 7 April 2027 to later in the year; the makers have not commented."
+   },
+   "te": {
+    "h": "నెట్‌ఫ్లిక్స్‌లో చిరంజీవి టాక్ షో 'మెగావర్స్' ప్రోమో; సంక్రాంతికి విశ్వంభర",
+    "p": "చిరంజీవి హోస్ట్‌గా వస్తున్న టాక్ షో 'మెగావర్స్' ప్రోమోను నెట్‌ఫ్లిక్స్ విడుదల చేసింది; కొన్ని ఎపిసోడ్ల షూటింగ్ పూర్తయినా ప్రసార తేదీ ఇంకా ప్రకటించలేదు. పోస్ట్ ప్రొడక్షన్ దాదాపు పూర్తి కావడంతో ఆయన 'విశ్వంభర' సంక్రాంతి విడుదలకు మార్గం సుగమమైందని గ్రేట్ ఆంధ్ర పేర్కొంది. మరోవైపు నవంబర్ 15న షూటింగ్ పూర్తి చేసుకున్న మహేశ్ బాబు–రాజమౌళి 'వారణాసి' 2027 ఏప్రిల్ 7 నుంచి ఆ ఏడాది తర్వాతి నెలలకు మారవచ్చని ధృవీకరించని వార్తలు వస్తున్నాయి; చిత్రబృందం స్పందించలేదు."
+   },
+   "src": [
+    [
+     "123telugu",
+     "https://www.123telugu.com/mnews/megaverse-netflix-unveils-a-crazy-promo-for-megastar-chiranjeevis-talk-show-prp.html"
+    ],
+    [
+     "Great Andhra",
+     "https://www.greatandhra.com/movies/movie-news/vishwambhara-gets-clear-route-to-sankranti/"
+    ],
+    [
+     "Sacnilk (Varanasi)",
+     "https://www.sacnilk.com/news/varanasi-reportedly-eyeing-an-august-2027-release-as-ss-rajamoulis-film-could-reshape-the-independence-day-box-office-lineup"
+    ]
+   ]
+  },
+  {
+   "s": "entertainment",
+   "when": {
+    "en": "This week, 23–29 Nov",
+    "te": "ఈ వారం, 23–29 నవం"
+   },
+   "en": {
+    "h": "Ramayana becomes top Bollywood grosser in Telugu; Drishyam finale and Spider-Man on OTT this week",
+    "p": "The Telugu version of Ramayana, starring Ranbir Kapoor, Yash and Sai Pallavi, has earned ₹56.9 crore India net in 19 days, passing War 2's lifetime ₹56.74 crore to become the biggest Hindi film in Telugu, Great Andhra reports. On OTT this week, Spider-Man: Brand New Day streams on Netflix from 26 November, including in Telugu, and Drishyam: The Conclusion arrives on Netflix on 27 November. Last week's Telugu releases, including Cult on Prime Video and 418 on Netflix, are still streaming."
+   },
+   "te": {
+    "h": "తెలుగులో అత్యధిక వసూళ్ల బాలీవుడ్ సినిమాగా రామాయణ; ఈ వారం OTTలో దృశ్యం, స్పైడర్‌మ్యాన్",
+    "p": "రణ్‌బీర్ కపూర్, యశ్, సాయి పల్లవి నటించిన 'రామాయణ' తెలుగు వెర్షన్ 19 రోజుల్లో భారత్‌లో ₹56.9 కోట్ల నెట్ వసూలు చేసి, వార్ 2 లైఫ్‌టైమ్ ₹56.74 కోట్లను దాటి తెలుగులో అత్యధిక వసూళ్ల హిందీ సినిమాగా నిలిచిందని గ్రేట్ ఆంధ్ర తెలిపింది. ఈ వారం OTTలో 'స్పైడర్‌మ్యాన్: బ్రాండ్ న్యూ డే' నవంబర్ 26 నుంచి తెలుగుతో సహా నెట్‌ఫ్లిక్స్‌లో, 'దృశ్యం: ది కన్‌క్లూజన్' నవంబర్ 27న నెట్‌ఫ్లిక్స్‌లో వస్తున్నాయి. గత వారం వచ్చిన తెలుగు సినిమాలు 'కల్ట్' (ప్రైమ్ వీడియో), '418' (నెట్‌ఫ్లిక్స్) స్ట్రీమింగ్ అవుతున్నాయి."
+   },
+   "src": [
+    [
+     "Great Andhra",
+     "https://www.greatandhra.com/movies/movie-news/war-2-had-ntr-but-ramayana-takes-the-telugu-crown/"
+    ],
+    [
+     "Daily Jagran (OTT list)",
+     "https://www.thedailyjagran.com/entertainment/ott/ott-releases-this-week-november-23-to-29-watch-drishyam-3-hanuman-ansh-spider-man-and-others-on-netflix-prime-video-jiohotstar-10337440"
     ]
    ]
   },
   {
    "s": "devotional",
    "when": {
-    "en": "Today, Tue 24 Nov",
-    "te": "ఈరోజు, మంగళ 24 నవం"
+    "en": "Tue, 24 Nov",
+    "te": "మంగళ, 24 నవం"
    },
    "en": {
-    "h": "Karthika Pournami: Shiva temples and Godavari ghats crowded; Jwala Thoranam tonight",
-    "p": "Devotees thronged Shiva temples and river ghats across both Telugu states from early on Karthika Pournami, taking holy dips in the Godavari at Rajahmundry, Narasapuram, Kovvur and Dharmapuri and in the sea at Suryalanka, and floating lamps on the water. Women lit 365-wick lamps near tulasi and usiri (amla) trees, a tradition of the day. Vemulawada held Ekadasa Rudrabhishekam, with Jwala Thoranam planned at the Bhimeswara temple this evening, while Srisailam holds its Jwala Thoranam at dusk; temple staff set up special queues and police and fire teams watched over the ghats."
+    "h": "Karthika Pournami: lamps and big crowds at Srikalahasti, Vemulawada and Godavari ghats",
+    "p": "Shiva temples across both Telugu states were crowded on Karthika Pournami on Tuesday. Srikalahasti drew more than 30,000 devotees by evening, where women lit 365-wick lamps and the temple held the Akasa Deepam, while the Kapileswara temple in Tirupati lit its Jwala Thoranam. Thousands visited the Rajarajeshwara temple at Vemulawada, and devotees took Godavari baths and lit lamps at Kaleshwaram and Bhadrachalam; Yadagirigutta, Alampur and the Thousand Pillar temple also saw heavy crowds."
    },
    "te": {
-    "h": "కార్తీక పౌర్ణమి: శివాలయాలు, గోదావరి ఘాట్లు కిటకిట; ఈ రాత్రి జ్వాలాతోరణం",
-    "p": "కార్తీక పౌర్ణమి సందర్భంగా రెండు తెలుగు రాష్ట్రాల్లో తెల్లవారుజాము నుంచే శివాలయాలు, నదీ ఘాట్లు భక్తులతో కిక్కిరిశాయి. రాజమహేంద్రవరం, నరసాపురం, కొవ్వూరు, ధర్మపురిలో గోదావరిలో, సూర్యలంక వద్ద సముద్రంలో పుణ్యస్నానాలు చేసి నీటిలో దీపాలు వదిలారు. తులసి, ఉసిరి చెట్ల వద్ద మహిళలు 365 వత్తుల దీపాలు వెలిగించడం ఈరోజు సంప్రదాయం. వేములవాడలో ఏకాదశ రుద్రాభిషేకం జరగగా, సాయంత్రం భీమేశ్వరాలయంలో జ్వాలాతోరణం నిర్వహిస్తారు; శ్రీశైలంలోనూ ప్రదోష వేళ జ్వాలాతోరణం ఉంటుంది. ప్రత్యేక క్యూలైన్లు ఏర్పాటు చేయగా, ఘాట్ల వద్ద పోలీసు, అగ్నిమాపక సిబ్బంది పర్యవేక్షించారు."
+    "h": "కార్తీక పౌర్ణమి: శ్రీకాళహస్తి, వేములవాడ, గోదావరి తీరాల్లో భక్తజన సందోహం",
+    "p": "కార్తీక పౌర్ణమి సందర్భంగా మంగళవారం రెండు తెలుగు రాష్ట్రాల్లోని శివాలయాలు భక్తులతో కిటకిటలాడాయి. శ్రీకాళహస్తికి సాయంత్రానికే 30,000 మందికి పైగా భక్తులు రాగా, మహిళలు 365 ఒత్తుల దీపాలు వెలిగించారు; ఆలయంలో ఆకాశ దీపం నిర్వహించారు. తిరుపతి కపిలేశ్వర ఆలయంలో జ్వాలాతోరణం వెలిగించారు. వేములవాడ రాజరాజేశ్వర ఆలయానికి వేలాది మంది తరలిరాగా, కాళేశ్వరం, భద్రాచలంలో భక్తులు గోదావరి స్నానాలు చేసి దీపాలు వదిలారు; యాదగిరిగుట్ట, అలంపూర్, వేయి స్తంభాల గుడి వద్ద కూడా భారీ రద్దీ కనిపించింది."
    },
    "src": [
     [
-     "NTV Telugu",
-     "https://ntvtelugu.com/bhakthi/karthika-pournami-2026-devotees-throng-shiva-temples-across-telugu-states-1038268.html"
+     "The Hans India (Tirupati)",
+     "https://www.thehansindia.com/news/cities/tirupathi/grand-deepotsavams-mark-karthika-pournami-celebrations-1145502"
     ],
     [
-     "TV9 Telugu",
-     "https://tv9telugu.com/andhra-pradesh/karthika-pournami-2026-devotees-throng-shiva-temples-and-river-ghats-across-telugu-states-1965430.html"
+     "The Hans India (Telangana)",
+     "https://www.thehansindia.com/telangana/kartika-purnima-brings-throngs-of-people-to-shiva-temples-across-telangana-1145322"
     ],
     [
-     "Andhra Jyothy (Srisailam)",
-     "https://www.andhrajyothy.com/2026/andhra-pradesh/kurnool/karthika-deepam-the-embodiment-of-omkara-1579116.html"
+     "UNI",
+     "https://www.uniindia.com/south-india/festival-telangana-karthika-pournami/255427"
     ]
    ]
   },
   {
    "s": "devotional",
    "when": {
-    "en": "Today, Tue 24 Nov",
-    "te": "ఈరోజు, మంగళ 24 నవం"
+    "en": "30 Nov – 9 Dec",
+    "te": "30 నవం – 9 డిసెం"
    },
    "en": {
-    "h": "Annavaram Giri Pradakshina and Tirumala's Karthika Deepotsavam today",
-    "p": "At Annavaram, the Satyadeva Giri Pradakshina procession starts at 8:30 AM over an 8.2 km route, with more than 1.5 lakh devotees expected and Jwala Thoranam at 7:30 PM. At Tirumala, TTD will hold the Karthika Parva Deepotsavam in the temple from 5 PM to 8:30 PM, and the Pournami Garuda Seva and Sahasra Deepalankara Seva are cancelled for the day."
+    "h": "Ahead in Karthika: Somavaram on 30 Nov, Kalabhairava Jayanti on 1 Dec, TTD Maha Deepotsavam",
+    "p": "With Karthika now in its second half, the third Karthika Somavaram falls on 30 November and the fourth on 7 December, Kalabhairava Jayanti on 1 December, Bahula Ekadashi on 4 December and Amavasya on 8 December; Margasira Masam begins in the Telugu states on 9 December. TTD will hold its Karthika Maha Deepotsavam at the Parade Grounds in Tirupati on 30 November from 5:30 PM to 8:45 PM, with a mass Lakshmi Neerajanam by women, broadcast live on SVBC. Hyderabad's Koti Deepotsavam at NTR Stadium continues every evening from 5:30 PM until 30 November."
    },
    "te": {
-    "h": "ఈరోజు అన్నవరం గిరిప్రదక్షిణ, తిరుమలలో కార్తీక దీపోత్సవం",
-    "p": "అన్నవరంలో సత్యదేవుని గిరిప్రదక్షిణ ఉదయం 8:30కి మొదలై 8.2 కిలోమీటర్ల మార్గంలో సాగుతుంది; 1.5 లక్షల మందికి పైగా భక్తులు వస్తారని అంచనా, రాత్రి 7:30కి జ్వాలాతోరణం ఉంటుంది. తిరుమల ఆలయంలో సాయంత్రం 5 నుంచి రాత్రి 8:30 వరకు TTD కార్తీక పర్వ దీపోత్సవం నిర్వహిస్తుంది; ఈరోజు పౌర్ణమి గరుడసేవ, సహస్ర దీపాలంకార సేవ రద్దు చేశారు."
+    "h": "కార్తీకంలో ముందున్నవి: 30న సోమవారం, డిసెం 1న కాలభైరవాష్టమి, TTD మహా దీపోత్సవం",
+    "p": "కార్తీక మాసం రెండో అర్ధభాగంలోకి ప్రవేశించింది. మూడో కార్తీక సోమవారం నవంబర్ 30న, నాలుగోది డిసెంబర్ 7న; కాలభైరవ జయంతి డిసెంబర్ 1న, బహుళ ఏకాదశి డిసెంబర్ 4న, అమావాస్య డిసెంబర్ 8న వస్తాయి; డిసెంబర్ 9 నుంచి తెలుగు రాష్ట్రాల్లో మార్గశిర మాసం మొదలవుతుంది. నవంబర్ 30న సాయంత్రం 5:30 నుంచి 8:45 వరకు తిరుపతి పరేడ్ గ్రౌండ్స్‌లో TTD కార్తీక మహా దీపోత్సవం నిర్వహిస్తుంది; మహిళలతో సామూహిక లక్ష్మీ నీరాజనం ఉంటుంది, SVBCలో ప్రత్యక్ష ప్రసారం. హైదరాబాద్ NTR స్టేడియంలో కోటి దీపోత్సవం నవంబర్ 30 వరకు రోజూ సాయంత్రం 5:30 నుంచి కొనసాగుతుంది."
    },
    "src": [
-    [
-     "ETV Bharat",
-     "https://www.etvbharat.com/te/state/arrangements-in-annavaram-for-satyadeva-giri-pradakshina-aps26112302625"
-    ],
     [
      "TTD News",
-     "https://news.tirumala.org/karthika-parva-deepotsavam-in-tirumala-temple-on-november-24-_-%e0%b0%a8%e0%b0%b5%e0%b0%82%e0%b0%ac%e0%b0%b0%e0%b1%8d-24%e0%b0%a8-%e0%b0%a4%e0%b0%bf%e0%b0%b0%e0%b1%81%e0%b0%ae%e0%b0%b2%e0%b0%b2/"
+     "https://news.tirumala.org/karthika-maha-deepotsavam-on-november-30-in-tirupati-_-%E0%B0%A8%E0%B0%B5%E0%B0%82%E0%B0%AC%E0%B0%B0%E0%B1%81-30%E0%B0%A8-%E0%B0%A4%E0%B0%BF%E0%B0%B0%E0%B1%81%E0%B0%AA%E0%B0%A4%E0%B0%BF%E0%B0%B2/"
+    ],
+    [
+     "Hindu Blog (dates)",
+     "https://www.hindu-blog.com/2026/10/upcoming-hindu-festivals-in-december.html?m=0"
+    ],
+    [
+     "Telangana Today (Koti Deepotsavam)",
+     "https://telanganatoday.com/koti-deepotsavam-to-be-held-at-hyderabads-ntr-stadium-from-november-14"
     ]
    ]
   },
   {
    "s": "devotional",
    "when": {
-    "en": "30 Nov – 8 Dec",
-    "te": "30 నవం – 8 డిసెం"
+    "en": "20–29 Dec",
+    "te": "20–29 డిసెం"
    },
    "en": {
-    "h": "Ahead in Karthika: Somavarams, Kalabhairava Jayanti and TTD's Maha Deepotsavam",
-    "p": "The remaining Karthika Mondays fall on 30 November and 7 December, Kalabhairava Jayanti on 1 December, Karthika Bahula Ekadashi on 4 December and Amavasya, the last day of the month, on 8 December. TTD will hold its Karthika Maha Deepotsavam at the Parade Grounds in Tirupati on 30 November from 5:30 PM. Hyderabad's Koti Deepotsavam at NTR Stadium continues every evening until 30 November."
+    "h": "Tirumala: Vaikunta Dwara Darshan from 20 to 29 December for about 8.34 lakh devotees",
+    "p": "TTD plans Vaikunta Dwara Darshan at Tirumala over ten days, from 20 to 29 December, for about 8.34 lakh devotees, with 92% of darshan time set aside for common pilgrims; tokens for Ekadasi and Dwadasi will be online only, and the token release date has not yet been announced. Vaikunta Ekadasi falls on 20 December. On 23 November, 75,640 pilgrims had darshan and hundi offerings came to ₹4.13 crore. The Karthika Brahmotsavam at the Padmavathi temple in Tiruchanoor runs from 6 to 14 December."
    },
    "te": {
-    "h": "కార్తీకంలో ముందున్నవి: సోమవారాలు, కాలభైరవ జయంతి, TTD మహా దీపోత్సవం",
-    "p": "మిగిలిన కార్తీక సోమవారాలు నవంబర్ 30, డిసెంబర్ 7; కాలభైరవ జయంతి డిసెంబర్ 1, కార్తీక బహుళ ఏకాదశి డిసెంబర్ 4, మాసంలో చివరి రోజైన అమావాస్య డిసెంబర్ 8న వస్తాయి. నవంబర్ 30 సాయంత్రం 5:30 నుంచి తిరుపతి పరేడ్ గ్రౌండ్స్‌లో TTD కార్తీక మహా దీపోత్సవం నిర్వహిస్తుంది. హైదరాబాద్ ఎన్టీఆర్ స్టేడియంలో కోటి దీపోత్సవం నవంబర్ 30 వరకు ప్రతి సాయంత్రం కొనసాగుతుంది."
+    "h": "తిరుమలలో డిసెంబర్ 20–29 వైకుంఠ ద్వార దర్శనం; 8.34 లక్షల మందికి ఏర్పాట్లు",
+    "p": "తిరుమలలో డిసెంబర్ 20 నుంచి 29 వరకు పది రోజుల పాటు సుమారు 8.34 లక్షల మంది భక్తులకు వైకుంఠ ద్వార దర్శనం కల్పించాలని TTD యోచిస్తోంది; దర్శన సమయంలో 92% సామాన్య భక్తులకే కేటాయిస్తారు. ఏకాదశి, ద్వాదశి టోకెన్లు ఆన్‌లైన్‌లో మాత్రమే ఇస్తారు; విడుదల తేదీ ఇంకా ప్రకటించలేదు. వైకుంఠ ఏకాదశి డిసెంబర్ 20న. నవంబర్ 23న 75,640 మంది భక్తులు స్వామిని దర్శించుకోగా, హుండీ ఆదాయం ₹4.13 కోట్లు. తిరుచానూరు పద్మావతి అమ్మవారి కార్తీక బ్రహ్మోత్సవాలు డిసెంబర్ 6 నుంచి 14 వరకు జరుగుతాయి."
    },
    "src": [
     [
-     "Karishye",
-     "https://karishye.co/pages/karthika-masam-2026"
+     "Deccan Chronicle",
+     "https://www.deccanchronicle.com/amp/southern-states/andhra-pradesh/ttd-planning-vaikunta-dwara-darshan-for-834-lakh-devotees-2005683"
     ],
     [
-     "TTD News",
-     "https://news.tirumala.org/karthika-maha-deepotsavam-on-november-30-in-tirupati-_-%e0%b0%a8%e0%b0%b5%e0%b0%82%e0%b0%ac%e0%b0%b0%e0%b1%81-30%e0%b0%a8-%e0%b0%a4%e0%b0%bf%e0%b0%b0%e0%b1%81%e0%b0%aa%e0%b0%a4%e0%b0%bf%e0%b0%b2/"
+     "TTD News (darshan)",
+     "https://news.tirumala.org/category/darshan/"
     ],
     [
-     "Hindutone",
-     "https://hindutone.com/festivals/kalabhairava-jayanti-2026/"
+     "UNI (Tiruchanoor)",
+     "https://www.uniindia.com/south-india/religion-ap-tiruchanoor-temple-brahmotsavams-13ms47/244299"
     ]
    ]
   }
  ],
  "today": {
   "title": {
-   "en": "Tuesday, 24 November: Karthika Pournami and Guru Nanak Jayanti",
-   "te": "మంగళవారం, నవంబర్ 24: కార్తీక పౌర్ణమి, గురునానక్ జయంతి"
+   "en": "Wednesday, 25 November: Karthika Bahula Padyami",
+   "te": "బుధవారం, నవంబర్ 25: కార్తీక బహుళ పాడ్యమి"
   },
   "significance": {
-   "en": "Today is Karthika Pournami, the full moon of Karthika, with the Purnima tithi lasting until 8:23 PM; devotees traditionally take an early holy bath, light lamps, float them on water and watch the Jwala Thoranam at Shiva temples after dusk. The same day is celebrated in Tamil Nadu as Karthigai Deepam, and Sikhs mark Guru Nanak Jayanti, the 557th birth anniversary of the first Sikh Guru, which is why Indian stock markets are shut. Today is also observed as the martyrdom day of Guru Tegh Bahadur and as Lachit Divas in Assam, while followers of Sri Aurobindo mark the 100th anniversary of his Siddhi Day. This evening Shiva temples such as Srisailam and Vemulawada light the Jwala Thoranam, and at Palakurthi in Telangana an Akhanda Jyothi is lit atop the temple tower.",
-   "te": "ఈరోజు కార్తీక పౌర్ణమి; పౌర్ణమి తిథి రాత్రి 8:23 వరకు ఉంటుంది. భక్తులు తెల్లవారుజామునే పుణ్యస్నానం చేసి, దీపాలు వెలిగించి, నీటిలో దీపాలు వదిలి, సాయంత్రం శివాలయాల్లో జ్వాలాతోరణం దర్శించుకోవడం సంప్రదాయం. ఇదే రోజును తమిళనాడులో కార్తిగై దీపంగా జరుపుకుంటారు; సిక్కుల తొలి గురువు గురునానక్ 557వ జయంతి కూడా ఈరోజే, అందుకే భారత స్టాక్ మార్కెట్లకు సెలవు. గురు తేగ్ బహదూర్ బలిదాన దినంగా, అస్సాంలో లచిత్ దివస్‌గా కూడా ఈరోజును పాటిస్తారు; శ్రీ అరవిందుల సిద్ధి దినానికి నేటితో 100 ఏళ్లు. ఈ సాయంత్రం శ్రీశైలం, వేములవాడ వంటి శివాలయాల్లో జ్వాలాతోరణం వెలిగిస్తారు; తెలంగాణలోని పాలకుర్తిలో ఆలయ శిఖరంపై అఖండ జ్యోతి వెలిగిస్తారు."
+   "en": "Today is Karthika Bahula (Krishna) Padyami, the first day of the waning fortnight after Karthika Pournami, with Padyami lasting until about 4:50 PM in Hyderabad before Vidiya begins, and Rohini nakshatra until 8:36 PM. In the Telugu lunar calendar Karthika continues until Amavasya on 8 December, so devotees keep up the month's lamp-lighting and early baths, while North India's calendar begins the month of Margashirsha today. At Tirumala, TTD marks the annual Thiru Nakshatram of Thiruppaan Alwar, one of the Alwar poet-saints. Today is also the UN's International Day for the Elimination of Violence against Women, which opens the 16 Days of Activism campaign running until 10 December, and the 42nd death anniversary of Yashwantrao Chavan, Maharashtra's first chief minister and a former deputy prime minister.",
+   "te": "ఈరోజు కార్తీక బహుళ (కృష్ణ) పాడ్యమి — కార్తీక పౌర్ణమి తర్వాత వచ్చే కృష్ణ పక్షంలో తొలి రోజు. హైదరాబాద్‌లో పాడ్యమి సాయంత్రం సుమారు 4:50 వరకు, తర్వాత విదియ; రోహిణి నక్షత్రం రాత్రి 8:36 వరకు. తెలుగు చాంద్రమానం ప్రకారం కార్తీక మాసం డిసెంబర్ 8 అమావాస్య వరకు కొనసాగుతుంది, అందుకే భక్తులు దీపారాధన, తెల్లవారుజాము స్నానాలు కొనసాగిస్తారు; ఉత్తర భారత పంచాంగం ప్రకారం నేటి నుంచి మార్గశిర మాసం మొదలవుతుంది. తిరుమలలో ఆళ్వార్లలో ఒకరైన తిరుప్పాణ్ ఆళ్వార్ వార్షిక తిరునక్షత్రాన్ని TTD నిర్వహిస్తుంది. ఈరోజు మహిళలపై హింస నిర్మూలనకు ఐక్యరాజ్యసమితి అంతర్జాతీయ దినం కూడా; డిసెంబర్ 10 వరకు సాగే '16 రోజుల ఉద్యమం' నేటితో మొదలవుతుంది. మహారాష్ట్ర తొలి ముఖ్యమంత్రి, మాజీ ఉప ప్రధాని యశ్వంత్‌రావ్ చవాన్ 42వ వర్ధంతి కూడా నేడే."
   },
   "history": [
    {
-    "y": "1642",
-    "en": "Dutch navigator Abel Tasman reaches the island later named Tasmania.",
-    "te": "డచ్ నావికుడు ఏబెల్ టాస్మన్ తర్వాత టాస్మేనియాగా పేరొందిన దీవిని చేరుకున్నాడు."
+    "y": "1949",
+    "en": "B.R. Ambedkar delivers his closing speech in the Constituent Assembly, warning against the 'grammar of anarchy' and hero-worship in politics, a day before the Constitution was adopted.",
+    "te": "రాజ్యాంగం ఆమోదానికి ఒక రోజు ముందు, రాజ్యాంగ సభలో బి.ఆర్. అంబేడ్కర్ ముగింపు ప్రసంగం చేశారు; 'అరాచక వ్యాకరణం', రాజకీయాల్లో వ్యక్తిపూజ ప్రమాదాలపై హెచ్చరించారు."
    },
    {
-    "y": "1675",
-    "en": "Guru Tegh Bahadur, the ninth Sikh Guru, is executed in Delhi on Aurangzeb's orders.",
-    "te": "సిక్కుల తొమ్మిదో గురువు గురు తేగ్ బహదూర్‌ను ఔరంగజేబు ఆదేశాలతో ఢిల్లీలో ఉరితీశారు."
+    "y": "1952",
+    "en": "Agatha Christie's murder-mystery play The Mousetrap opens in London.",
+    "te": "అగాథా క్రిస్టీ రాసిన హత్యా రహస్య నాటకం 'ది మౌస్‌ట్రాప్' లండన్‌లో తొలి ప్రదర్శన జరుపుకుంది."
    },
    {
-    "y": "1859",
-    "en": "Charles Darwin's On the Origin of Species is published and sells out immediately.",
-    "te": "చార్లెస్ డార్విన్ రచించిన 'ఆన్ ది ఆరిజిన్ ఆఫ్ స్పీసీస్' ప్రచురితమై వెంటనే అమ్ముడైపోయింది."
+    "y": "1984",
+    "en": "Yashwantrao Chavan, Maharashtra's first chief minister and India's deputy prime minister in 1979–80, dies in New Delhi.",
+    "te": "మహారాష్ట్ర తొలి ముఖ్యమంత్రి, 1979–80లో దేశ ఉప ప్రధానిగా పనిచేసిన యశ్వంత్‌రావ్ చవాన్ న్యూఢిల్లీలో కన్నుమూశారు."
    },
    {
-    "y": "1926",
-    "en": "Sri Aurobindo's followers in Pondicherry mark this day as his Siddhi Day, a milestone in his spiritual life.",
-    "te": "పుదుచ్చేరిలో శ్రీ అరవిందుల అనుచరులు ఈ రోజును ఆయన సిద్ధి దినంగా పాటిస్తారు; ఆయన ఆధ్యాత్మిక జీవితంలో ఇది ఒక మైలురాయి."
+    "y": "2014",
+    "en": "Kathak legend Sitara Devi dies in Mumbai at the age of 94.",
+    "te": "కథక్ నృత్య దిగ్గజం సితారా దేవి 94 ఏళ్ల వయసులో ముంబైలో కన్నుమూశారు."
    },
    {
-    "y": "2016",
-    "en": "Colombia's government and the FARC rebels sign a peace agreement.",
-    "te": "కొలంబియా ప్రభుత్వం, FARC తిరుగుబాటుదారులు శాంతి ఒప్పందంపై సంతకాలు చేశారు."
+    "y": "2024",
+    "en": "India, led by stand-in captain Jasprit Bumrah, beat Australia by 295 runs in the Perth Test, with centuries from Virat Kohli and Yashasvi Jaiswal.",
+    "te": "తాత్కాలిక కెప్టెన్ జస్ప్రీత్ బుమ్రా నాయకత్వంలో పెర్త్ టెస్టులో భారత్ 295 పరుగుల తేడాతో ఆస్ట్రేలియాను ఓడించింది; విరాట్ కోహ్లీ, యశస్వి జైస్వాల్ సెంచరీలు చేశారు."
    }
   ],
   "src": [
    [
-    "Hindutone",
-    "https://hindutone.com/festivals/karthika-pournami-2026-purnima-time-india-city-wise/"
+    "HinduTone (panchangam)",
+    "https://hindutone.com/astrology/panchangam-25-november-2026-wednesday-margashirsha-begins-north-rohini-vrat/"
    ],
    [
-    "Drik Panchang",
-    "https://www.drikpanchang.com/calendars/indian/sikh-festivals/jayanti/guru-nanak-jayanti-date.html?year=2026"
+    "UN Women",
+    "https://asiapacific.unwomen.org/en/stories/announcement/2026/08/16-days-of-activism-2026"
    ],
    [
-    "All India Radio",
-    "https://www.newsonair.gov.in/nation-observes-350th-martyrdom-day-of-guru-tegh-bahadur/"
+    "Britannica (Y.B. Chavan)",
+    "https://www.britannica.com/biography/Yashwantrao-Balwantrao-Chavan"
    ],
    [
-    "GKToday (Lachit Divas)",
-    "https://www.gktoday.in/lachit-divas-november-24/"
+    "Bar & Bench (Ambedkar speech)",
+    "https://www.barandbench.com/columns/dr-ambedkar-1949-constituent-assembly-speech"
    ],
    [
-    "Sri Aurobindo Society",
-    "https://bharatshakti.aurosociety.org/?p=24168"
+    "Business Standard (Sitara Devi)",
+    "https://www.business-standard.com/article/pti-stories/kathak-legend-sitara-devi-passes-away-114112500115_1.html"
    ],
    [
-    "History.com",
-    "https://www.history.com/this-day-in-history/november-24/origin-of-species-is-published-2"
+    "Al Jazeera (Perth Test)",
+    "https://www.aljazeera.com/sports/2024/11/25/india-beat-australia-by-295-runs-take-1-0-lead-in-border-gavaskar-trophy"
    ],
    [
-    "Kiddle (November 24)",
-    "https://kids.kiddle.co/November_24"
+    "timeanddate (25 Nov)",
+    "https://timeanddate.com/on-this-day/november/25"
    ],
    [
-    "NTV Telugu",
-    "https://ntvtelugu.com/bhakthi/karthika-pournami-2026-devotees-throng-shiva-temples-across-telugu-states-1038268.html"
-   ],
-   [
-    "TV9 Telugu",
-    "https://tv9telugu.com/andhra-pradesh/karthika-pournami-2026-devotees-throng-shiva-temples-and-river-ghats-across-telugu-states-1965430.html"
+    "HinduTone (TTD calendar)",
+    "https://hindutone.com/tirumala/tirumala-tirupati-calendar-november-2026-festivals-darshan/"
    ]
   ]
  },
@@ -680,33 +717,29 @@
    "te": "సుస్థిర న్యూస్ డెస్క్"
   },
   "en": {
-   "h": "Your daughter's face on a video call may not be your daughter: spotting AI scam calls",
+   "h": "Why an AI chatbot can sound sure and still be wrong",
    "body": [
-    "Last week in Nashik, a woman got a video call from what looked and sounded exactly like her daughter, asking urgently for fee money. She grew suspicious because her daughter was actually at home for Diwali. When she started asking questions, the call cut. Police say the fraudsters had used photos from social media and short voice clips to fake the face and voice with AI.",
-    "This is called a deepfake. Today's AI tools can copy a voice from a few seconds of audio and paste one person's face onto another in a live video. The scammer does not need to be a genius; the software does the work. So a familiar face or voice is no longer proof that the caller is who they claim to be.",
-    "The money involved is large. Central agencies told the Supreme Court that more than 21,900 complaints of so-called digital arrest fraud, involving over ₹647 crore, were filed between January and August 2026 alone. These scams work by creating panic and hurry: an accident, an arrest, a fee deadline.",
-    "The defence is simple. Slow down. Ask a question only your family would know. Hang up and call back on the number you already have saved. Watch for odd lip or eye movements. Never share an OTP, PIN, Aadhaar or bank details on a call. If something feels wrong, report it at once on the 1930 helpline or cybercrime.gov.in; quick reporting improves the chance of stopping the money."
+    "Ask a chatbot for a bus timing, a medicine dose or a government scheme's last date, and it replies in neat, confident sentences. Many people take that confidence as proof. It is not, and the reason lies in how these tools work.",
+    "A chatbot does not open a book or a database to look up your answer. It has learned patterns from enormous amounts of text, and when you type a question it guesses the most likely next word, then the next, and the next, until a reply is built. MIT Technology Review compares it to a Magic 8 Ball more than an encyclopedia. Most of the time the guesses add up to something correct, because the patterns are good.",
+    "But sometimes the most likely-sounding answer is simply false. The chatbot may invent a court judgment, a phone number, a book title or a scheme that does not exist, and write it as smoothly as a true fact. Experts call this 'hallucination'. It is not a rare glitch; it comes from the guessing itself, which is why the errors are hard to spot.",
+    "So use chatbots for what they do well: explaining an idea simply, drafting a letter, summarising a long message, suggesting questions to ask your doctor or bank. For anything that affects money, health, law or exams, check the official website, the document itself or a real person before acting."
    ],
-   "tip": "Agree on a family code word today, something only your household knows, and tell elders and children to ask for it whenever a call demands money urgently."
+   "tip": "Ask a chatbot a question you already know the answer to, such as your village's district or a recent local event, and see where it gets things wrong. Then, for any important answer, ask it 'what is your source?' and check that source yourself."
   },
   "te": {
-   "h": "వీడియో కాల్‌లో కనిపించేది మీ అమ్మాయి కాకపోవచ్చు: AI మోసపు కాల్స్ గుర్తించడం ఎలా",
+   "h": "AI చాట్‌బాట్ నమ్మకంగా చెప్పినా తప్పు ఎందుకు కావచ్చు?",
    "body": [
-    "గత వారం నాసిక్‌లో ఒక మహిళకు అచ్చం తన కూతురిలాగే కనిపిస్తూ, అదే గొంతుతో మాట్లాడుతూ ఫీజు డబ్బులు అత్యవసరంగా కావాలంటూ వీడియో కాల్ వచ్చింది. కానీ ఆ సమయంలో కూతురు దీపావళికి ఇంట్లోనే ఉండటంతో ఆమెకు అనుమానం వచ్చింది. ప్రశ్నలు అడగగానే కాల్ కట్ అయింది. సోషల్ మీడియాలోని ఫొటోలు, చిన్న వాయిస్ క్లిప్‌లతో AI (కృత్రిమ మేధ) సాయంతో ముఖం, గొంతు నకిలీగా సృష్టించారని పోలీసులు చెప్పారు.",
-    "దీన్నే డీప్‌ఫేక్ అంటారు. ఇప్పటి AI టూల్స్ కొన్ని సెకన్ల ఆడియోతోనే గొంతును అనుకరించగలవు, లైవ్ వీడియోలోనే ఒకరి ముఖాన్ని మరొకరిపై అతికించగలవు. మోసగాడికి పెద్ద తెలివి అవసరం లేదు, సాఫ్ట్‌వేరే పని చేసేస్తుంది. అందుకే తెలిసిన ముఖం, తెలిసిన గొంతు కనిపించినంత మాత్రాన కాల్ చేసింది వాళ్లే అని నమ్మలేం.",
-    "నష్టం కూడా భారీగా ఉంది. 2026 జనవరి నుంచి ఆగస్టు వరకే 'డిజిటల్ అరెస్ట్' మోసాలపై 21,900కు పైగా ఫిర్యాదులు వచ్చాయని, వాటిలో ₹647 కోట్లకు పైగా సొమ్ము ముడిపడి ఉందని కేంద్ర సంస్థలు సుప్రీంకోర్టుకు తెలిపాయి. ప్రమాదం, అరెస్టు, ఫీజు గడువు వంటి కారణాలతో భయం, తొందర పుట్టించడమే ఈ మోసాల ఆయుధం.",
-    "రక్షణ సులభమే. తొందరపడకండి. కుటుంబానికి మాత్రమే తెలిసిన ప్రశ్న అడగండి. ఫోన్ పెట్టేసి, మీ దగ్గర సేవ్ చేసిన నంబర్‌కే తిరిగి కాల్ చేయండి. పెదవులు, కళ్ల కదలికలు అసహజంగా ఉన్నాయేమో గమనించండి. OTP, PIN, ఆధార్, బ్యాంకు వివరాలు ఫోన్‌లో ఎప్పుడూ చెప్పకండి. అనుమానం వస్తే వెంటనే 1930 హెల్ప్‌లైన్‌కు లేదా cybercrime.gov.inలో ఫిర్యాదు చేయండి; త్వరగా చెబితే డబ్బు ఆపే అవకాశం పెరుగుతుంది."
+    "బస్సు సమయం, మందు మోతాదు, ప్రభుత్వ పథకం చివరి తేదీ — ఏది అడిగినా చాట్‌బాట్ (మనతో సంభాషించే AI ప్రోగ్రామ్) చక్కని, నమ్మకమైన వాక్యాల్లో జవాబిస్తుంది. ఆ నమ్మకమే నిజానికి రుజువు అనుకుంటారు చాలామంది. కానీ అది రుజువు కాదు; దానికి కారణం ఇవి పనిచేసే తీరులోనే ఉంది.",
+    "చాట్‌బాట్ మీ ప్రశ్నకు జవాబు కోసం ఏ పుస్తకమో, డేటాబేసో తెరిచి చూడదు. కోట్లాది పేజీల టెక్స్ట్ నుంచి నమూనాలు నేర్చుకుని, మీరు ప్రశ్న అడగగానే తర్వాత రావడానికి ఎక్కువ అవకాశం ఉన్న పదాన్ని ఊహిస్తుంది; తర్వాత ఇంకో పదం, ఇంకో పదం — అలా జవాబు తయారవుతుంది. ఇది ఎన్‌సైక్లోపీడియా కంటే జోస్యం చెప్పే బొమ్మ బంతి (మ్యాజిక్ 8 బాల్) లాంటిదని MIT టెక్నాలజీ రివ్యూ పోల్చింది. నమూనాలు బాగుంటాయి కాబట్టి చాలాసార్లు ఆ ఊహలు సరైన జవాబుగానే మారతాయి.",
+    "కానీ కొన్నిసార్లు బాగా వినిపించే జవాబే తప్పు. లేని కోర్టు తీర్పు, ఫోన్ నంబర్, పుస్తకం పేరు, పథకం — ఏదైనా సృష్టించి, నిజంలాగే సాఫీగా రాసేస్తుంది. నిపుణులు దీన్ని 'హాలూసినేషన్' (భ్రమ) అంటారు. ఇది అరుదుగా వచ్చే లోపం కాదు; ఊహించే పద్ధతి నుంచే వస్తుంది, అందుకే ఈ తప్పులు గుర్తించడం కష్టం.",
+    "కాబట్టి చాట్‌బాట్‌లను అవి బాగా చేసే పనులకు వాడండి: ఒక విషయాన్ని సులభంగా వివరించడం, ఉత్తరం ముసాయిదా రాయడం, పెద్ద మెసేజ్‌ను క్లుప్తంగా చెప్పడం, డాక్టర్‌ని లేదా బ్యాంకును అడగాల్సిన ప్రశ్నలు సూచించడం. డబ్బు, ఆరోగ్యం, చట్టం, పరీక్షలకు సంబంధించిన విషయాల్లో మాత్రం అధికారిక వెబ్‌సైట్, అసలు పత్రం లేదా నిజమైన వ్యక్తిని సంప్రదించాకే ముందుకు వెళ్లండి."
    ],
-   "tip": "ఈరోజే ఇంట్లో అందరికీ మాత్రమే తెలిసిన ఒక 'కోడ్ పదం' పెట్టుకోండి; డబ్బులు అత్యవసరంగా అడిగే ఏ కాల్ వచ్చినా ఆ పదం అడగమని పెద్దలకు, పిల్లలకు చెప్పండి."
+   "tip": "మీకు ఇప్పటికే జవాబు తెలిసిన ప్రశ్న — మీ ఊరు ఏ జిల్లాలో ఉంది, ఇటీవల జరిగిన స్థానిక సంఘటన — చాట్‌బాట్‌ను అడిగి, అది ఎక్కడ తప్పుతుందో గమనించండి. ముఖ్యమైన ఏ జవాబుకైనా 'దీనికి ఆధారం ఏమిటి?' అని అడిగి, ఆ ఆధారాన్ని మీరే స్వయంగా సరిచూసుకోండి."
   },
   "src": [
    [
-    "ETV Bharat (Nashik deepfake call)",
-    "https://www.etvbharat.com/en/state/nashik-woman-targeted-in-deepfake-video-call-scam-using-daughter-face-and-voice-enn26111806315"
-   ],
-   [
-    "Free Press Journal (digital arrest data)",
-    "https://www.freepressjournal.in/tech/digital-arrest-fraud-over-21900-complaints-involving-647-crore-registered-in-2026-centre-tells-supreme-court"
+    "MIT Technology Review",
+    "https://www.technologyreview.com/2024/06/18/1093440/what-causes-ai-hallucinate-chatbots/amp/"
    ]
   ]
  },
@@ -715,11 +748,11 @@
    "en": "Isha Upanishad",
    "te": "ఈశావాస్య ఉపనిషత్తు"
   },
-  "n": 2,
+  "n": 3,
   "total": 18,
   "ref": {
-   "en": "Isha Upanishad · Mantra 2",
-   "te": "ఈశావాస్య ఉపనిషత్తు · మంత్రం 2"
+   "en": "Isha Upanishad · Mantra 3",
+   "te": "ఈశావాస్య ఉపనిషత్తు · మంత్రం 3"
   },
   "by": {
    "en": "Susthira News desk",
@@ -730,116 +763,114 @@
    "te": "వివరణ ఆది శంకరాచార్యుల భాష్యం ఆధారంగా"
   },
   "text": {
-   "te": "కుర్వన్నేవేహ కర్మాణి జిజీవిషేచ్ఛతం సమాః ।\nఏవం త్వయి నాన్యథేతోఽస్తి న కర్మ లిప్యతే నరే ॥",
-   "en": "kurvann eveha karmāṇi jijīviṣec chataṁ samāḥ |\nevaṁ tvayi nānyatheto'sti na karma lipyate nare ||"
+   "te": "అసుర్యా నామ తే లోకా అన్ధేన తమసావృతాః ।\nతాంస్తే ప్రేత్యాభిగచ్ఛన్తి యే కే చాత్మహనో జనాః ॥",
+   "en": "asuryā nāma te lokā andhena tamasāvṛtāḥ |\ntāṃste pretyābhigacchanti ye ke cātmahano janāḥ ||"
   },
   "words": [
    {
-    "w": "కుర్వన్ ఏవ",
-    "tr": "kurvann eva",
-    "en": "only by doing",
-    "te": "చేస్తూనే"
+    "w": "అసుర్యాః",
+    "tr": "asuryāḥ",
+    "en": "belonging to the asuras (worlds without Self-knowledge)",
+    "te": "అసురులకు చెందిన (ఆత్మజ్ఞానం లేని) లోకాలు"
    },
    {
-    "w": "ఇహ",
-    "tr": "iha",
-    "en": "here, in this world",
-    "te": "ఇక్కడ, ఈ లోకంలో"
+    "w": "నామ",
+    "tr": "nāma",
+    "en": "a filler particle ('indeed')",
+    "te": "పూరక పదం ('నిజంగా')"
    },
    {
-    "w": "కర్మాణి",
-    "tr": "karmāṇi",
-    "en": "prescribed duties and rites",
-    "te": "విహిత కర్మలు"
+    "w": "తే",
+    "tr": "te",
+    "en": "those",
+    "te": "ఆ"
    },
    {
-    "w": "జిజీవిషేత్",
-    "tr": "jijīviṣet",
-    "en": "one should wish to live",
-    "te": "జీవించాలని కోరుకోవాలి"
+    "w": "లోకాః",
+    "tr": "lokāḥ",
+    "en": "worlds; births in which the fruits of karma are experienced",
+    "te": "లోకాలు; కర్మఫలాలను అనుభవించే జన్మలు"
    },
    {
-    "w": "శతం సమాః",
-    "tr": "śataṁ samāḥ",
-    "en": "a hundred years",
-    "te": "నూరేళ్లు"
+    "w": "అన్ధేన",
+    "tr": "andhena",
+    "en": "blinding",
+    "te": "కళ్లు కనిపించనీయని"
    },
    {
-    "w": "ఏవం",
-    "tr": "evam",
-    "en": "in this way",
-    "te": "ఈ విధంగా"
+    "w": "తమసా",
+    "tr": "tamasā",
+    "en": "by darkness, i.e. ignorance",
+    "te": "చీకటితో, అంటే అజ్ఞానంతో"
    },
    {
-    "w": "త్వయి",
-    "tr": "tvayi",
-    "en": "for you",
-    "te": "నీకు"
+    "w": "ఆవృతాః",
+    "tr": "āvṛtāḥ",
+    "en": "covered, enveloped",
+    "te": "కప్పబడిన"
    },
    {
-    "w": "న అన్యథా",
-    "tr": "na anyathā",
-    "en": "no other way",
-    "te": "వేరే మార్గం లేదు"
+    "w": "తాన్",
+    "tr": "tān",
+    "en": "to them (those worlds)",
+    "te": "ఆ లోకాలకు"
    },
    {
-    "w": "ఇతః",
-    "tr": "itaḥ",
-    "en": "than this",
-    "te": "దీనికంటే"
+    "w": "తే",
+    "tr": "te",
+    "en": "they (those people)",
+    "te": "వారు"
    },
    {
-    "w": "అస్తి",
-    "tr": "asti",
-    "en": "there is",
-    "te": "ఉంది"
+    "w": "ప్రేత్య",
+    "tr": "pretya",
+    "en": "after leaving this body",
+    "te": "ఈ దేహాన్ని విడిచిన తర్వాత"
    },
    {
-    "w": "న కర్మ లిప్యతే",
-    "tr": "na karma lipyate",
-    "en": "karma does not cling",
-    "te": "కర్మ అంటదు"
+    "w": "అభిగచ్ఛన్తి",
+    "tr": "abhigacchanti",
+    "en": "go to, reach",
+    "te": "చేరుకుంటారు"
    },
    {
-    "w": "నరే",
-    "tr": "nare",
-    "en": "to a person (living thus)",
-    "te": "ఇలా జీవించే మనిషికి"
+    "w": "యే కే చ",
+    "tr": "ye ke ca",
+    "en": "whoever",
+    "te": "ఎవరైతే"
+   },
+   {
+    "w": "ఆత్మహనః",
+    "tr": "ātmahanaḥ",
+    "en": "'slayers of the Self': those who hide the Self through ignorance",
+    "te": "'ఆత్మహంతకులు': అజ్ఞానంతో ఆత్మను కప్పివేసేవారు"
+   },
+   {
+    "w": "జనాః",
+    "tr": "janāḥ",
+    "en": "people",
+    "te": "జనులు"
    }
   ],
   "meaning": {
-   "en": "If you wish to live here a full hundred years, live doing your duties. For one who lives as an ordinary person in the world, the Upanishad teaches, there is no other way than this by which action does not cling and bind.",
-   "te": "ఈ లోకంలో నూరేళ్లు జీవించాలనుకుంటే, నీ కర్తవ్య కర్మలు చేస్తూనే జీవించు. లోకంలో సామాన్య మనిషిగా జీవించేవారికి, కర్మ అంటకుండా ఉండే మార్గం ఇది తప్ప మరొకటి లేదని ఉపనిషత్తు బోధిస్తుంది."
+   "en": "Those worlds are called 'asurya', covered in blinding darkness. Whoever lives as a 'slayer of the Self', the Upanishad says, goes to those worlds after leaving the body. In Shankara's reading the verse warns against living without knowledge of one's true Self.",
+   "te": "ఆ లోకాలను 'అసుర్య' లోకాలు అంటారు; అవి కళ్లు కనిపించని గాఢమైన చీకటితో కప్పబడి ఉంటాయి. 'ఆత్మహంతకులు'గా జీవించేవారు దేహం విడిచాక ఆ లోకాలకే చేరుతారని ఉపనిషత్తు చెబుతుంది. శంకరుల వ్యాఖ్యానంలో ఈ మంత్రం, తన నిజ స్వరూపమైన ఆత్మను తెలుసుకోకుండా జీవించడంపై చేసిన హెచ్చరిక."
   },
   "explain": {
    "en": [
-    "Shankara reads this mantra as a second path offered right after the first. Mantra 1 spoke to the seeker who sees the Lord in everything and can let go of all desires; that is the path of knowledge and renunciation. But most of us are not ready to walk away from home, work and family. For such a person, Shankara says, the Upanishad prescribes the path of action: keep doing the duties laid down by the scriptures, such as the daily fire offering, for as long as you wish to live.",
-    "Why mention a hundred years? Shankara notes that a hundred years was already known as the full human span, so the line is not a blessing or a forecast but an instruction: even if you live that long, live by doing your duty, not by drifting. The phrase 'for you there is no other way' is meant kindly. It does not shame the person who stays in the world; it tells them exactly how to live there well.",
-    "The promise is that action done this way does not cling. Shankara explains that duties performed as prescribed do not stain a person the way wrong or selfish actions do. Think of a mother who cooks for her family every day without keeping accounts, or a farmer who tends his field season after season: the same work that could feel like a burden becomes a steady, clean discipline. In the tradition, this path of duty purifies the mind and slowly prepares it for the knowledge taught in the first mantra."
+    "Shankara opens his comment by saying this mantra is begun to decry the person who lacks knowledge. The first two mantras gave two paths: renunciation and Self-knowledge for the seeker who can see the Lord in everything, and a life of dutiful action for the one who cannot yet do that. Mantra 3 now shows what happens when a person has no awareness of the Self at all. By pointing to the cost of ignorance, Shankara says, the verse is really praising knowledge.",
+    "The words need care. Shankara does not read 'asurya' as 'sunless'; he takes it as 'belonging to the asuras'. Compared with the one supreme Self, he explains, even the gods count as asuras, so every state reached without Self-knowledge, even a heavenly one, is 'demoniac' in this sense. The 'worlds' are not places on a map but births, the lives in which we taste the results of our actions. Their 'blinding darkness' is ignorance, the inability to see what we truly are.",
+    "Who are the 'slayers of the Self'? The Self cannot be killed, Shankara says. But ordinary people who live unaware of it hide its ever-present, deathless nature, as if it were dead to them, so the Upanishad calls them its killers. Think of a lamp kept inside a closed pot: the flame burns, but the room stays dark. The tradition teaches that the way out is not to fear such worlds but to remove the cover, by turning attention, a little each day, to the awareness behind all our experiences."
    ],
    "te": [
-    "తొలి మంత్రం తర్వాత ఈ మంత్రం రెండో మార్గాన్ని చూపుతుందని శంకరాచార్యులు వివరించారు. అన్నింటిలో ఈశ్వరుణ్ణి చూసి, కోరికలన్నీ వదిలిపెట్టగల సాధకునికి మొదటి మంత్రం జ్ఞాన, సన్యాస మార్గాన్ని చెప్పింది. కానీ మనలో చాలామంది ఇల్లు, ఉద్యోగం, కుటుంబం వదిలి వెళ్లే స్థితిలో ఉండరు. అలాంటి వారికి ఉపనిషత్తు కర్మ మార్గాన్ని నిర్దేశిస్తుందని శంకరులు చెబుతారు: జీవించినంత కాలం, నిత్య అగ్నిహోత్రం వంటి శాస్త్రం చెప్పిన కర్తవ్యాలను చేస్తూనే ఉండాలి.",
-    "నూరేళ్ల ప్రస్తావన ఎందుకు? మనిషి పూర్ణాయుష్షు నూరేళ్లని అప్పటికే తెలుసు కాబట్టి, ఇది ఆశీర్వాదం గానీ జోస్యం గానీ కాదని, ఒక ఆదేశమని శంకరులు అంటారు: అంత కాలం జీవించినా, ఊరికే గడపకుండా కర్తవ్యం చేస్తూ జీవించు. 'నీకు వేరే మార్గం లేదు' అనే మాట కూడా ప్రేమతో చెప్పినదే. లోకంలో ఉండే మనిషిని తక్కువ చేయడం కాదు, అక్కడ ఎలా చక్కగా బతకాలో స్పష్టంగా చెప్పడం.",
-    "ఇలా చేసే కర్మ మనిషికి అంటదన్నదే ఈ మంత్రం ఇచ్చే హామీ. శాస్త్ర విహితంగా చేసే కర్తవ్యాలు, చెడ్డ లేదా స్వార్థ కర్మల్లా మనిషిని మలినం చేయవని శంకరులు వివరిస్తారు. లెక్కలు పెట్టుకోకుండా రోజూ కుటుంబానికి వండిపెట్టే తల్లిని, ఏటా తన పొలాన్ని శ్రద్ధగా చూసుకునే రైతును గుర్తు చేసుకోండి: భారంగా అనిపించే అదే పని నిలకడైన, నిర్మలమైన సాధనగా మారుతుంది. సంప్రదాయం ప్రకారం ఈ కర్తవ్య మార్గం మనసును శుద్ధి చేసి, మొదటి మంత్రం చెప్పిన జ్ఞానానికి నెమ్మదిగా సిద్ధం చేస్తుంది."
+    "ఈ మంత్రం జ్ఞానం లేని మనిషిని నిందించడానికే మొదలైందని శంకరులు తమ భాష్యం ప్రారంభంలోనే చెబుతారు. మొదటి రెండు మంత్రాలు రెండు మార్గాలు చూపాయి: అంతటా ఈశ్వరుడిని చూడగల సాధకుడికి త్యాగం, ఆత్మజ్ఞానం; అది ఇంకా చేయలేనివారికి కర్తవ్య కర్మలతో కూడిన జీవితం. ఆత్మ గురించి అసలు ఎరుకే లేకపోతే ఏమవుతుందో మూడో మంత్రం చూపిస్తుంది. అజ్ఞానం వల్ల కలిగే నష్టాన్ని చెప్పడం ద్వారా ఈ మంత్రం నిజానికి జ్ఞానాన్నే స్తుతిస్తోందని శంకరులు వివరిస్తారు.",
+    "పదాలను జాగ్రత్తగా అర్థం చేసుకోవాలి. శంకరులు 'అసుర్య' అంటే 'సూర్యుడు లేని' అని కాకుండా 'అసురులకు చెందిన' అని అర్థం చెబుతారు. ఏకైక పరమాత్మతో పోలిస్తే దేవతలు కూడా అసురులే అవుతారని, అందువల్ల ఆత్మజ్ఞానం లేకుండా పొందే ఏ స్థితి అయినా — స్వర్గమైనా — ఈ అర్థంలో 'అసుర' స్థితేనని ఆయన అంటారు. ఇక్కడ 'లోకాలు' అంటే పటంలో కనిపించే ప్రదేశాలు కాదు; మన కర్మల ఫలాలను అనుభవించే జన్మలు. వాటిని కప్పిన 'గాఢాంధకారం' అజ్ఞానమే — మనం నిజంగా ఎవరమో చూడలేకపోవడం.",
+    "'ఆత్మహంతకులు' ఎవరు? ఆత్మను ఎవరూ చంపలేరని శంకరులు అంటారు. కానీ దాని గురించి తెలియకుండా జీవించే సాధారణ మనుషులు, నిత్యం ఉండే, మరణం లేని దాని స్వరూపాన్ని కప్పివేస్తారు — తమకు అది లేనట్టే బతుకుతారు; అందుకే ఉపనిషత్తు వారిని ఆత్మహంతకులు అంటుంది. మూసిన కుండలో పెట్టిన దీపాన్ని ఊహించండి: జ్యోతి వెలుగుతూనే ఉంటుంది, కానీ గది చీకటిగానే ఉంటుంది. అలాంటి లోకాలకు భయపడటం కాదు, ఆ మూతను తొలగించడమే మార్గమని సంప్రదాయం బోధిస్తుంది — రోజూ కొంచెం సేపు, మన అనుభవాలన్నింటి వెనుక ఉన్న ఎరుక వైపు దృష్టి మళ్లించడం ద్వారా."
    ]
   },
   "practice": {
-   "en": "Pick one daily duty you usually rush through or resent, and do it fully today, without complaining and without expecting thanks.",
-   "te": "మీరు రోజూ హడావుడిగా లేదా విసుగ్గా చేసే ఒక పనిని ఎంచుకుని, ఈరోజు దాన్ని ఫిర్యాదు లేకుండా, ఎవరి మెప్పూ ఆశించకుండా పూర్తి శ్రద్ధతో చేయండి."
-  },
-  "src": [
-   [
-    "Wisdom Library (Shankara bhashya, tr. S. Sitarama Sastri)",
-    "https://www.wisdomlib.org/hinduism/book/ishavasya-bhashya-by-sitarama/d/doc145019.html"
-   ],
-   [
-    "Wisdom Library (Shankara bhashya, tr. M. Hiriyanna)",
-    "https://www.wisdomlib.org/hinduism/book/ishavasya-upanishad-shankara-bhashya/d/doc143812.html"
-   ],
-   [
-    "Vedapath",
-    "https://vedapath.app/pt/upanishads/ishavasya/2"
-   ]
-  ]
+   "en": "Today, at three moments (waking up, at lunch, before sleep), pause for one minute and notice that you are aware: of sounds, thoughts and feelings. Simply note, 'all this is known to me', without judging anything.",
+   "te": "ఈరోజు మూడు సమయాల్లో — నిద్ర లేవగానే, మధ్యాహ్న భోజనం వేళ, పడుకునే ముందు — ఒక నిమిషం ఆగి, శబ్దాలు, ఆలోచనలు, భావాలు అన్నీ మీకు తెలుస్తున్నాయని గమనించండి. దేన్నీ తీర్పు చెప్పకుండా, 'ఇదంతా నాకు తెలుస్తోంది' అని గుర్తించండి చాలు."
+  }
  }
 }
